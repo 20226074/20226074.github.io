@@ -14,9 +14,10 @@ This formula $f(x) = x^2$ is an example
 
 ### Test lim
 
+
+
 $$
-\lim_{x\rightarrow\0}{\frac{e^x-1}{2x}}
-=
+\lim_{x\rightarrow\0}{\frac{e^x-1}{2x}} =
 \lim_{x\rightarrow\0}{\frac{e^x}{2}}={\frac{1}{2}}
 $$
 
