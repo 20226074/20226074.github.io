@@ -14,7 +14,7 @@ This formula $f(x) = x^2$ is an example
 
 ### Test lim
 
-$\displaystyle \lim_{x \to 0}{e^x}=1$
+$lim_{x \to 0}{e^x}=1$
 
 
 ### Test sort
