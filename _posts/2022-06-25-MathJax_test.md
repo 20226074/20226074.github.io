@@ -35,10 +35,9 @@ $$
 ### Test matrix
 
 $$
-\displaystyle
 \begin{bmatrix} 1 & x & x^2 \\
 1 & \ddots & \vdots \\
 1 & \cdots & z^2
-\end{bmatrix}=100
+\end{bmatrix}\=100
 $$
 
