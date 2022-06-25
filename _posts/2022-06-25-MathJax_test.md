@@ -37,9 +37,9 @@ $$
 ### Test matrix
 
 $$
-\begin{pmatrix}
+\begin{bmatrix}
 1 & x & x^2 \\
 1 & \ddots & \vdots \\
 1 & \cdots & z^2
-\end{pmatrix}
+\end{bmatrix}
 $$
