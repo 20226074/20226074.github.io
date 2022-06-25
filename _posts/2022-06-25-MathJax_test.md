@@ -36,4 +36,4 @@ $$
 
 ### Test matrix
 
-\[\begin{Bmatrix} 1 & x & x^2 \\ 1 & \ddots & \vdots \\ 1 & \cdots & z^2 \\ \end{Bmatrix}\]
+$\[\begin{Bmatrix} 1 & x & x^2 \\ 1 & \ddots & \vdots \\ 1 & \cdots & z^2 \\ \end{Bmatrix}\]$
