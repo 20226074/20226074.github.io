@@ -14,9 +14,11 @@ This formula $f(x) = x^2$ is an example
 
 ### Test lim
 
+$$
 \lim_{x\to 0}{\frac{e^x-1}{2x}}
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+$$
 
 
 ### Test sort
@@ -35,9 +37,9 @@ $$
 ### Test matrix
 
 $$
-    \begin{matrix}
-    1 & x & x^2 \\
-    1 & \ddots & \vdots \\
-    1 \cdots  & z^2 \\
-    \end{matrix}
+\begin{matrix}
+1 & x & x^2 \\
+1 & \ddots & \vdots \\
+1 \cdots  & z^2 \\
+\end{matrix}
 $$
