@@ -42,4 +42,5 @@ $$
 1 & \ddots & \vdots \\
 1 & \cdots & z^2
 \end{bmatrix}
+= 100
 $$
