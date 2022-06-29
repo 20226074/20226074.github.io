@@ -1,3 +1,8 @@
+---
+layout: single
+title: "Jupyter Test"
+---
+
 ```python
 import sys
 
