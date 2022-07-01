@@ -1,9 +1,16 @@
-# Data Type
- - 1. Numeric Data
- - 2. Sequence Data
- - 3. Mapping Data
- - 4. Set Data
- - 5. Boolean Data
+---
+layout: single
+title: "Data Type (complete)"
+categories: coding
+tags: [python, basic programming]
+---
+
+## Data Type
+ - Numeric Data
+ - Sequence Data
+ - Mapping Data
+ - Set Data
+ - Boolean Data
 
 <br> <br> <br> <br>
 
