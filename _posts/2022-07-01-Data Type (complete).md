@@ -263,19 +263,19 @@ print("{0}.count('A') : {1}".format(A, A.count('A'))); print()
 
 
 print("  {0}.pop()".format(A))
-print(": {1}  ( value : {0} )".format(str(A.pop()), A))
+print(": {1}  ( value : {0} )".format(str(A.pop()), A)); print()
 
 print("  {0}.pop(0)".format(A))
-print(": {1}  ( value : {0} )".format(str(A.pop(0)), A))
+print(": {1}  ( value : {0} )".format(str(A.pop(0)), A)); print()
 
 print("  {0}.remove('A')".format(A))
-print(": {1}  ( value : {0} )".format(A.remove('A'), A))
+print(": {1}  ( value : {0} )".format(A.remove('A'), A)); print()
 
 print("  del List[1:3]".format(A)); del A[1:3]
-print(": {1}  ( value : {0} )".format(None, A))
+print(": {1}  ( value : {0} )".format(None, A)); print()
 
 print("  {0}.clear()".format(A))
-print(": {1}  ( value : {0} )".format(A.clear(), A)); print()
+print(": {1}  ( value : {0} )".format(A.clear(), A)); print(); print()
 
 
 List = [1, [2, 3, 4], 5, 6, 7]
@@ -315,14 +315,19 @@ List.sort(); print(List)
     
       [1, 'A', ['Hello', 'World', '!'], 1, 'A', 1, 'A'].pop()
     : [1, 'A', ['Hello', 'World', '!'], 1, 'A', 1]  ( value : A )
+    
       [1, 'A', ['Hello', 'World', '!'], 1, 'A', 1].pop(0)
     : ['A', ['Hello', 'World', '!'], 1, 'A', 1]  ( value : 1 )
+    
       ['A', ['Hello', 'World', '!'], 1, 'A', 1].remove('A')
     : [['Hello', 'World', '!'], 1, 'A', 1]  ( value : None )
+    
       del List[1:3]
     : [['Hello', 'World', '!'], 1]  ( value : None )
+    
       [['Hello', 'World', '!'], 1].clear()
     : []  ( value : None )
+    
     
     [1, [2, 3, 4], 5, 6, 7].reverse() : [7, 6, 5, [2, 3, 4], 1]
     
