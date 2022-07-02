@@ -216,8 +216,8 @@ print("{0} : {1}".format("replace 'Hello' with 'Goodbye'", Str.replace('Hello', 
 
 <hr>
 
-#### list 은 수정이 가능한 Array 이다
-
+### list 은 수정이 가능한 Array 이다
+<br>
 
 ```python
 List = [1, 'A', ['Hello', 'World', '!']]
@@ -336,8 +336,8 @@ List.sort(); print(List)
 
 <hr>
 
-#### tuple 은 수정이 불가능한 Array 이다  ( index 에 직접 값을 변경하는 것은 불가능하다 )
-
+### tuple 은 수정이 불가능한 Array 이다  ( index 에 직접 값을 변경하는 것은 불가능하다 )
+<br>
 
 ```python
 print("{0} : {1}".format("type(('a')) ", type(('a'))))
@@ -372,11 +372,8 @@ print(a, b, c)
 
 # Mapping Data
 ### Type : dictionary
-
-<hr>
-
-#### dictionary 는 { key : value } mapping 으로 이루어진 Array 이다
-
+### dictionary 는 { key : value } mapping 으로 이루어진 Array 이다
+<br>
 
 ```python
 Dict = {'a': 1, 'b': 2, 'c':'Hello'}
@@ -451,11 +448,8 @@ print("{0} : {1}".format("dict.fromkeys(['A', 'B', 'C'], 'Ready')", dict.fromkey
 <br> <br>
 # Set Data
 ### Type : set
-
-<hr>
-
-#### set 은 순서가 없어 index 가 불가능한 Array 이다
-
+### set 은 순서가 없어 index 가 불가능한 Array 이다
+<br>
 
 ```python
 Set = {1, 2, 3, 4, 5}
@@ -525,10 +519,8 @@ print("{0} : {1}".format("Set.symmetric_difference({5, 6, 7, 8})".ljust(40), Set
 
 # Boolean Data
 ### Type : bool
-
-<hr>
-
-#### bool 은 True/False 만을 가지는 자료형이다
+### bool 은 True/False 만을 가지는 자료형이다
+<br>
 
 
 ```python
