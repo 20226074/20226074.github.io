@@ -1,3 +1,10 @@
+---
+layout: single
+title: "print function"
+categories: coding
+tags: [python, basic programming]
+---
+
 # print example
 
 <hr>
