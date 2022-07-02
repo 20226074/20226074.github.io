@@ -19,7 +19,7 @@ tags: [python, basic programming]
 
 <hr>
 
-#### int 의 기본 크기는 28 byte 이다
+### int 의 기본 크기는 28 byte 이다
 - 24 byte 는 class int 를 형성하는 데 쓰인다
 - 4 byte 는 실제로 입력되는 값의 저장에 쓰이며, 부족할 경우 4 byte 씩 크기가 증가한다
 
@@ -45,7 +45,7 @@ print("{0} : {1}".format("bytes of 2**60"    .ljust(18), sys.getsizeof(2**60)))
 
 <hr>
 
-#### float 의 크기는 24 byte 이다
+### float 의 크기는 24 byte 이다
 - 16 byte 는 class float 를 형성하는 데 쓰인다
 - 8 byte 는 실제로 입력되는 값의 저장에 쓰이며, 정확하게 표현하지 못하더라도 크기를 증가시키지 않는다
 
@@ -113,7 +113,7 @@ print("{0} : {1}".format("float(Decimal('0.1') + Decimal('0.2'))".ljust(50), flo
 
 <hr>
 
-#### complex 의 크기는 32 byte 이다
+### complex 의 크기는 32 byte 이다
 - A = complex(a, b) 라고 정의하면 A.real = a 이고 A.imag = b 가 되는데, 이 A.real 과 A.imag 는 float 이다
 - 따라서 16 byte 로 형성되는 class complex 에 class float 의 내용이 포함된다
 - 그리고 8 byte 는 A.real, 나머지 8 byte 는 A.imag 의 값의 저장에 쓰인다
@@ -134,7 +134,7 @@ print("|{0} + {1}i| = {2}".format(A.real, A.imag, abs(A)))
 
 <hr>
 
-#### str 은 문자열을 받을 수 있는 character data 이자 sequence data 이다  ( indexing 이 가능하다 )
+### str 은 문자열을 받을 수 있는 character data 이자 sequence data 이다  ( indexing 이 가능하다 )
 - 하지만, item assignment 은 불가능하다  ( tuple 과 비슷하게 index 로 수정이 불가능하다 )
   - slice 와 + operator 로 수정할 수는 있다
 
