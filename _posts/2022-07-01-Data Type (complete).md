@@ -114,9 +114,9 @@ print("{0} : {1}".format("float(Decimal('0.1') + Decimal('0.2'))".ljust(50), flo
 <hr>
 
 ### complex 의 크기는 32 byte 이다
-- A = complex(a, b) 라고 정의하면 A.real = a 이고 A.imag = b 가 되는데, 이 A.real 과 A.imag 는 float 이다
-- 따라서 16 byte 로 형성되는 class complex 에 class float 의 내용이 포함된다
-- 그리고 8 byte 는 A.real, 나머지 8 byte 는 A.imag 의 값의 저장에 쓰인다
+- A = complex(a, b) 라고 정의하면 A.real = a 이고 A.imag = b 가 된다
+- 16 byte 는 class complex 의 형성에 쓰인다
+- 8 byte 는 A.real, 나머지 8 byte 는 A.imag 의 값의 저장에 쓰인다  ( 부동 소수점 표현으로 저장된다 )
 
 
 ```python
