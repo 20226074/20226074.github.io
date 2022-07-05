@@ -14,9 +14,9 @@ tags: [python, basic programming]
 
 
 ```python
-print('\''); print("\"");
+print('\''); print("\"")
 print("\ 1") # print("\") 로 적으면 Backslash 연산으로 인해 SyntaxError 발생
-print("\\1") # print("\\") 로 적어야 함
+print("\\1") # 따라서 print("\\") 으로 적어야 함
 print("1234" + "\rA")  # \r : 커서를 맨 앞으로 이동시킴
 print("1\t2\t3")
 print("1234" + "\b") # \b : Backspace
