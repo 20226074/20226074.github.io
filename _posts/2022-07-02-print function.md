@@ -17,18 +17,15 @@ tags: [python, basic programming]
 print('\''); print("\"")
 print("\ 1") # print("\") 로 적으면 Backslash 연산으로 인해 SyntaxError 발생
 print("\\1") # 따라서 print("\\") 으로 적어야 함
-print("1234" + "\rA")  # \r : 커서를 맨 앞으로 이동시킴
-print("1\t2\t3")
-print("1234" + "\b") # \b : Backspace
+print("1\t2\n3\t4")
 ```
 
     '
     "
     \ 1
     \1
-    A
-    1	2	3
-    1234
+    1	2
+    3	4
     
 
 <br>
