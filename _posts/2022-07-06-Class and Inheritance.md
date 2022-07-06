@@ -1,7 +1,7 @@
 ### 함수는 연산을 정의하는 것이다
-- def (함수명((매개변수)) 의 형태로 정의된다
-  - *args : 매개변수의 개수 제한 없이 받으며, tuple 로 저장한다
-  - \**kwarg : 매개변수를 key=value 형태로 무한정 받으며, dictionary 로 저장한다
+- `def (함수명((매개변수))` 의 형태로 정의된다
+  - `*args` : 매개변수의 개수 제한 없이 받으며, tuple 로 저장한다
+  - `**kwarg` : 매개변수를 key=value 형태로 무한정 받으며, dictionary 로 저장한다
 
 
 ```python
@@ -176,11 +176,11 @@ print(a + b)
 
 ### Inheritance(상속) 은 부모 클래스의 함수를 사용할 수 있게 하는 것이다
 
-- class Child(Parent1, Parent2, ...) 의 형식으로 상속한다 <br>
-- 상속하지 않아도 명시적 참조로 Parent.(함수명) 을 사용할 수 있지만 <br>
-  상속하였다면 간접 참조로 super(Child, self).(함수명) 을 쓰는 것이 유용하다
-  - super() 를 사용하면 다중 상속의 경우 모든 Parents 의 함수를 참조할 수 있다
-  - super() 를 사용하면 종속성을 바르게 나타내어 MRO 의 관계가 뚜렷하게 나타난다
+- `class Child(Parent1, Parent2, ...)` 의 형식으로 상속한다 <br>
+- 상속하지 않아도 명시적 참조로 `Parent.(함수명)` 을 사용할 수 있지만 <br>
+  상속하였다면 간접 참조로 `super(Child, self).(함수명)` 을 쓰는 것이 유용하다
+  - `super()` 를 사용하면 다중 상속의 경우 모든 Parents 의 함수를 참조할 수 있다
+  - `super()` 를 사용하면 종속성을 바르게 나타내어 MRO 의 관계가 뚜렷하게 나타난다
 
 
 ```python
@@ -215,9 +215,9 @@ print(a.distance(b))
     
 
 #### ※ settatr 의 재정의 방법
-- __setattr__ 는 객체의 속성을 변경할 때 호출된다
-- 하지만 만약 속성을 변경할 때 감안하고 싶은 것이 있어 __setattr__ 를 수정할 때 <br>
-  setattr(self, name, value) 로 정의를 하게 되면 다시 __setattr__ 가 실행되므로 <br>
+- \__setattr__ 는 객체의 속성을 변경할 때 호출된다
+- 하지만 만약 속성을 변경할 때 감안하고 싶은 것이 있어 \__setattr__ 를 수정할 때 <br>
+  setattr(self, name, value) 로 정의를 하게 되면 다시 \__setattr__ 가 실행되므로 <br>
   RecursionError 가 발생한다
 
 
