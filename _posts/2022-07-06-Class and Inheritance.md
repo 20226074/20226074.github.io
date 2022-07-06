@@ -215,9 +215,9 @@ print(a.distance(b))
     
 
 #### ※ settatr 의 재정의 방법
-- \__setattr__ 는 객체의 속성을 변경할 때 호출된다
-- 하지만 만약 속성을 변경할 때 감안하고 싶은 것이 있어 \__setattr__ 를 수정할 때 <br>
-  setattr(self, name, value) 로 정의를 하게 되면 다시 \__setattr__ 가 실행되므로 <br>
+- `__setattr__` 는 객체의 속성을 변경할 때 호출된다
+- 하지만 만약 속성을 변경할 때 감안하고 싶은 것이 있어 `__setattr__` 를 수정할 때 <br>
+  setattr(self, name, value) 로 정의를 하게 되면 다시 `__setattr__` 가 실행되므로 <br>
   RecursionError 가 발생한다
 
 
