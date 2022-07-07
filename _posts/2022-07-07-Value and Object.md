@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Class and Inheritance"
+title: "Value and Object"
 categories: basic_programming
 tags: [coding, python]
 ---
