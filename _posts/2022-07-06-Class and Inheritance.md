@@ -1,15 +1,15 @@
 ---
 layout: single
 title: "Class and Inheritance"
-categories: basic programming
+categories: basic_programming
 tags: [coding, python]
 ---
 
 
 ### 함수는 연산을 정의하는 것이다
 - `def (함수명((매개변수))` 의 형태로 정의된다
-  - `*args` : 매개변수의 개수 제한 없이 받으며, tuple 로 저장한다
-  - `**kwarg` : 매개변수를 key=value 형태로 무한정 받으며, dictionary 로 저장한다
+ - `*args` : 매개변수의 개수 제한 없이 받으며, tuple 로 저장한다
+ - `**kwarg` : 매개변수를 key=value 형태로 무한정 받으며, dictionary 로 저장한다
 
 
 ```python
