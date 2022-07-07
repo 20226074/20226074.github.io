@@ -1,3 +1,11 @@
+---
+layout: single
+title: "map, filter, reduce, and lambda expression"
+categories: basic programming
+tags: [coding, python]
+---
+
+
 ## map 은 iterable object 의 요소를 function 에 따라 변환시킨다
 - function 은 iterable object 의 요소를 넣었을 때 동작되도록 해야 한다
 - map 으로 반환되는 것은 map object 이므로, 상황에 따라 type 변환이 필요하다
