@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Class and Inheritance"
+categories: basic_programming
+tags: [coding, python]
+---
+
+
 ## int, str 와 같은 type 은 value 이다
 - 두 변수의 값이 같다면, identity 도 역시 같다
 
@@ -129,8 +137,8 @@ print(B)
     [1, 2]
     
 
-<br>
 <hr>
+<br>
 
 ## copy module 을 사용하여 object 를 다른 id 로 복사할 수 있다
 - copy.copy() 를 사용하면 object 의 요소를 각각 가져와서 서로 다른 id 를 만들어낸다
