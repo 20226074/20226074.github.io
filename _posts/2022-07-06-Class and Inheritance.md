@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Class and Inheritance"
-categories: coding
-tags: [python, basic programming]
+categories: basic programming
+tags: [coding, python]
 ---
 
 
