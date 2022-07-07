@@ -199,8 +199,7 @@ print(b); print()
 
 ### ※ list 에서 operator * 의 연산 방법
 - list A 에 대하여 A * 10 의 의미는 A 의 요소를 10번 extend 한 list 를 말한다
-- 따라서 A 의 요소에 object 가 있다면 같은 id 로 복사된다 <br> <br>
-
+- 따라서 A 의 요소에 object 가 있다면 같은 id 로 복사된다
 - 한편, `List = [i for i in range(5)]` 으로 하면 List 에는 `[1, 2, 3, 4, 5]` 가 저장된다
 - 만약, `List = [(object) for _ in range(5)]` 와 같이 정의가 되면, for 은 반복문이기에 <br>
   하나의 요소를 만들 때마다 object 를 재정의하기에 다른 id 로 복사된다 
