@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "map, filter, reduce, and lambda expression"
-categories: basic programming
+categories: basic_programming
 tags: [coding, python]
 ---
 
