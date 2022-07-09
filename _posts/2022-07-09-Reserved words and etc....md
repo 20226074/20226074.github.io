@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Reserved words and etc..."
+categories: basic_programming
+tags: [coding, python]
+---
+
+
 ### 예약어(Reserved words) 는 특정 기능을 이미 가진 단어를 말한다
 
 
