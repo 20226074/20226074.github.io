@@ -1,3 +1,12 @@
+---
+layout: single
+title: "Module, Package, and File I/O"
+categories: basic_programming
+tags: [coding, python]
+---
+
+
+
 ## module 은 함수를 담은 py 파일이다
 - import (module) 의 형태로 불러온다
 
