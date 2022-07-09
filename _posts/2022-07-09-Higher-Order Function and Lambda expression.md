@@ -1,3 +1,9 @@
+layout: single
+title: "Higher-Order Function and Lambda expressionn"
+categories: basic_programming
+tags: [coding, python]
+---
+
 ## Higher-Order Function 은 함수를 인자로 받는 함수를 말한다
 - map, filter, functools.reduce, max, min 등이 있다
 <hr>
