@@ -108,7 +108,7 @@ print(B)
 <hr>
 
 ### max, min 은 iterable object 의 요소를 function 에 따라 변환된 값의 최대, 최소를 구한다
-- max(iterable, key=(function)) 의 형태로 작성한다. ( key 는 선택 사항으로, 없으면 iterable 중 최대, 최소를 구한다 )
+- `max(iterable, key=(function))` 의 형태로 작성한다. ( key 는 선택 사항으로, 없으면 iterable 중 최대, 최소를 구한다 )
 
 
 ```python
