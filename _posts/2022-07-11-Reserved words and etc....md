@@ -118,28 +118,6 @@ D()
     
 
 
-```python
-def fibonacci_generator(n):
-    result = [1]
-    if n >= 2:
-        result.append(1)
-        for i in range(2, n):
-            result.append(result[i-2] + result[i-1])
-    
-    for i in result:
-        yield i
-
-A = fibonacci_generator(10)
-print(next(A))
-print(A.__next__())
-
-for i in A:
-    print(i, end=' ')
-```
-
-    1
-    1
-    2 3 5 8 13 21 34 55 
 
 ### 아래는 하나의 주제로 잡기 어려운 것들의 모음이다
 
