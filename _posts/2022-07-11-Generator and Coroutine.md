@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Generator and Coroutine"
+categories: basic_programming
+tags: [coding, python]
+---
+
+
 ## iterator 는 값을 차례대로 꺼낼 수 있는 object 이다
 - `__iter__` 가 있는 instance 를 iterable 이라고 하고, object 를 iterator 라고 한다
 
