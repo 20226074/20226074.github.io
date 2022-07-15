@@ -147,7 +147,7 @@ for _ in range(5):
 
 
 ```python
-# generator 표현식은 list 표현식과 괄호만 동일하다
+# generator 표현식은 괄호만 제외하면 list 표현식과 동일하다
 A = (i for i in range(20) if i%4 == 0)  
 print(A)
 for _ in range(3):
