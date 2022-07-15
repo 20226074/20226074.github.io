@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Generator and Coroutine"
+title: "[python] Generator and Coroutine"
 categories: basic_programming
 tags: [coding, python]
 ---
