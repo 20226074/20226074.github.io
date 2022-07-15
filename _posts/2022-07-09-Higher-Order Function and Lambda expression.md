@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Higher-Order Function and Lambda expressionn"
+title: "[python] Higher-Order Function and Lambda expressionn"
 categories: basic_programming
 tags: [coding, python]
 ---
