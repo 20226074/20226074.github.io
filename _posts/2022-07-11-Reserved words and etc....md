@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Reserved words and etc..."
+title: "[python] Reserved words and etc..."
 categories: basic_programming
 tags: [coding, python]
 ---
