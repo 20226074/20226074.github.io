@@ -32,4 +32,5 @@ tags: [career]
 - [Generator and Coroutine](https://20226074.github.io/basic_programming/Generator-and-Coroutine/)
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
-#### kaggle course 공부하기
+### kaggle course 공부하기
+(이미지 첨부)
