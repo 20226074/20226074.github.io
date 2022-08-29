@@ -18,10 +18,11 @@ tags: [career]
 |CAU세미나|자유선택|1|P|
 
 
-## 여름방학동안 한 것
+<br>
+## During Summer Vacation
 
-#### python 내용 정리하기
-- 기초프로그래밍에서 배운 python 지식과 더불어 기본적인 built-in type/function 등을 정리함
+### python 내용 정리하기
+기초프로그래밍에서 배운 python 지식과 더불어 기본적인 built-in type/function 등을 정리하였다
 - [Data Type](https://20226074.github.io/basic_programming/Data-Type/)
 - [Class and Inheritance](https://20226074.github.io/basic_programming/Class-and-Inheritance/)
 - [Value and Object](https://20226074.github.io/basic_programming/Value-and-Object/)
@@ -30,4 +31,4 @@ tags: [career]
 - [Generator and Coroutine](https://20226074.github.io/basic_programming/Generator-and-Coroutine/)
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
-#### kaggle course 
+#### kaggle course 공부하기
