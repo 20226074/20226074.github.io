@@ -19,6 +19,7 @@ tags: [career]
 
 
 <br>
+
 ## During Summer Vacation
 
 ### python 내용 정리하기
