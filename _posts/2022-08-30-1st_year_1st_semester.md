@@ -33,7 +33,7 @@ tags: [career]
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
 ### kaggle course 공부하기
-<figure class="third">
+<figure class="hexa">
   <img src="/assets/img/Intro_to_Programming.png" width=120 high=74>
   <img src="/assets/img/Python.png" width=120 high=74>
   <img src="/assets/img/Intro_to_Machine_Learning.png" width=120 high=74>
@@ -51,3 +51,6 @@ tags: [career]
   <img src="/assets/img/Geospatial_Analysis.png" width=120 high=74>
   <img src="/assets/img/Machine_Learning_Explainability.png" width=120 high=74>
   <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
+
+kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방법에 입각하여 course 를 정리하면 다음과 같다
+[Intro to Pro
