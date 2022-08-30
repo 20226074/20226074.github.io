@@ -56,8 +56,8 @@ tags: [career]
   
 ### kaggle competition 의 진행 방식을 감안한 course 정리
 
-Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 <br>
-Intermediate Machine Learning 의 지식은 하나의 part 가 아니므로 각 content 마다 *기울임*으로 나타낸다 
+**Intro to Programming**, **Python** 은 위의 'python 정리하기' 의 내용에 포함되어 있다 <br>
+**Intermediate Machine Learning** 의 지식은 하나의 part 가 아니므로 각 content 마다 *기울임*으로 나타낸다 
 
 - 모든 part 에 대하여 **AI Ethics** 를 염두하고 있어야 한다
   - ( Historical / Represetation / Measurement / Agreegation / Evaluation / Deployment ) bias 가 없는지 확인해야 한다
