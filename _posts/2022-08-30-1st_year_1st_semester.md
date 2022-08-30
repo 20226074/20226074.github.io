@@ -33,7 +33,7 @@ tags: [career]
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
 ### kaggle course 공부하기
-<figure class="third">
+<figure class="fourth">
   <img src="/assets/img/Intro_to_Programming.png" width=120 high=74>
   <img src="/assets/img/Python.png" width=120 high=74>
   <img src="/assets/img/Intro_to_Machine_Learning.png" width=120 high=74>
@@ -54,4 +54,6 @@ tags: [career]
 
 kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방법에 입각하여 course 를 정리하면 다음과 같다
 [ Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 ]
-- 문제 파악 : Data typ
+- 문제 파악 : **Machine Learning / Deep Learning 으로 만들 것인지 **Reinforcement Learning** 으로 만들 것인지 결정한다
+  - Reinforcement Learning 으로 만들기 위해서는 Rule 이 있어야 한다
+( Machine Learning, Deep Leanrin
