@@ -61,10 +61,10 @@ tags: [career]
 
 - 모든 part 에 대하여 **AI Ethics** 를 염두하고 있어야 한다
   - ( Historical / Represetation / Measurement / Agreegation / Evaluation / Deployment ) bias 가 없는지 확인해야 한다
-- 문제 파악 : **Machine Learning** / **Deep Learning** 으로 만들 것인지 **Reinforcement Learning** 으로 만들 것인지 결정한다
+- 1. 문제 파악 : **Machine Learning** / **Deep Learning** 으로 만들 것인지 **Reinforcement Learning** 으로 만들 것인지 결정한다
   - Reinforcement Learning 으로 만들기 위해서는 Rule 이 있어야 하므로, Machine Learning / Deep Learning 으로 만든다고 가정하자
-- 모델 설정 : 목적에 따라 적절한 regressor / classifier 알고리즘을 찾는다  [ *Boosting* 도 생각할 수 있다 ]
-- 데이터 처리 : **Pandas** 과 **Data_Visualization** 등을 사용한다  [ **SQL** 으로 데이터를 가져올 수 있다 ]
+- 2-1. 모델 설정 : 목적에 따라 적절한 regressor / classifier 알고리즘을 찾는다  [ *Boosting* 도 생각할 수 있다 ]
+- 2-2. 데이터 처리 : **Pandas** 과 **Data_Visualization** 등을 사용한다  [ **SQL** 으로 데이터를 가져올 수 있다 ]
   - 데이터 전처리 ( **Data Clearning** )
     - Character Data 가 제대로 consistent 하게 encoding 되었는지, date data 의 type 이 datetime 인지 확인한다
     - Missing Value 를 처리하고, 모델에 따라 데이터를 Scaling / Normalization 한다
@@ -77,7 +77,7 @@ tags: [career]
     - **Time Series** data 의 경우 Trend, Seasonality, Cycles 등을 파악한다
     - **Computer Vision** 에 사용될 data 의 경우 Augmentation 을 조정한다
     - geospatial data (지역 데이터) 의 경우 geopandas 등을 사용하여 **Geospatial Analysis** 한다
-- 모델 학습 : *parameter tuning* 을 하면서 overfitting, underfitting 이 되지 않도록 학습시킨다
+- 3. 모델 학습 : *parameter tuning* 을 하면서 overfitting, underfitting 이 되지 않도록 학습시킨다
 - 위의 과정을 수정하며 accuracy 를 높인다
   - Machine Learning 의 경우 Permutation Importance, SHAP Value 등 **Machine Learning Explainability** 를 통해 분석이 가능하다
   
