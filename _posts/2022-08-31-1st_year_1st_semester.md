@@ -33,9 +33,9 @@ tags: [career]
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
 ### kaggle course 공부하기
-<figure class="third">
+<figure class="third"
     <img src="/assets/img/Intro_to_Programming.png">
     <img src="/assets/img/Python.png">
     <img src="/assets/img/Intro_to_Machine_Learning.png">
-<figure>
+figure>
 <img src="/assets/img/Pandas.png">
