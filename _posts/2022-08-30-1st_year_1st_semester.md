@@ -22,7 +22,7 @@ tags: [career]
 
 ## During Summer Vacation
 
-### python 내용 정리하기
+### python 정리하기
 기초프로그래밍에서 배운 python 지식과 더불어 기본적인 built-in type/function 등을 정리하였다
 - [Data Type](https://20226074.github.io/basic_programming/Data-Type/)
 - [Class and Inheritance](https://20226074.github.io/basic_programming/Class-and-Inheritance/)
@@ -33,7 +33,7 @@ tags: [career]
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
 ### kaggle course 공부하기
-<figure class="hexa">
+<figure class="fourth">
   <img src="/assets/img/Intro_to_Programming.png" width=120 high=74>
   <img src="/assets/img/Python.png" width=120 high=74>
   <img src="/assets/img/Intro_to_Machine_Learning.png" width=120 high=74>
@@ -53,4 +53,5 @@ tags: [career]
   <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
 
 kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방법에 입각하여 course 를 정리하면 다음과 같다
-[Intro to Pro
+[ Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 ]
+- 문제 파악 : Data typ
