@@ -72,7 +72,7 @@ tags: [career]
     - Categorical Varaible 를 *One-hot Encoding / Ordinal Encoding* 또는 Target encoding 을 통해 numerical data 로 만든다
        - Target encoding 의 경우 *Data Leakage* 가 발생하지 않도록 주의해야 한다
     - Mutual Information 을 통해 변수간의 관계를 확인하고, 적절하게 새로운 Feature 를 만든다
-    - Clustering 를 통해 복잡한 데이터를 label 로 변환한다
+    - Clustering 을 통해 복잡한 데이터를 label 로 변환한다  [ 비지도학습에서는 모델으로도 사용된다 ]
     - Principal Component Analysis (PCA) 를 통해 Feature 를 변형하여 만들어낸다
     - **Time Series** data 의 경우 Trend, Seasonality, Cycles 등을 파악한다
     - **Computer Vision** 에 사용될 data 의 경우 Augmentation 을 조정한다
