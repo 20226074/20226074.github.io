@@ -37,5 +37,5 @@ tags: [career]
   <img src="/assets/img/Intro_to_Programming.png" width=50 height=50>
   <img src="/assets/img/Python.png" width=50, height=50>
   <img src="/assets/img/Intro_to_Machine_Learning.png" width=50 height=50>
-figure>
+<figure>
 <img src="/assets/img/Pandas.png">
