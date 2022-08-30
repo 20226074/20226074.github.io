@@ -33,21 +33,21 @@ tags: [career]
 - [Reserved words and etc](https://20226074.github.io/basic_programming/Reserved-words-and-etc/)
 
 ### kaggle course 공부하기
-<figure class="quarter">
-  <img src="/assets/img/Intro_to_Programming.png">
-  <img src="/assets/img/Python.png">
-  <img src="/assets/img/Intro_to_Machine_Learning.png">
-  <img src="/assets/img/Pandas.png">
-  <img src="/assets/img/Intermediate_Machine_Learning.png">
-  <img src="/assets/img/Data_Visualization.png">
-  <img src="/assets/img/Feature_Engineering.png">
-  <img src="/assets/img/Intro_to_SQL.png">
-  <img src="/assets/img/Advanced_SQL.png">
-  <img src="/assets/img/Intro_to_Deep_Learning.png">
-  <img src="/assets/img/Computer_Vision.png">
-  <img src="/assets/img/Time_Series.png">
-  <img src="/assets/img/Data_Cleaning.png">
-  <img src="/assets/img/Intro_to_AI_Ethics.png">
-  <img src="/assets/img/Geospatial_Analysis.png">
-  <img src="/assets/img/Machine_Learning_Explainability.png">
-  <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png">
+<figure class="third">
+  <img src="/assets/img/Intro_to_Programming.png" width=120 high=74>
+  <img src="/assets/img/Python.png" width=120 high=74>
+  <img src="/assets/img/Intro_to_Machine_Learning.png" width=120 high=74>
+  <img src="/assets/img/Pandas.png" width=120 high=74>
+  <img src="/assets/img/Intermediate_Machine_Learning.png" width=120 high=74>
+  <img src="/assets/img/Data_Visualization.png" width=120 high=74>
+  <img src="/assets/img/Feature_Engineering.png" width=120 high=74>
+  <img src="/assets/img/Intro_to_SQL.png" width=120 high=74>
+  <img src="/assets/img/Advanced_SQL.png" width=120 high=74>
+  <img src="/assets/img/Intro_to_Deep_Learning.png" width=120 high=74>
+  <img src="/assets/img/Computer_Vision.png" width=120 high=74>
+  <img src="/assets/img/Time_Series.png" width=120 high=74>
+  <img src="/assets/img/Data_Cleaning.png" width=120 high=74>
+  <img src="/assets/img/Intro_to_AI_Ethics.png" width=120 high=74>
+  <img src="/assets/img/Geospatial_Analysis.png" width=120 high=74>
+  <img src="/assets/img/Machine_Learning_Explainability.png" width=120 high=74>
+  <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
