@@ -82,12 +82,12 @@ Intermediate Machine Learning 의 지식은 하나의 part 가 아니므로 각 
   - Machine Learning 의 경우 Permutation Importance, SHAP Value 등 **Machine Learning Explainability** 를 통해 분석이 가능하다
   
 #### kaggle course 에서 부족한 점 (추가로 배워야 할 점)
-- Machine Learning 알고리즘 종류가 부족하고, ensemble 에 대한 설명이 부족하다
-- Parameter tuning 에 대한 체계적인 search 기법이 없다
+- Machine Learning 알고리즘 종류 등 세부적인 내용이 부족하다
+- Parameter tuning 의 기법이 없다 ( Search, Optimization 관련 )
 
 <br>
   
 ### 앞으로의 계획
-- 대학에서 kaggle course 와 중복되는 개념을 배운다면 그 course 에 심화 공부용으로 권장되어 있는 competition 을 하며 공부할 계획이다
-- 1학년이 끝나면 군대를 가서 데이터 분석 전문가 (ADP) 를 취득하고, 남는 시간동안 미적분학과 선형대수학을 복습할 계획이다
-  - 수학과, 응용통계학과를 부전공으로 할 계획이다
+- 대학에서 kaggle course 와 중복되는 개념을 배운다면 그 course 에 심화 공부용으로 권장되어 있는 competition 을 하며 공부할 것이다
+- 1학년이 끝나면 군대를 가서 데이터 분석 전문가 (ADP) 를 취득하고, 남는 시간동안 미적분학과 선형대수학을 복습할 것이다
+  - 수학과, 응용통계학과를 부전공으로 할 
