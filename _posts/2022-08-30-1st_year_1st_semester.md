@@ -34,24 +34,23 @@ tags: [career]
 
 ### kaggle course 공부하기
 <figure class="third">
-  <img src="/assets/img/Intro_to_Programming.png" width=120 high=74>
-  <img src="/assets/img/Python.png" width=120 high=74>
-  <img src="/assets/img/Intro_to_Machine_Learning.png" width=120 high=74>
-  <img src="/assets/img/Pandas.png" width=120 high=74>
-  <img src="/assets/img/Intermediate_Machine_Learning.png" width=120 high=74>
-  <img src="/assets/img/Data_Visualization.png" width=120 high=74>
-  <img src="/assets/img/Feature_Engineering.png" width=120 high=74>
-  <img src="/assets/img/Intro_to_SQL.png" width=120 high=74>
-  <img src="/assets/img/Advanced_SQL.png" width=120 high=74>
-  <img src="/assets/img/Intro_to_Deep_Learning.png" width=120 high=74>
-  <img src="/assets/img/Computer_Vision.png" width=120 high=74>
-  <img src="/assets/img/Time_Series.png" width=120 high=74>
-  <img src="/assets/img/Data_Cleaning.png" width=120 high=74>
-  <img src="/assets/img/Intro_to_AI_Ethics.png" width=120 high=74>
-  <img src="/assets/img/Geospatial_Analysis.png" width=120 high=74>
-  <img src="/assets/img/Machine_Learning_Explainability.png" width=120 high=74>
-  <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
-
+  <img src="/assets/img/Intro_to_Programming.png" width=120px high=74px>
+  <img src="/assets/img/Python.png" width=120px high=74px>
+  <img src="/assets/img/Intro_to_Machine_Learning.png" width=120px high=74px>
+  <img src="/assets/img/Pandas.png" width=120px high=74px>
+  <img src="/assets/img/Intermediate_Machine_Learning.png" width=120px high=74px>
+  <img src="/assets/img/Data_Visualization.png" width=120px high=74px>
+  <img src="/assets/img/Feature_Engineering.png" width=120px high=74px>
+  <img src="/assets/img/Intro_to_SQL.png" width=120px high=74px>
+  <img src="/assets/img/Advanced_SQL.png" width=120px high=74px>
+  <img src="/assets/img/Intro_to_Deep_Learning.png" width=120px high=74px>
+  <img src="/assets/img/Computer_Vision.png" width=120px high=74px>
+  <img src="/assets/img/Time_Series.png" width=120px high=74px>
+  <img src="/assets/img/Data_Cleaning.png" width=120px high=74px>
+  <img src="/assets/img/Intro_to_AI_Ethics.png" width=120px high=74px>
+  <img src="/assets/img/Geospatial_Analysis.png" width=120px high=74px>
+  <img src="/assets/img/Machine_Learning_Explainability.png" width=120px high=74px>
+  <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120px high=74px>
 
 ### kaggle competition 의 진행 방식을 감안한 course 정리
 
