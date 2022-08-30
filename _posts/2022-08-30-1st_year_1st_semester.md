@@ -53,7 +53,26 @@ tags: [career]
   <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
 
 kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방법에 입각하여 course 를 정리하면 다음과 같다 <br>
-[ Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 ]
+[ Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 ] <br>
+[ Intermediate Machine Learning 의 지식은 하나의 part 가 아니므로 각 content 마다 *기울임*으로 나타낸다 ] 
+- 모든 part 에 대하여 **AI Ethics** 를 염두하고 있어야 한다
+  - ( Historical / Represetation / Measurement / Agreegation / Evaluation / Deployment ) bias 가 없는지 확인해야 한다
 - 문제 파악 : **Machine Learning** / **Deep Learning** 으로 만들 것인지 **Reinforcement Learning** 으로 만들 것인지 결정한다
   - Reinforcement Learning 으로 만들기 위해서는 Rule 이 있어야 하므로, Machine Learning / Deep Learning 으로 만든다고 가정하자
-- 데이터 분석 : **Pandas**
+- 모델 설정 : 목적에 따라 적절한 regressor / classifier 알고리즘을 찾는다  [ *Boosting* 도 생각할 수 있다 ]
+- 데이터 처리 : **Pandas** 과 **Data_Visualization** 등을 사용한다  [ **SQL** 으로 데이터를 가져올 수 있다 ]
+  - 데이터 전처리 ( **Data Clearning** )
+    - Character Data 가 제대로 consistent 하게 encoding 되었는지, date data 의 type 이 datetime 인지 확인한다
+    - Missing Value 를 처리하고, 모델에 따라 데이터를 Scaling / Normalization 한다
+  - 데이터 마이닝 ( **Feature Engineering** )
+    - Categorical Varaible 를 *One-hot Encoding / Ordinal Encoding* 또는 Target encoding 을 통해 numerical data 로 만든다
+       - Target encoding 의 경우 *Data Leakage* 가 발생하지 않도록 주의해야 한다
+    - Mutual Information 을 통해 변수간의 관계를 확인하고, 적절하게 새로운 Feature 를 만든다
+    - Clustering 를 통해 복잡한 데이터를 label 로 변환한다
+    - Principal Component Analysis (PCA) 를 통해 Feature 를 변형하여 만들어낸다
+    - **Time Series** data 의 경우 Trend, Seasonality, Cycles 등을 파악한다
+    - **Computer Vision** 에 사용될 data 의 경우 Augmentation 을 조정한다
+    - geospatial data (지역 데이터) 의 경우 geopandas 등을 사용하여 **Geospatial Analysis** 한다
+- 모델 학습 : *parameter tuning* 을 하면서 overfitting, underfitting 이 되지 않도록 학습시킨다
+- 위의 과정을 수정하며 accuracy 를 높인다
+  - Machine Learning 의 경우 Permutation Importance, SHAP Value 등 **Machine Learning Explainability** 를 통해 분석이 가능하다
