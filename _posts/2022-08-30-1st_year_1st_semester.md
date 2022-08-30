@@ -52,9 +52,9 @@ tags: [career]
   <img src="/assets/img/Machine_Learning_Explainability.png" width=120 high=74>
   <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png" width=120 high=74>
 
-kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방법에 입각하여 course 를 정리하면 다음과 같다 <br>
-[ Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 ] <br>
-[ Intermediate Machine Learning 의 지식은 하나의 part 가 아니므로 각 content 마다 *기울임*으로 나타낸다 ] 
+#### kaggle competition 의 진행 방식을 감안한 course 정리
+Intro to Programming, Python 은 위의 'python 정리하기' 의 내용에 포함되어 있다 <br>
+Intermediate Machine Learning 의 지식은 하나의 part 가 아니므로 각 content 마다 *기울임*으로 나타낸다 
 - 모든 part 에 대하여 **AI Ethics** 를 염두하고 있어야 한다
   - ( Historical / Represetation / Measurement / Agreegation / Evaluation / Deployment ) bias 가 없는지 확인해야 한다
 - 문제 파악 : **Machine Learning** / **Deep Learning** 으로 만들 것인지 **Reinforcement Learning** 으로 만들 것인지 결정한다
@@ -76,3 +76,9 @@ kaggle competition 과 더불어 일반적으로 인공지능을 만드는 방�
 - 모델 학습 : *parameter tuning* 을 하면서 overfitting, underfitting 이 되지 않도록 학습시킨다
 - 위의 과정을 수정하며 accuracy 를 높인다
   - Machine Learning 의 경우 Permutation Importance, SHAP Value 등 **Machine Learning Explainability** 를 통해 분석이 가능하다
+  
+#### kaggle course 에서 부족한 점 (추가로 배워야 할 점)
+- Machine Learning 알고리즘 종류가 부족하고, ensemble 에 대한 설명이 부족하다
+- Parameter tuning 에 대한 체계적인 search 기법이 없다
+
+대학에서 위의 내용을 배우게 된다면 각 course 이수 후 권장되어 있는 competition 을 하며 공부할 계획이다
