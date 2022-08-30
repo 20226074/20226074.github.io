@@ -34,7 +34,20 @@ tags: [career]
 
 ### kaggle course 공부하기
 <figure class="third">
-    <img src="/assets/img/Intro_to_Programming.png">
-    <img src="/assets/img/Python.png">
-    <img src="/assets/img/Pandas.png">
-figure>
+  <img src="/assets/img/Intro_to_Programming.png">
+  <img src="/assets/img/Python.png">
+  <img src="/assets/img/Intro_to_Machine_Learning.png">
+  <img src="/assets/img/Pandas.png">
+  <img src="/assets/img/Intermediate_Machine_Learning.png">
+  <img src="/assets/img/Data_Visualization.png">
+  <img src="/assets/img/Feature_Engineering.png">
+  <img src="/assets/img/Intro_to_SQL.png">
+  <img src="/assets/img/Advanced_SQL.png">
+  <img src="/assets/img/Intro_to_Deep_Learning.png">
+  <img src="/assets/img/Computer_Vision.png">
+  <img src="/assets/img/Time_Series.png">
+  <img src="/assets/img/Data_Cleaning.png">
+  <img src="/assets/img/Intro_to_AI_Ethics.png">
+  <img src="/assets/img/Geospatial_Analysis.png">
+  <img src="/assets/img/Machine_Learning_Explainability.png">
+  <img src="/assets/img/Intro_to_Game_AI_and_Reinforcement_Learning.png">
