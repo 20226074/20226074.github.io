@@ -34,6 +34,6 @@ tags: [career]
 
 ### kaggle course 공부하기
 <figure class="half">
-    <img src="/assets/img/Intro_to_Programming.png">
-    <img src="/assets/img/Python.png">
+    <img src="/assets/img/Intro_to_Programming.png" width=100 high=100>
+    <img src="/assets/img/Python.png" width=100 high=100>
 figure>
