@@ -7,7 +7,7 @@ tags: [Algorithm, python]
 
 
 ## 그래프란 vertex 사이가 edge 로 연결된 수학 구조를 말한다
-첫째 줄에 vertex 의 개수 $n$ 과 간선의 개수 $m$ 이 주어지고 <br>
+먼저 vertex 의 개수 $n$ 과 간선의 개수 $m$ 이 주어지고 <br>
 두 번째 줄부터 간선으로 이어지는 두 개의 vertex 가 차례대로 주어진다고 하자 <br>
 
 <img src="/assets/img/Graph.png">
