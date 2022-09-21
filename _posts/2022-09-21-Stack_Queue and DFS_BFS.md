@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Stack/Queue and DFS/BFS"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ### Stack 은 FILO (First in Last out) 이고, Queue 는 FIFO (First in First out) 이다
 - Stack, Queue 모두 \'deque\' 를 사용한다
 - Stack 은 list 를 사용해도 시간복잡도에 문제가 없지만, Queue 는 문제가 있다
