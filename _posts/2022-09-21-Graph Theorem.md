@@ -12,7 +12,7 @@ tags: [Algorithm, python]
 
 <img src="/assets/img/Graph.png"> (source : wikipedia)
 
-#### 위의 그래프를 입력받았을 때, 저장하는 방법으로는 크게 2가지가 있다 <br>
+위의 그래프를 입력받았을 때, 저장하는 방법으로는 크게 2가지가 있다
 
 <hr>
 
