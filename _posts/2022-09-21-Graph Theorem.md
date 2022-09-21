@@ -10,20 +10,9 @@ tags: [Algorithm, python]
 첫째 줄에 vertex 의 개수 $n$ 과 간선의 개수 $m$ 이 주어지고 <br>
 두 번째 줄부터 간선으로 이어지는 두 개의 vertex 가 차례대로 주어진다고 하자 <br>
 
-<img src="/assets/img/Graph.png">
-(source : wikipedia) <br>
+<img src="/assets/img/Graph.png"> (source : wikipedia)
 
-예를 들어 위의 그래프는 <br>
-6 7 <br>
-1 2 <br> 
-1 5 <br>
-2 5 <br>
-2 3 <br>
-5 4 <br>
-3 4 <br>
-4 6 <br>
-으로 입력이 될 것이다 <br>
-저 그래프를 저장하는 방법으로는 크게 2가지가 있다 <br>
+#### 위의 그래프를 입력받았을 때, 저장하는 방법으로는 크게 2가지가 있다 <br>
 
 <hr> <br>
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
