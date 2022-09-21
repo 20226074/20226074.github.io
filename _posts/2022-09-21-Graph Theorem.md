@@ -18,6 +18,7 @@ tags: [Algorithm, python]
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
 
+<br>
 
 ```python
 n, m = map(int, input().split())
@@ -44,6 +45,8 @@ print(hash_table) # hash_table[0] 은 사용하지 않음
     
 
 ### 2차원 matrix 형태로 저장하기
+
+<br>
 
 
 ```python
@@ -83,6 +86,7 @@ print(*matrix, sep='\n') # matrix 의 각 첫 번째 행, 열을 0행, 0열이�
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
 
+<br>
 
 ```python
 n, m = map(int, input().split())
@@ -111,6 +115,7 @@ print(hash_table) # hash_table[0] 은 사용하지 않음
 
 ### 2차원 matrix 형태로 저장하기
 
+<br>
 
 ```python
 n, m = map(int, input().split())
