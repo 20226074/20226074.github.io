@@ -14,7 +14,7 @@ tags: [Algorithm, python]
 
 #### 위의 그래프를 입력받았을 때, 저장하는 방법으로는 크게 2가지가 있다 <br>
 
-<hr> <br>
+<hr>
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
 
@@ -81,7 +81,7 @@ print(*matrix, sep='\n') # matrix 의 각 첫 번째 행, 열을 0행, 0열이�
 
 ## 이 그래프의 edge 에 각각 cost 가 생길 경우에도 비슷하게 저장할 수 있다
 
-<hr> <br>
+<hr>
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
 
