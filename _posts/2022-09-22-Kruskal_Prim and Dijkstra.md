@@ -86,7 +86,7 @@ print(cost)
     39
 
 
-<hr>
+<br>
 
 Prim 을 사용하기 위해, 위의 그래프를 다음과 같이 저장하자
 
@@ -152,7 +152,6 @@ print(cost)
 
 
 <br>
-<hr>
 
 ## Dijkstra 알고리즘은 vertex 간의 최소 거리를 찾는 알고리즘이다
 - prim 과 비슷하게 접근하지만, 처음 vertex 가 아닌 vertex 는 그 vertex 까지 가는 거리를 포함한다
