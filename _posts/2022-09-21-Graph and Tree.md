@@ -83,6 +83,7 @@ print(*matrix, sep='\n') # matrix 의 각 첫 번째 행, 열을 0행, 0열이�
 <br>
 
 ## 이 그래프의 edge 에 각각 cost 가 생길 경우에도 비슷하게 저장할 수 있다
+- cost 가 있는 그래프를 가중 그래프라고 한다
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
 
