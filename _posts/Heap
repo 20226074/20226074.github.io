@@ -1,0 +1,72 @@
+---
+layout: single
+title: "[Algorithm] Heap"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
+## Heap 은 root_node 가 max/min 이 되도록 연산하는 완전 이진 트리이다
+- python 은 heapq 라이브러리를 사용하여, 다른 class 가 아니라 list 에 min heap 으로 저장한다 <br>
+- max heap 을 사용하려면 -1 을 곱해서 push 한 다음, pop 을 할 때 -1 을 곱해야 한다 <br>
+- push, pop 모두 $O(log N)$ 의 시간복잡도로 처리된다
+
+<hr>
+
+!(https://school.programmers.co.kr/learn/courses/30/lessons/42628)
+다음 문제의 해결 코드로는 다음과 같다
+
+
+```python
+import heapq
+
+def solution(operations):
+    operations = list(map(lambda x: [x.split()[0], int(x.split()[1])], operations))
+    heap_max = []; heap_min = []; count = 0
+    
+    for command, number in operations:
+        if command == 'I':
+            heapq.heappush(heap_min, number)
+            heapq.heappush(heap_max, -number)
+            count += 1
+        else: # command == 'D':
+            if count == 0:
+                continue
+                
+            if number == 1:
+                heapq.heappop(heap_max)
+            else: # number == -1:
+                heapq.heappop(heap_min)
+            count -= 1
+            
+            if count == 0:  
+                heap_max = []
+                heap_min = []
+    
+    if count == 0:
+        return [0, 0]
+    else:
+        return [-heapq.heappop(heap_max), heapq.heappop(heap_min)]
+    return answer
+    
+ 
+## Heap 은 우선순위 Queue 로 사용할 수 있다
+
+'''python
+import heapq
+
+input_list = [[1, 'a'], [4, 'b'], [7, 'c'], [5, 'd'], [2, 'e'], [6, 'f'], [3, 'g']]
+min_heap = []
+max_heap = []
+
+for List in input_list:
+    heapq.heappush(min_heap, List)
+    heapq.heappush(max_heap, [-List[0], List[1]])
+
+for _ in range(len(input_list)):
+    print(heapq.heappop(min_heap)[1], end=' ')
+
+print()
+
+for _ in range(len(input_list)):
+    print(heapq.heappop(max_heap)[1], end=' ')
