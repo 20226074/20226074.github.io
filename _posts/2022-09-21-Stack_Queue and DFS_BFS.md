@@ -41,12 +41,10 @@ for i in range(len(A)):
     8
     
 
-### Tree 는 순환이 없는 Graph 이다
-그러므로 vertex 가 $n$ 개이면 edge 는 $n-1$ 개이다 <br>
-따라서 먼저 vertex 의 개수 $n$ 만 주어지고 <br>
-두 번째 줄부터 $n-1$ 개의, ( 부모 vertex, 자식 vertex ) 가 주어진다고 하자 <br>
+<hr>
+
 <img src="/assets/img/Tree.png"> <br>
-위의 트리를 입력받는 방법은 다음과 같다
+위의 트리를 다음과 같이 입력받았다고 하자
 
 
 ```python
