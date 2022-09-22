@@ -97,13 +97,13 @@ hash_table = {}
 for _ in range(m):
     A, B, cost = input().split()
     if A not in hash_table:
-        hash_table[A] = [[B, int(cost)]]
+        hash_table[A] = [[int(cost), B]]
     else:
-        hash_table[A].append([B, int(cost)])
+        hash_table[A].append([int(cost), B])
     if B not in hash_table:
-        hash_table[B] = [[A, int(cost)]]
+        hash_table[B] = [[int(cost), A]]
     else:
-        hash_table[B].append([A, int(cost)])
+        hash_table[B].append([int(cost), A])
 
 print(hash_table)
 ```
@@ -156,24 +156,33 @@ print(cost)
 ## Dijkstra 알고리즘은 vertex 간의 최소 거리를 찾는 알고리즘이다
 - prim 과 비슷하게 접근하지만, 처음 vertex 가 아닌 vertex 는 그 vertex 까지 가는 거리를 포함한다
 - cost 를 기준으로 하는 BFS 라고 볼 수 있다
-위의 Graph 를 prim 과 동일하게 입력받았을 때, Dijkstra 로 'A' 부터 다른 vertex 까지 가는 최소 거리를 찾으면 다음과 같다
+
+Prim 과 동일하게 그래프를 입력받았을 때, 'A' 에서 다른 vertex 까지의 최단 거리를 찾으면 다음과 같다
+
 
 ```python
 import heapq
 
-search_list = ['A']
-costs = {'A':0}
-is_visited = []
+INF = 100000000
+distances = {node:INF for node in hash_table}
+distances['A'] = 0
+queue = []
+heapq.heappush(queue, [distances['A'], 'A'])
 
-while True:
-    
-    edge_cost, vertex = heapq.heappop(edges)
-    
-    if vertex not in vertexs:
-        vertexs.append(vertex)
-        for edge in hash_table[vertex]:
-            heapq.heappush(edges, edge)
-        cost += edge_cost
+while heap: 
+    current_distance, current_destination = heapq.heappop(queue)
 
-print(cost)
+    if distances[current_destination] < current_distance:
+        continue
+    
+    for new_distance, new_destination in hash_table[current_destination]:
+        distance = current_distance + new_distance 
+        if distance < distances[new_destination]: 
+            distances[new_destination] = distance
+            heapq.heappush(queue, [distance, new_destination]) 
+
+print(distances)
 ```
+
+    {'A': 0, 'B': 7, 'D': 5, 'E': 14, 'C': 15, 'F': 11, 'G': 22}
+    
