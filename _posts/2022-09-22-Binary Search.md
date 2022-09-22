@@ -66,7 +66,7 @@ Binary Search 는 꼭 무언가 형상화된 List 에 대하여 원하는 값의
 어느 정수 범위에 원하는 값이 있고, 어느 값이 원하는 값과의 대소를 판단할 수 있으면 사용할 수 있다 <br>
 
 
-![징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)  <br>
+[징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)  <br>
 
 위 문제의 해결 코드로는 다음과 같다
 
