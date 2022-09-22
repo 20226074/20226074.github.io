@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Algorithm] Graph Theorem"
+title: "[Algorithm] Graph and Tree"
 categories: Algorithm
 tags: [Algorithm, python]
 ---
