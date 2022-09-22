@@ -147,3 +147,45 @@ print(*matrix, sep='\n') # matrix 의 각 첫 번째 행, 열을 0행, 0열이�
     [0, 0, 0, 0, 7, 0, 0]
     [0, 0, 0, 0, 0, 0, 0]
     
+
+### Tree 는 순환이 없는 Graph 이다
+그러므로 vertex 가 $n$ 개이면 edge 는 $n-1$ 개이다 <br>
+따라서 먼저 vertex 의 개수 $n$ 만 주어지고 <br>
+두 번째 줄부터 $n-1$ 개의, ( 부모 vertex, 자식 vertex ) 가 주어진다고 하자 <br>
+<img src="/assets/img/Tree.png"> <br>
+위의 트리를 입력받는 방법은 다음과 같다
+
+
+```python
+n = int(input())
+hash_table = [set() for _ in range(n+1)]  # hash_table[0] 은 사용하지 않음
+root_node = None
+parent_table = [0 for _ in range(n+1)]  # parent_table[0] 은 사용하지 않음
+
+for _ in range(n-1):
+    A, B = map(int, input().split())
+    hash_table[A].add(B)
+    parent_table[B] = A
+    if not root_node:
+        root_node = A
+    else:
+        if B == root_node:
+            root_node = A
+
+print(hash_table)
+print(root_node)  # 부모 노드가 없는 최상위 노드
+print(parent_table)  # 각 노드의 부모 노드
+```
+
+    8
+    5 6
+    5 7
+    5 8
+    2 5
+    2 4
+    1 2
+    1 3
+    [set(), {2, 3}, {4, 5}, set(), set(), {8, 6, 7}, set(), set(), set()]
+    1
+    [0, 0, 1, 1, 2, 2, 5, 5, 5]
+    
