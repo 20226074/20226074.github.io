@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Binary Search"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ### Binary Search 는 정렬된 List 에서 원하는 원소를 찾는 알고리즘이다
 - 정렬되어 있으면 원하는 원소가 지금 고른 원소와의 대소를 판단할 수 있다 
 - 따라서 max 와 min 이 있으면, mid 을 잡아서 대소를 판단하고 <br>
