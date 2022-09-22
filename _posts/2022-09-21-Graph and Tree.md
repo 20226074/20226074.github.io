@@ -86,6 +86,7 @@ print(*matrix, sep='\n') # matrix 의 각 첫 번째 행, 열을 0행, 0열이�
 - cost 가 있는 그래프를 가중 그래프라고 한다
 
 ### 각 vertex 마다 연결되어 있는 vertex 만을 저장하기
+- (A, B, cost) 형태로 각각 저장할 수도 있다
 
 <hr>
 
