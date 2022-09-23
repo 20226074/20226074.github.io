@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Kruskal/Prim and Dijkstra Algorithm"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ## Network Flow 는 유향 Graph 에서 간선에 capacity 가 있을 때 최대 유량을 구하는 알고리즘이다
 - Edmonds-Karp 알고리즘을 사용해서 구할 것이다
   - 어떤 경로로 source 에서 sink 까지 보낼 수 있으면 보내는 과정을 반복하는데, 음의 유량도 감안한다 <br>
