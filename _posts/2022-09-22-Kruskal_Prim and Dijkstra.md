@@ -169,7 +169,7 @@ distances['A'] = 0
 queue = []
 heapq.heappush(queue, [distances['A'], 'A'])
 
-while heap: 
+while queue: 
     current_distance, current_destination = heapq.heappop(queue)
 
     if distances[current_destination] < current_distance:
