@@ -96,14 +96,16 @@ print(result_flow)
     25
     
 
-<br> <hr>
+<br>
+
+<hr>
 
 ## Bipartite Matching (이분 매칭) 은 두 그룹의 원소를 최대한 Matching 시키는 알고리즘이다
 - Start 와 End node 를 추가하면 모든 간선의 용량이 1인 네트워크 플로우로 볼 수 있다
 - 하지만 Edmonds-Karp 알고리즘을 사용하진 않고, 단순히 BFS 를 통해 더 효율적으로 구할 수 있다
 
 
-<img src="/assets/img/Network_Flow.png">  <br>
+<img src="/assets/img/Bipartite_Matching.png">  <br>
 
 위와 같은 Graph 를 입력했을 때 알고리즘은 다음과 같다
 
