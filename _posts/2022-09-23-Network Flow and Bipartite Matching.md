@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Algorithm] Kruskal/Prim and Dijkstra Algorithm"
+title: "[Algorithm] Network Flow and Bipartite Matching"
 categories: Algorithm
 tags: [Algorithm, python]
 ---
