@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Dynamic Programming"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ## Dynamic Programming (동적 계획법)
 - 이전에 구한 값을 통해서 새로 구하고자 하는 값의 연산을 최적화하는 기법이다
 - 단순한 예시로 피보나치 수열을 구하는 알고리즘이 있다
