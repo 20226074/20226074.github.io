@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Kruskal/Prim and Dijkstra Algorithm"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ## Lowest Common Ancestor (최소 공통 조상)
 - Tree 가 주어졌을 때 어떤 두 노드에 대하여 가장 인접한 조상이 무엇임을 찾는다
 - node 마다 모든 조상을 저장해둔 뒤 Binary Search 를 하면 공간복잡도가 높아지므로  <br>
