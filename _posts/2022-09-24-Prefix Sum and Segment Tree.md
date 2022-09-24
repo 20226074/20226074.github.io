@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Algorithm] Longest Incearsing Subsequence"
+title: "[Algorithm] Prefix Sum and Segment Tree"
 categories: Algorithm
 tags: [Algorithm, python]
 ---
