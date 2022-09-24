@@ -56,7 +56,6 @@ print(bisect.bisect_right(List, 13))
 
     5
     5
-    5
     6
     
 
