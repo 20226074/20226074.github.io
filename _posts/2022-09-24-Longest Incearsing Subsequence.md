@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Algorithm] Kruskal/Prim and Dijkstra Algorithm"
+title: "[Algorithm] Longest Incearsing Subsequence"
 categories: Algorithm
 tags: [Algorithm, python]
 ---
