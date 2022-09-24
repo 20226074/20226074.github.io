@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Kruskal/Prim and Dijkstra Algorithm"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ## Longest Increasing Subsequence (LIS) (최장 증가 부분 수열)
 - 어떤 수열이 있을 때 필요한 만큼 수를 제거하여 만들어지는 증가 수열 중 길이의 최대를 구한다
 - $i$ 개로 이루어진 증가 수열을 만들었을 때 마지막 수의 최소값을 저장하면 <br>
