@@ -1,3 +1,11 @@
+---
+layout: single
+title: "[Algorithm] Longest Incearsing Subsequence"
+categories: Algorithm
+tags: [Algorithm, python]
+---
+
+
 ## Prefix Sum (구간 합)
 일반적으로 수열 Numbers 에 대하여 a 번째 수부터 b 번째 수까지의 합을 구하려고 한다면  <br>
 1 번째 수부터 n 번째 수까지의 합을 나타내는 배열 Sum 를 만든 다음, Sum[b] - Sum[a-1] 로 구할 수 있다
