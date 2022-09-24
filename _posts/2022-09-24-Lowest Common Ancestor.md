@@ -76,7 +76,6 @@ for _ in range(m):
             B = parent_table[B][i]
 
     print(parent_table[B][0])
-print(*reversed(result))
 ```
 
     15
