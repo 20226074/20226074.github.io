@@ -10,7 +10,7 @@ tags: [Algorithm, python]
 - Tree 가 주어졌을 때 어떤 두 노드에 대하여 가장 인접한 조상이 무엇임을 찾는다
 - node 마다 모든 조상을 저장해둔 뒤 Binary Search 를 하면 공간복잡도가 높아지므로  <br>
   $2^i$ 번째 조상만을 저장해둔 뒤 선형 탐색을 하여 Binary Search 를 간접적으로 구현하는 방법을 사용한다
-  - $2^i$ 번째 조상을 저장하려면, $2^((i-1))$ 번째 조상의 $2^((i-1))$ 번째 조상을 찾으면 된다
+  - $2^i$ 번째 조상을 저장하려면, $2^{i-1}$ 번째 조상의 $2^{i-1}$ 번째 조상을 찾으면 된다
   - 이를 감안하면 Dynamic Programming 으로 $2^i$ 번째 조상들을 $O(N log N)$ 으로 저장할 수 있다
   
 [LCA 2](https://www.acmicpc.net/problem/11438) <br>
