@@ -36,7 +36,7 @@ $i-1$ 번째 항까지 구했어야 이제 $i$ 번째 항을 빠르게 구할 �
 
 <hr>
 
-[사칙연산](https://school.programmers.co.kr/learn/courses/30/lessons/1843)
+[사칙연산](https://school.programmers.co.kr/learn/courses/30/lessons/1843) <br>
 위 문제의 해결 방법으로는 다음과 같다
 
 
