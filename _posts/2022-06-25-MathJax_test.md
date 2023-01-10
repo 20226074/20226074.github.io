@@ -41,3 +41,7 @@ $$
 \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
 \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
 $$
+
+### Latex...?
+
+\left[\begin{matrix}1&2&3\\4&5&6\\7&8&9\\\end{matrix}\right]\bigm
