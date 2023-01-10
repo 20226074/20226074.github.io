@@ -44,4 +44,4 @@ $$
 
 ### Latex...?
 
-##$\frac{\frac{1}{2}}{\frac{\sqrt3}{\sqrt5}}$
+$\frac{\frac{1}{2}}{\frac{\sqrt3}{\sqrt5}}$
