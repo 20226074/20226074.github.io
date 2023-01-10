@@ -30,7 +30,7 @@ $$ \begin{align}
 
 ### Test matrix
 
-$\begin{bmatrix}1&x&x^2\\\1&\ddots&\vdots\\\1&\cdots&z^2\end{bmatrix}\=100$
+$\begin{bmatrix}1&x&x^2\\1&\ddots&\vdots\\1&\cdots&z^2\end{bmatrix}=100$
 
 
 ### Test formula
