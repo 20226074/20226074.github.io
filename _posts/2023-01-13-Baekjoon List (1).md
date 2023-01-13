@@ -8,10 +8,8 @@
 <details>
   <summary> 문제 리스트 </summary>
 
-  <span style="color: #96CC00">(Sprout)<span style="color: black">
-  [Hello World](https://www.acmicpc.net/problem/2557) <br>
-  <span style="color: #96CC00">(Sprout)<span style="color: black">
-  [A+B](https://www.acmicpc.net/problem/1000) <br>
+<span style="color: #96CC00">(Sprout)<span style="color: black"> [Hello World](https://www.acmicpc.net/problem/2557) <br>
+<span style="color: #96CC00">(Sprout)<span style="color: black"> [A+B](https://www.acmicpc.net/problem/1000) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A-B](https://www.acmicpc.net/problem/1001) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A×B](https://www.acmicpc.net/problem/10998) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A/B](https://www.acmicpc.net/problem/1008) <br>
