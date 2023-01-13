@@ -16,8 +16,9 @@
 <span style="color: #AD5600">(Bronze V)<span style="color: black"> [킹, 퀸, 룩, 비숍, 나이트, 폰](https://www.acmicpc.net/problem/3003) <br>
 <span style="color: #AD5600">(Bronze V)<span style="color: black"> [나머지](https://www.acmicpc.net/problem/10430) <br>
   
-<span style="color: #AD5600">(Bronze III)<span style="color: black"> [곱셈](https://www.acmicpc.net/problem/2588) <details> <summary> (풀이) </summary>
-
+<span style="color: #AD5600">(Bronze III)<span style="color: black"> [곱셈](https://www.acmicpc.net/problem/2588)
+<details>
+<summary> (풀이) </summary>
 ```python
 A = 1
 B = 2
