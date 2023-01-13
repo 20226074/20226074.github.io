@@ -74,13 +74,17 @@
 <details>
 <summary> 문제 리스트 </summary>
 
-<span style="color: #AD5600">(Bronze II)<span style="color: black"> [정수 N개의 합](https://www.acmicpc.net/problem/15596)
+<span style="color: #AD5600">(Bronze II)<span style="color: black"> [정수 N개의 합](https://www.acmicpc.net/problem/15596) <br>
 
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [셀프 넘버](https://www.acmicpc.net/problem/4673) <br>
 <details>
 <summary> (풀이) </summary>
-    
-Blank
+
+```python
+A = 1
+B = 2
+print(A+B)
+```
 </details>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [한수](https://www.acmicpc.net/problem/1065)
