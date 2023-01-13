@@ -77,7 +77,6 @@
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [그룹 단어 체커](https://www.acmicpc.net/problem/1316) ([풀이](about:blank)) <br>
 
 ## Chapter 7 : [기본 수학 1](https://www.acmicpc.net/step/8)
-<br>
 
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [손익분기점](https://www.acmicpc.net/problem/1712) <br>
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [벌집](https://www.acmicpc.net/problem/2292) <br>
