@@ -231,6 +231,9 @@
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [Router](https://www.acmicpc.net/problem/15828) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [요세푸스 문제 0](https://www.acmicpc.net/problem/11866) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [프린터 큐](https://www.acmicpc.net/problem/1966) ([풀이](about:blank)) <br>
+<span style="color: #435F7A">(Silver IV)<span style="color: black"> [덱](https://www.acmicpc.net/problem/10866) ([풀이](about:blank)) <br>
+<span style="color: #435F7A">(Silver IV)<span style="color: black"> [회전하는 큐](https://www.acmicpc.net/problem/1021) ([풀이](about:blank)) <br>
+<span style="color: #EC9A00">(Gold V)<span style="color: black"> [AC](https://www.acmicpc.net/problem/5430) ([풀이](about:blank)) <br>
 
 ## Chapter 22 : [분할 정복](https://www.acmicpc.net/step/20)
 
