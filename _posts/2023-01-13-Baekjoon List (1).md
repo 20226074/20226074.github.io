@@ -4,12 +4,7 @@
 - 풀이는 <span style="color: silver">**Silver V** <span style="color: black"> 이상만 작성하였다
 
 ## Chapter 1 : 입출력과 사칙연산
-[Hello World](https://www.acmicpc.net/problem/2557) <br>
-<br>
-<details>
-  <summary> 문제 리스트 </summary>
-  
-[Hello World](https://www.acmicpc.net/problem/2557) <br>
+
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [Hello World](https://www.acmicpc.net/problem/2557) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A+B](https://www.acmicpc.net/problem/1000) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A-B](https://www.acmicpc.net/problem/1001) <br>
@@ -24,8 +19,6 @@
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [고양이](https://www.acmicpc.net/problem/10171) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [개](https://www.acmicpc.net/problem/10172) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [새싹](https://www.acmicpc.net/problem/25083) <br>
-
-</details>
 
 ## Chapter 2 : 조건문
 <br>
