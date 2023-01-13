@@ -242,7 +242,11 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [종이의 개수](https://www.acmicpc.net/problem/1780) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [곱셈](https://www.acmicpc.net/problem/1629) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [이항 계수 3](https://www.acmicpc.net/problem/11401) ([풀이](about:blank)) <br>
-
+<span style="color: #435F7A">(Silver V)<span style="color: black"> [행렬 곱셈](https://www.acmicpc.net/problem/2740) ([풀이](about:blank)) <br>
+<span style="color: #EC9A00">(Gold IV)<span style="color: black"> [행렬 제곱](https://www.acmicpc.net/problem/10830) ([풀이](about:blank)) <br>
+<span style="color: #EC9A00">(Gold II)<span style="color: black"> [피보나치 수 6](https://www.acmicpc.net/problem/11444) ([풀이](about:blank)) <br>
+<span style="color: #27E2A4">(Platinum V)<span style="color: black"> [히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) ([풀이](about:blank)) <br>
+  
 ## Chapter 23 : [이분 탐색](https://www.acmicpc.net/step/29)
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [수 찾기](https://www.acmicpc.net/problem/1920) ([풀이](about:blank)) <br>
