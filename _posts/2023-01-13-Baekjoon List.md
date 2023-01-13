@@ -124,7 +124,7 @@
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [피보나치 수 5](https://www.acmicpc.net/problem/10870) <br>
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [재귀의 귀재](https://www.acmicpc.net/problem/25501) <br>
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060) ([풀이](about:blank)) <br>
-<span style="color: #EC9A00">(Gold 5)<span style="color: black"> [별 찍기 - 10](https://www.acmicpc.net/problem/2447) ([풀이](about:blank)) <br>
+<span style="color: #EC9A00">(Gold V)<span style="color: black"> [별 찍기 - 10](https://www.acmicpc.net/problem/2447) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) ([풀이](about:blank)) <br>
 
 ## Chapter 12 : [브루트 포스](https://www.acmicpc.net/step/22)
