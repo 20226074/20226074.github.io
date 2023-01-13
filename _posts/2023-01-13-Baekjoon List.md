@@ -4,7 +4,6 @@
 - 풀이는 <span style="color: silver">**Silver V** <span style="color: black"> 이상만 작성하였다
 
 ## Chapter 1 : [입출력과 사칙연산](https://www.acmicpc.net/step/1)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [Hello World](https://www.acmicpc.net/problem/2557) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A+B](https://www.acmicpc.net/problem/1000) <br>
@@ -22,7 +21,6 @@
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [새싹](https://www.acmicpc.net/problem/25083) <br>
 
 ## Chapter 2 : [조건문](https://www.acmicpc.net/step/4)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [두 수 비교하기](https://www.acmicpc.net/problem/1330) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [시험 성적](https://www.acmicpc.net/problem/9498) <br>
@@ -33,7 +31,6 @@
 <span style="color: #AD5600">(Bronze IV)<span style="color: black"> [주사위 세개](https://www.acmicpc.net/problem/2480) <br>
 
 ## Chapter 3 : [반복문](https://www.acmicpc.net/step/3)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [구구단](https://www.acmicpc.net/problem/2739) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [A+B - 3](https://www.acmicpc.net/problem/10950) <br>
@@ -49,7 +46,6 @@
 <span style="color: #AD5600">(Bronze I)<span style="color: black"> [더하기 사이클](https://www.acmicpc.net/problem/1110) <br>
 
 ## Chapter 4 : [1차원 배열](https://www.acmicpc.net/step/6)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [개수 세기](https://www.acmicpc.net/problem/10807) <br>
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [X보다 작은 수](https://www.acmicpc.net/problem/10871) <br>
@@ -62,14 +58,12 @@
 <span style="color: #AD5600">(Bronze I)<span style="color: black"> [평균은 넘겠지](https://www.acmicpc.net/problem/4344) <br>
 
 ## Chapter 5 : [함수](https://www.acmicpc.net/step/5)
-<br>
 
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [정수 N개의 합](https://www.acmicpc.net/problem/15596) <br>
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [셀프 넘버](https://www.acmicpc.net/problem/4673) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [한수](https://www.acmicpc.net/problem/1065) ([풀이](about:blank)) <br>
 
 ## Chapter 6 : [문자열](https://www.acmicpc.net/step/7)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [아스키 코드](https://www.acmicpc.net/problem/11654) <br>
 <span style="color: #AD5600">(Bronze IV)<span style="color: black"> [숫자의 합](https://www.acmicpc.net/problem/11720) <br>
@@ -95,7 +89,6 @@
 <span style="color: #AD5600">(Bronze V)<span style="color: black"> [큰 수 A+B](https://www.acmicpc.net/problem/10757) <br>
 
 ## Chapter 8 : [기본 수학 2](https://www.acmicpc.net/step/10)
-<br>
 
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [소수 찾기](https://www.acmicpc.net/problem/1978) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [소수](https://www.acmicpc.net/problem/2581) ([풀이](about:blank)) <br>
@@ -105,14 +98,12 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [골드바흐의 추측](https://www.acmicpc.net/problem/9020) ([풀이](about:blank)) <br>
 
 ## Chapter 9 : [2차원 배열](https://www.acmicpc.net/step/2)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [행렬 덧셈](https://www.acmicpc.net/problem/2738) <br>
 <span style="color: #AD5600">(Bronze III)<span style="color: black"> [최댓값](https://www.acmicpc.net/problem/2566) <br>
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [색종이](https://www.acmicpc.net/problem/2563) ([풀이](about:blank)) <br>
 
 ## Chapter 10 : [정렬](https://www.acmicpc.net/step/9)
-<br>
 
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [수 정렬하기](https://www.acmicpc.net/problem/2750) <br>
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [대표값2](https://www.acmicpc.net/problem/2587) <br>
@@ -128,7 +119,6 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [좌표 압축](https://www.acmicpc.net/problem/18870) ([풀이](about:blank)) <br>
 
 ## Chapter 11 : [재귀](https://www.acmicpc.net/step/19)
-<br>
 
 <span style="color: #96CC00">(Sprout)<span style="color: black"> [팩토리얼](https://www.acmicpc.net/problem/10872) <br>
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [피보나치 수 5](https://www.acmicpc.net/problem/10870) <br>
@@ -138,7 +128,6 @@
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) ([풀이](about:blank)) <br>
 
 ## Chapter 12 : [브루트 포스](https://www.acmicpc.net/step/22)
-<br>
 
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [블랙잭](https://www.acmicpc.net/problem/2798) <br>
 <span style="color: #AD5600">(Bronze II)<span style="color: black"> [분해합](https://www.acmicpc.net/problem/2231) <br>
@@ -147,7 +136,6 @@
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [영화감독 숌](https://www.acmicpc.net/problem/1436) ([풀이](about:blank)) <br>
 
 ## Chapter 13 : [집합과 맵](https://www.acmicpc.net/step/49)
-<br>
 
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [숫자 카드](https://www.acmicpc.net/problem/10815) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [문자열 집합](https://www.acmicpc.net/problem/14425) ([풀이](about:blank)) <br>
@@ -158,7 +146,6 @@
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478) ([풀이](about:blank)) <br>
 
 ## Chapter 14 : [기하 1](https://www.acmicpc.net/step/50)
-<br>
 
 <span style="color: #AD5600">(Bronze III)<span style="color: black"> [직사각형에서 탈출](https://www.acmicpc.net/problem/1085) <br>
 <span style="color: #AD5600">(Bronze III)<span style="color: black"> [네 번째 점](https://www.acmicpc.net/problem/3009) <br>
@@ -169,7 +156,6 @@
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [어린 왕자](https://www.acmicpc.net/problem/1004) ([풀이](about:blank)) <br>
 
 ## Chapter 15 : [정수론 및 조합론](https://www.acmicpc.net/step/18)
-<br>
 
 <span style="color: #AD5600">(Bronze III)<span style="color: black"> [배수와 약수](https://www.acmicpc.net/problem/5086) <br>
 <span style="color: #AD5600">(Bronze I)<span style="color: black"> [약수](https://www.acmicpc.net/problem/1037) <br>
@@ -185,7 +171,6 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [조합 0의 개수](https://www.acmicpc.net/problem/2004) ([풀이](about:blank)) <br>
 
 ## Chapter 16 : [백트래킹](https://www.acmicpc.net/step/34)
-<br>
 
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [N과 M (1)](https://www.acmicpc.net/problem/15649) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [N과 M (2)](https://www.acmicpc.net/problem/15650) ([풀이](about:blank)) <br>
@@ -197,7 +182,6 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [스타트와 링크](https://www.acmicpc.net/problem/14889) ([풀이](about:blank)) <br>
 
 ## Chapter 17 : [동적 계획법 1](https://www.acmicpc.net/step/16)
-<br>
 
 <span style="color: #AD5600">(Bronze I)<span style="color: black"> [알고리즘 수업 - 피보나치 수](https://www.acmicpc.net/problem/24416) <br>
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [신나는 함수 실행](https://www.acmicpc.net/problem/9184) ([풀이](about:blank)) <br>
@@ -217,7 +201,6 @@
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [평범한 배낭](https://www.acmicpc.net/problem/12865) ([풀이](about:blank)) <br>
 
 ## Chapter 18 : [누적 합](https://www.acmicpc.net/step/48)
-<br>
 
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [구간 합 구하기 4](https://www.acmicpc.net/problem/11659) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [수열](https://www.acmicpc.net/problem/2559) ([풀이](about:blank)) <br>
@@ -227,7 +210,6 @@
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [체스판 다시 칠하기 2](https://www.acmicpc.net/problem/25682) ([풀이](about:blank)) <br>
 
 ## Chapter 19 : [그리디 알고리즘](https://www.acmicpc.net/step/33)
-<br>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [동전 0](https://www.acmicpc.net/problem/11047) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [회의실 배정](https://www.acmicpc.net/problem/1931) ([풀이](about:blank)) <br>
@@ -236,7 +218,6 @@
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [주유소](https://www.acmicpc.net/problem/13305) ([풀이](about:blank)) <br>
 
 ## Chapter 20 : [스택](https://www.acmicpc.net/step/11)
-<br>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [스택](https://www.acmicpc.net/problem/10828) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [제로](https://www.acmicpc.net/problem/10773) ([풀이](about:blank)) <br>
@@ -245,7 +226,6 @@
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [스택 수열](https://www.acmicpc.net/problem/1874) ([풀이](about:blank)) <br>
 
 ## Chapter 21 : [큐, 덱](https://www.acmicpc.net/step/12)
-<br>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [큐 2](https://www.acmicpc.net/problem/18258) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [카드2](https://www.acmicpc.net/problem/2164) ([풀이](about:blank)) <br>
@@ -254,7 +234,6 @@
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [프린터 큐](https://www.acmicpc.net/problem/1966) ([풀이](about:blank)) <br>
 
 ## Chapter 22 : [분할 정복](https://www.acmicpc.net/step/20)
-<br>
 
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [색종이 만들기](https://www.acmicpc.net/problem/2630) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [쿼드트리](https://www.acmicpc.net/problem/1992) ([풀이](about:blank)) <br>
@@ -263,7 +242,6 @@
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [이항 계수 3](https://www.acmicpc.net/problem/11401) ([풀이](about:blank)) <br>
 
 ## Chapter 23 : [이분 탐색](https://www.acmicpc.net/step/29)
-<br>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [수 찾기](https://www.acmicpc.net/problem/1920) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [숫자 카드 2](https://www.acmicpc.net/problem/10816) ([풀이](about:blank)) <br>
@@ -274,14 +252,12 @@
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) ([풀이](about:blank)) <br>
 
 ## Chapter 24 : [우선순위 큐](https://www.acmicpc.net/step/13)
-<br>
 
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [최대 힙](https://www.acmicpc.net/problem/11279) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [최소 힙](https://www.acmicpc.net/problem/1927) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [절댓값 힙](https://www.acmicpc.net/problem/11286) ([풀이](about:blank)) <br>
 
 ## Chapter 25 : [동적 계획법 2](https://www.acmicpc.net/step/17)
-<br>
 
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [파일 합치기](https://www.acmicpc.net/problem/11066) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049) ([풀이](about:blank)) <br>
@@ -291,7 +267,6 @@
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [앱](https://www.acmicpc.net/problem/7579) ([풀이](about:blank)) <br>
 
 ## Chapter 26 : [스택 2](https://www.acmicpc.net/step/51)
-<br>
 
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [문자열 폭발](https://www.acmicpc.net/problem/9935) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [오큰수](https://www.acmicpc.net/problem/17298) ([풀이](about:blank)) <br>
@@ -300,7 +275,6 @@
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [오아시스 재결합](https://www.acmicpc.net/problem/3015) ([풀이](about:blank)) <br>
 
 ## Chapter 27 : [그래프와 순회](https://www.acmicpc.net/step/24)
-<br>
 
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [알고리즘 수업 - 깊이 우선 탐색 1](https://www.acmicpc.net/problem/24479) ([풀이](about:blank)) <br>
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [알고리즘 수업 - 깊이 우선 탐색 2](https://www.acmicpc.net/problem/24480) ([풀이](about:blank)) <br>
@@ -320,7 +294,6 @@
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [이분 그래프](https://www.acmicpc.net/problem/1707) ([풀이](about:blank)) <br>
 
 ## Chapter 28 : [최단 경로](https://www.acmicpc.net/step/26)
-<br>
 
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [최단경로](https://www.acmicpc.net/problem/1753) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [특정한 최단 경로](https://www.acmicpc.net/problem/1504) ([풀이](about:blank)) <br>
@@ -331,7 +304,6 @@
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [운동](https://www.acmicpc.net/problem/1956) ([풀이](about:blank)) <br>
 
 ## Chapter 29 : [투 포인터](https://www.acmicpc.net/step/59)
-<br>
 
 <span style="color: #435F7A">(Silver III)<span style="color: black"> [두 수의 합](https://www.acmicpc.net/problem/3273) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [두 용액](https://www.acmicpc.net/problem/2470) ([풀이](about:blank)) <br>
@@ -340,7 +312,6 @@
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [냅색문제](https://www.acmicpc.net/problem/1450) ([풀이](about:blank)) <br>
 
 ## Chapter 30 : [동적 계획법과 최단거리 역추적](https://www.acmicpc.net/step/41)
-<br>
 
 <span style="color: #435F7A">(Silver I)<span style="color: black"> [1로 만들기 2](https://www.acmicpc.net/problem/12852) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [가장 긴 증가하는 부분 수열 4](https://www.acmicpc.net/problem/14002) ([풀이](about:blank)) <br>
@@ -353,7 +324,6 @@
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [플로이드 2](https://www.acmicpc.net/problem/11780) ([풀이](about:blank)) <br>
 
 ## Chapter 31 : [트리](https://www.acmicpc.net/step/23)
-<br>
 
 <span style="color: #435F7A">(Silver II)<span style="color: black"> [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [트리의 지름](https://www.acmicpc.net/problem/1167) ([풀이](about:blank)) <br>
@@ -364,7 +334,6 @@
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [트리](https://www.acmicpc.net/problem/4803) ([풀이](about:blank)) <br>
 
 ## Chapter 32 : [유니온 파인드](https://www.acmicpc.net/step/14)
-<br>
 
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [집합의 표현](https://www.acmicpc.net/problem/1717) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [여행 가자](https://www.acmicpc.net/problem/1976) ([풀이](about:blank)) <br>
@@ -372,7 +341,6 @@
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [사이클 게임](https://www.acmicpc.net/problem/20040) ([풀이](about:blank)) <br>
 
 ## Chapter 33 : [최소 신장 트리](https://www.acmicpc.net/step/15)
-<br>
 
 <span style="color: #435F7A">(Silver IV)<span style="color: black"> [상근이의 여행](https://www.acmicpc.net/problem/9372) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [최소 스패닝 트리](https://www.acmicpc.net/problem/1197) ([풀이](about:blank)) <br>
@@ -382,7 +350,6 @@
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [다리 만들기 2](https://www.acmicpc.net/problem/1300) ([풀이](about:blank)) <br>
 
 ## Chapter 34 : [트리에서의 동적 계획법](https://www.acmicpc.net/step/21)
-<br>
 
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [트리와 쿼리](https://www.acmicpc.net/problem/15681) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [트리의 독립집합](https://www.acmicpc.net/problem/2213) ([풀이](about:blank)) <br>
@@ -390,7 +357,6 @@
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [우수 마을](https://www.acmicpc.net/problem/1949) ([풀이](about:blank)) <br>
 
 ## Chapter 35 : [기하 2](https://www.acmicpc.net/step/45)
-<br>
 
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [다각형의 면적](https://www.acmicpc.net/problem/2166) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [CCW](https://www.acmicpc.net/problem/11758) ([풀이](about:blank)) <br>
@@ -403,7 +369,6 @@
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [집으로](https://www.acmicpc.net/problem/1069) ([풀이](about:blank)) <br>
 
 ## Chapter 36 : [동적 계획법 3](https://www.acmicpc.net/step/31)
-<br>
 
 <span style="color: #435F7A">(Silver V)<span style="color: black"> [집합](https://www.acmicpc.net/problem/11723) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [할 일 정하기 1](https://www.acmicpc.net/problem/1311) ([풀이](about:blank)) <br>
@@ -413,7 +378,6 @@
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [색상환](https://www.acmicpc.net/problem/2482) ([풀이](about:blank)) <br>
 
 ## Chapter 37 : [문자열 알고리즘 1](https://www.acmicpc.net/step/27)
-<br>
 
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [찾기](https://www.acmicpc.net/problem/1786) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [광고](https://www.acmicpc.net/problem/1305) ([풀이](about:blank)) <br>
@@ -422,14 +386,12 @@
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [휴대폰 자판](https://www.acmicpc.net/problem/5670) ([풀이](about:blank)) <br>
 
 ## Chapter 38 : [위상 정렬](https://www.acmicpc.net/step/25)
-<br>
 
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [줄 세우기](https://www.acmicpc.net/problem/2252) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [최종 순위](https://www.acmicpc.net/problem/3665) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [문제집](https://www.acmicpc.net/problem/1766) ([풀이](about:blank)) <br>
 
 ## Chapter 39 : [최소 공통 조상](https://www.acmicpc.net/step/40)
-<br>
 
 <span style="color: #EC9A00">(Gold IV)<span style="color: black"> [가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [합성함수와 쿼리](https://www.acmicpc.net/problem/17435) ([풀이](about:blank)) <br>
@@ -438,7 +400,6 @@
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [트리와 쿼리 2](https://www.acmicpc.net/problem/13511) ([풀이](about:blank)) <br>
 
 ## Chapter 40 : [강한 연결 요소](https://www.acmicpc.net/step/43)
-<br>
 
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [Strongly Connected Component](https://www.acmicpc.net/problem/2150) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [도미노](https://www.acmicpc.net/problem/4196) ([풀이](about:blank)) <br>
@@ -450,7 +411,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [TV Show Game](https://www.acmicpc.net/problem/16387) ([풀이](about:blank)) <br>
 
 ## Chapter 41 : [세그먼트 트리](https://www.acmicpc.net/step/35)
-<br>
 
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [구간 합 구하기](https://www.acmicpc.net/problem/2042) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [구간 곱 구하기](https://www.acmicpc.net/problem/11505) ([풀이](about:blank)) <br>
@@ -462,7 +422,6 @@
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [요세푸스 문제 2](https://www.acmicpc.net/problem/1168) ([풀이](about:blank)) <br>
 
 ## Chapter 42 : [스위핑](https://www.acmicpc.net/step/39)
-<br>
 
 <span style="color: #EC9A00">(Gold V)<span style="color: black"> [선 긋기](https://www.acmicpc.net/problem/2110) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold III)<span style="color: black"> [수상 택시](https://www.acmicpc.net/problem/2836) ([풀이](about:blank)) <br>
@@ -472,7 +431,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [Egg](https://www.acmicpc.net/problem/11012) ([풀이](about:blank)) <br>
 
 ## Chapter 43 : [동적 계획법 4](https://www.acmicpc.net/step/47)
-<br>
 
 <span style="color: #EC9A00">(Gold I)<span style="color: black"> [펠린드롬 분할](https://www.acmicpc.net/problem/1509) ([풀이](about:blank)) <br>
 <span style="color: #EC9A00">(Gold II)<span style="color: black"> [로봇 조종하기](https://www.acmicpc.net/problem/2169) ([풀이](about:blank)) <br>
@@ -486,7 +444,6 @@
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [연세워터파크](https://www.acmicpc.net/problem/15678) ([풀이](about:blank)) <br>
 
 ## Chapter 44 : [컨벡스 헐](https://www.acmicpc.net/step/37)
-<br>
 
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [볼록 껍질](https://www.acmicpc.net/problem/1708) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [고속도로](https://www.acmicpc.net/problem/10254) ([풀이](about:blank)) <br>
@@ -495,7 +452,6 @@
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [단순 다각형](https://www.acmicpc.net/problem/3679) ([풀이](about:blank)) <br>
 
 ## Chapter 45 : [이분 매칭](https://www.acmicpc.net/step/38)
-<br>
 
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [열혈강호](https://www.acmicpc.net/problem/11375) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [열혈강호 2](https://www.acmicpc.net/problem/11376) ([풀이](about:blank)) <br>
@@ -505,7 +461,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [컨닝 2](https://www.acmicpc.net/problem/11014) ([풀이](about:blank)) <br>
 
 ## Chapter 46 : [네트워크 플로우](https://www.acmicpc.net/step/36)
-<br>
 
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [도시 왕복하기 1](https://www.acmicpc.net/problem/17412) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [열혈강호 4](https://www.acmicpc.net/problem/11378) ([풀이](about:blank)) <br>
@@ -517,7 +472,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [격자 0 만들기](https://www.acmicpc.net/problem/11495) ([풀이](about:blank)) <br>
 
 ## Chapter 47 : [MCMF](https://www.acmicpc.net/step/42)
-<br>
 
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [열혈강호 5](https://www.acmicpc.net/problem/11408) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [열혈강호 6](https://www.acmicpc.net/problem/11409) ([풀이](about:blank)) <br>
@@ -525,7 +479,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [두부장수 장홍준 2](https://www.acmicpc.net/problem/11111) ([풀이](about:blank)) <br>
 
 ## Chapter 48 : [더 어려운 수학](https://www.acmicpc.net/step/44)
-<br>
 
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [이항 계수 4](https://www.acmicpc.net/problem/11402) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [캔디 분배](https://www.acmicpc.net/problem/3955) ([풀이](about:blank)) <br>
@@ -534,7 +487,6 @@
 <span style="color: #00B4FC">(Diamond V)<span style="color: black"> [큰 수 소인수분해](https://www.acmicpc.net/problem/4149) ([풀이](about:blank)) <br>
 
 ## Chapter 49 : [고속 푸리에 변환](https://www.acmicpc.net/step/60)
-<br>
 
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [Golf Bot](https://www.acmicpc.net/problem/10531) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [이동](https://www.acmicpc.net/problem/1067) ([풀이](about:blank)) <br>
@@ -543,7 +495,6 @@
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [큰 수 곱셈(2)](https://www.acmicpc.net/problem/15576) ([풀이](about:blank)) <br>
 
 ## Chapter 50 : [문자열 알고리즘 2](https://www.acmicpc.net/step/28)
-<br>
 
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [가장 긴 팰린드롬 부분 문자열](https://www.acmicpc.net/problem/13275) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum V)<span style="color: black"> [#15164번_제보](https://www.acmicpc.net/problem/16163) ([풀이](about:blank)) <br>
@@ -558,7 +509,6 @@
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [아스키 거리](https://www.acmicpc.net/problem/2809) ([풀이](about:blank)) <br>
 
 ## Chapter 51 : [어려운 구간 쿼리](https://www.acmicpc.net/step/30)
-<br>
 
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [회사 문화 2](https://www.acmicpc.net/problem/14268) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum III)<span style="color: black"> [회사 문화 3](https://www.acmicpc.net/problem/14287) ([풀이](about:blank)) <br>
@@ -573,7 +523,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [배열의 힘](https://www.acmicpc.net/problem/8462) ([풀이](about:blank)) <br>
 
 ## Chapter 52 : [세그먼트 트리 (Hard)](https://www.acmicpc.net/step/58)
-<br>
 
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [증가 수열의 개수](https://www.acmicpc.net/problem/17409) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum IV)<span style="color: black"> [추출하는 폴도 바리스타입니다](https://www.acmicpc.net/problem/15648) ([풀이](about:blank)) <br>
@@ -584,7 +533,6 @@
 <span style="color: #00B4FC">(Diamond V)<span style="color: black"> [벽](https://www.acmicpc.net/problem/10070) ([풀이](about:blank)) <br>
 
 ## Chapter 53 : [동적 계획법 최적화](https://www.acmicpc.net/step/32)
-<br>
 
 <span style="color: #00B4FC">(Diamond V)<span style="color: black"> [Leftmost Segment](https://www.acmicpc.net/problem/14751) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [나무 자르기](https://www.acmicpc.net/problem/13263) ([풀이](about:blank)) <br>
@@ -596,7 +544,6 @@
 <span style="color: #27E2A4">(Platinum II)<span style="color: black"> [파일 합치기 2](https://www.acmicpc.net/problem/13974) ([풀이](about:blank)) <br>
 
 ## Chapter 54 : [매우 어려운 자료구조와 알고리즘 (수정 예정)](https://www.acmicpc.net/step/46)
-<br>
 
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [트리와 쿼리 1](https://www.acmicpc.net/problem/13510) ([풀이](about:blank)) <br>
 <span style="color: #27E2A4">(Platinum I)<span style="color: black"> [트리와 쿼리 3](https://www.acmicpc.net/problem/13512) ([풀이](about:blank)) <br>
