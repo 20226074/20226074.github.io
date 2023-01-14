@@ -1,0 +1,427 @@
+# Calculus
+
+- Calculus, 9/E (Metric Version) 의 내용을 정리하였다
+
+*****
+
+## Chapter 1 : Functions and Models
+
+### 1) Four Ways to Represent a Function
+
+function $f$ : a rule that asssigns to each element $x$ in a set $D$ exactly one element, called $f(x)$, in a set $E$
+- four ways to represent $f(x) = x^2$
+  - verbally : The rule that assigns to each real number its square
+  - numerically : $f(x) = 1, 4, 9, ...$ when $x = 1, 2, 3, ...$
+  - visually : sketching $\{(x, x^2) | x \in D\}$
+  - algebraically : $f(x) = x^2$
+- piecewise defined function : function that is defined by different formulas in different parts of $D$
+- increasing on an interval $I$ : $f(x_1) < f(x_2)$ whenever $x_1 < x_2$ in $I$
+- decreasing on an interval $I$ : $f(x_1) > f(x_2)$ whenever $x_1 < x_2$ in $I$
+
+### 2) Mathematical Models: A Catalog of Essential Functions
+
+polynomial : $P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_2x^2+a_1x+a_0$
+- where $n$ is a nonnegative integer and the numbers $a_0, a_1, ..., a_n$ are constants called the coefficients of $P$
+- linear function : $P(x) = ax + b$  where $a \neq 0$
+- quadratic function : $P(x) = ax^2 + bx + c$  where $a \neq 0$
+- cubic function : $P(x) = ax^3 + bx^2 + cx + d$  where $a \neq 0$
+
+power function : $f(x) = x^a$ where $a$ is a constant
+- root function : $f(x) = x^{1/n}$ where $n$ is a positive integer
+  - if $n$ is even, then the domain is $\{x|x\geq0\}$
+- reciprocal function : $f(x) = x^{-n}$ where $n$ is a positive integer
+  - if $n$ is even, then the range is $\{y|y\geq0\}$
+
+rational function : $f(x)=\frac{P(x)}{Q(x)}$ where $P$ and $Q$ are polynomial
+- the domain consists of all values of $x$ such that $Q(x) \neq 0$
+
+trigonometric function : $f(x) = \sin x$, $\cos x$, $\tan x$, ... <br>
+exponential function : $f(x) = b^x$ where the base $b$ is a positive constant <br>
+logarithmic function : $f(x) = \log_{b}x$ where the base $b$ is a positive constant <br>
+
+### 3) New Functions from Old Functions
+
+$y = f(x) \pm c$ : shift the graph of $y = f(x)$ a distance $c$ units upward/downward  ( vertically ) <br>
+$y = f(x \pm c)$ : shift the graph of $y = f(x)$ a distance $c$ units to the right/left  ( horizontally ) <br>
+
+$y = cf(x)$ : stretch the graph of $y = f(x)$ vertically by a factor of $c$ <br>
+$y = (1/c)f(x)$ : shrink the graph of $y = f(x)$ vertically by a factor of $c$ <br>
+$y = f(cx)$ : shrink the graph of $y = f(x)$ horizontally by a factor of $c$ <br>
+$y = f(x/c)$ : stretch the graph of $y = f(x)$ horizontally by a factor of $c$ <br>
+$y = -f(x)$ : reflect the graph of $y = f(x)$ about the $x$-axis <br>
+$y = f(-x)$ : reflect the graph of $y = f(x)$ about the $y$-axis <br>
+
+sum function : $(f+g)(x) = f(x) + g(x)$ <br>
+difference function : $(f-g)(x) = f(x) - g(x)$ <br>
+product function : $(fg)(x) = f(x)g(x)$ <br> 
+quotient function : $(\frac{f}{g})(x) = \frac{f(x)}{g(x)}$ <br>
+composite function : $(f \circ g)(x)=f(g(x))$
+
+### 4) Exponential Function
+If $a$ and $b$ are positive numbers and $x$ and $y$ are real numbers, then
+- $b^{x+y} = {b^x}{b^y}$
+- $b^{x-y} = \frac{b^x}{b^y}$
+- $(b^x)^y = b^xy$
+- ${ab}^x = {a^x}{b^x}$
+
+### 5) Inverse Functions and Logarithms
+
+Let $f$ be a one-to-one function with domain $A$ and range $B$ <br>
+Then its inverse function $f^{-1}$ has domain $B$ and range $A$ <br>
+and is defined by $f^{-1}\left(y\right)=x\ \Longleftrightarrow\ f\left(x\right)=y\ $ for any $y$  in $B$
+- one-to-one function : $f(x_1) \neq f(x_2)$ whenever $x_1 \neq x_2$
+- $y = f(x) = b^x \ \ \Longleftrightarrow\ \  x = f^{-1}(y) = log_{b}(y)$ <br>
+  so that the inverse of $f$ is $y = f^{-1}(x) = log_{b}(x)$ 
+
+inverse sine function : $\sin y = x \Longleftrightarrow y = \arcsin x$
+- $-\frac{\pi}{2} \le y \le \frac{\pi}{2}$, $\ \ -1 \le x \le 1$
+
+inverse cosine function : $\cos y = x \Longleftrightarrow y = \arccos x$
+- $0 \le y \le \pi$, $\ \ -1 \le x \le 1$
+
+inverse tangent function : $\tan y = x \Longleftrightarrow y= \arctan x$
+- $-\frac{\pi}{2} < y < \frac{\pi}{2}$, $\ \ x \in (\infty, \infty)$
+
+inverse cosecant function : $\frac{1}{\sin y} = x \Longleftrightarrow y = \csc^{-1} x$
+- $-\frac{\pi}{2} \le y < 0 \ \ or \ \ 0 < y \le \frac{\pi}{2}$, $\ \ \ x \le -1 \ or \  x \geq 1$
+
+inverse secant function : $\frac{1}{\cos y} = x \Longleftrightarrow y = \sec^{-1} x$
+- $0 \le y < \frac{\pi}{2} \ or \ \frac{\pi}{2} < y \le \pi$, $\ \ \ x \le -1 \ or \  x \geq 1$
+
+inverse cotangent function : $\frac{1}{\tan y} = x \Longleftrightarrow y = \cot^{-1} x$
+- $0 < y < \pi$, $\ \ x \in (\infty, \infty)$
+<br>
+
+Q. prove that $\cos(\sin^{-1}x) = \sqrt{1-x^2}$ <br>
+- since the range of $\sin^{-1}x$ is $-\frac{\pi}{2} \le y \le \frac{\pi}{2}$, the range of $\cos (\sin^{-1}x)$ is $0 \le x \le 1$
+- therefore, $\cos(\sin^{-1}x) = \sqrt{1 - (\sin(\sin^{-1}x))^2} = \sqrt{1 - x^2}$
+
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+dx = 0.01
+all_domain = np.arange(-4, 4, dx)
+sin_domain = np.arange(-np.pi/2, np.pi/2, dx)
+cos_domain = np.arange(0, np.pi, dx)
+tan_domain = np.arange(-np.pi/2 + dx, np.pi/2 - dx, dx)
+csc_domain1 = np.arange(-np.pi/2, -dx, dx); csc_domain2 = np.arange(dx, np.pi/2, dx)
+sec_domain1 = np.arange(0, np.pi/2 - dx, dx); sec_domain2 = np.arange(np.pi/2 + dx, np.pi, dx)
+cot_domain = np.arange(dx, np.pi - dx, dx)
+
+sin_range = np.sin(sin_domain)
+cos_range = np.cos(cos_domain)
+tan_range = np.tan(tan_domain)
+csc_range1 = 1 / np.sin(csc_domain1); csc_range2 = 1 / np.sin(csc_domain2)
+sec_range1 = 1 / np.cos(sec_domain1); sec_range2 = 1 / np.cos(sec_domain2)
+cot_range = 1 / np.tan(cot_domain)
+
+plt.figure(figsize=(20, 10))
+
+plt.subplot(2, 3, 1); plt.title("arcsin"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(sin_domain, sin_range, 'blue', all_domain, np.sin(all_domain), ':', sin_range, sin_domain, 'red')
+
+plt.subplot(2, 3, 2); plt.title("arccos"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(cos_domain, cos_range, 'blue', all_domain, np.cos(all_domain), ':', cos_range, cos_domain, 'red')
+
+plt.subplot(2, 3, 3); plt.title("arctan"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(tan_domain, tan_range, 'blue', all_domain, np.tan(all_domain), ':', tan_range, tan_domain, 'red')
+
+plt.subplot(2, 3, 4); plt.title("arccsc"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(csc_domain1, csc_range1, 'blue', csc_domain2, csc_range2, 'blue', all_domain, 1 / np.sin(all_domain), ':', csc_range1, csc_domain1, 'red', csc_range2, csc_domain2, 'red')
+
+plt.subplot(2, 3, 5); plt.title("arcsec"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(sec_domain1, sec_range1, 'blue', sec_domain2, sec_range2, 'blue', all_domain, 1 / np.cos(all_domain), ':', sec_range1, sec_domain1, 'red', sec_range2, sec_domain2, 'red')
+
+plt.subplot(2, 3, 6); plt.title("arccot"); plt.axis([-4, 4, -4, 4]); plt.axhline(y=0, color='black'); plt.axvline(x=0, color='black'); plt.xticks([-np.pi, -np.pi/2, np.pi/2, np.pi]); plt.yticks([-np.pi, -np.pi/2, np.pi/2, np.pi])
+plt.plot(cot_domain, cot_range, 'blue', all_domain, 1 / np.tan(all_domain), ':', cot_range, cot_domain, 'red')
+
+plt.show()
+```
+
+
+    
+![png](output_9_0.png)
+    
+
+
+*****
+
+## Chapter 2 : Limits and Derivatives
+
+### 1) The Tangent and Velocity Problems
+
+### 2) The Limit of a Function
+
+### 3) Calculating Limits Using the Limit Laws
+
+### 4) The Precise Definition of a Limit
+
+### 5) Continuity
+
+### 6) Limits at Infinity; Horizontal Asymptotes
+
+### 7) Derivatives and Rates of Change
+
+### 8) The Derivative as a Function
+
+*****
+
+## Chapter 3 : Differentiation Rules
+
+### 1) Derivatives of Polynomials and Exponential Functions
+
+### 2) The Product and Quotient Rules
+
+### 3) Derivatives of Trigonometric Functions
+
+### 4) The Chain Rule
+
+### 5) Implicit Differentiation
+
+### 6) Derivatives of Logarithmic and Inverse Trigonometric Functions
+
+### 7) Rates of Change in the Natural and Social Sciences
+
+### 8) Exponential Growth and Decay
+
+### 9) Related Rates
+
+### 10) Linear Approximations and Differentials
+
+### 11) Hyperbolic Functions
+
+*****
+
+## Chapter 4 : Applications of Differentiation
+
+### 1) Maximum and Minimum Values
+
+### 2) The Mean Value Theorem
+
+### 3) What Derivatives Tell Us about the Shape of a Graph
+
+### 4) Indeterminate Forms and I'Hospital's Rule
+
+### 5) Summary of Curve Sketching
+
+### 6) Graphing with Calculus and Technology
+
+### 7) Optimization Problems
+
+### 8) Newton's Method
+
+### 9) Antiderivatives
+
+*****
+
+## Chapter 5 : Integrals
+
+### 1) The Area and Distance Problems
+
+### 2) The Definite Integral
+
+### 3) The Fundamental Theorem of Calculus
+
+### 4) Indefinite Integrals and the Net Change Theorem
+
+### 5) The Substitution Rule
+
+*****
+
+## Chapter 6 : Applications of Integration
+
+### 1) Areas Between Curves
+
+### 2) Volumes
+
+### 3) Volumes by Clindrical Shells
+
+### 4) Work
+
+### 5) Average Value of a Function
+
+*****
+
+## Chapter 7 : Technique of Integration
+
+### 1) Integration by Parts
+
+### 2) Trigonometric Integrals
+
+### 3) Trigonometric Substitution
+
+### 4) Integration of Rational Functions by Partial Fractions
+
+### 5) Strategy for Integration
+
+### 6) Integration Using Tables and Technology
+
+### 7) Approximate Integration
+
+### 8) Improper Integrals
+
+*****
+
+## Chapter 8 : Further Applications of Integration
+
+### 1) Arc Length
+
+### 2) Area of a Surface of Revolution
+
+### 3) Applications to Physics and Engineering
+
+### 4) Applications to Economics and Biology
+
+### 5) Probability
+
+*****
+
+## Chapter 9 : Differential Equations
+
+### 1) Modeling with Differential Equations
+
+### 2) Direction Fields and Euler's Method
+
+### 3) Separable Equations
+
+### 4) Models for Population Growth
+
+### 5) Linear Equations
+
+### 6) Predator-Prey-Systems
+
+*****
+
+## Chapter 10 : Parametric Equations and Polar Coordinates
+
+### 1) Curves Defined by Parametric Equations
+
+### 2) Calculus with Parametric Curves
+
+### 3) Polar Coordinates
+
+### 4) Calculus in Polar Coordinates
+
+### 5) Conic Sections
+
+*****
+
+## Chapter 11 : Sequences, Series, and Power Series
+
+### 1) Sequences
+
+### 2) Series
+
+### 3) The Integral Test and Estimates of Sums
+
+### 4) The Comparison Tests
+
+### 5) Alternating Series and Estimates of Sums
+
+### 6) The Ratio and Root Tests
+
+### 7) Strategy for Testing Series
+
+### 8) Power Series
+
+### 9) Representations of Functions as Power Series
+
+### 10) Taylor and Maclaurin Series
+
+### 11) Applications of Taylor Polynomials
+
+*****
+
+## Chapter 12 : Vectors and the Geometry of Space
+
+### 1) Three-Dimensional Coordinate Systems
+
+### 2) Vectors
+
+### 3) The Dot Product
+
+### 4) The Cross Product
+
+### 5) Equations of Lines and Planes
+
+### 6) Cylinders and Quadric Surfaces
+
+*****
+
+## Chapter 13 : Vector Functions
+
+### 1) Vector Functions and Space Curves
+
+### 2) Derivatives and Integrals of Vector Functions
+
+### 3) Arc Length and Curvature
+
+### 4) Motion in Space Velocity and Acceleration
+
+*****
+
+## Chapter 14 : Partial Derivatives
+
+### 1) Functions of Several Variables
+
+### 2) Limits and Continuity
+
+### 3) Partial Derivatives
+
+### 4) Tangent Planes and Linear Approximations
+
+### 5) The Chain Rule
+
+### 6) Directional Derivatives and the Gradient Vector
+
+### 7) Maximum and Minimum Values
+
+### 8) Lagrange Multipliers
+
+*****
+
+## Chapter 15 : Multiple Integrals
+
+### 1) Double Integrals over Rectangles
+
+### 2) Double Integrals over General Regions
+
+### 3) Double Integrals in Polar Coordinates
+
+### 4) Applications of Double Integrals
+
+### 5) Surface Area
+
+### 6) Triple Integrals
+
+### 7) Triple Integrals in Cylindrical Coordinates
+
+### 8) Triple Integrals in Spherical Coordinates
+
+### 9) Change of Variables in Multiple Integrals
+
+*****
+
+## Chapter 16 : Vector Calculus
+
+### 1) Vector Fields
+
+### 2) Line Integrals
+
+### 3) The Fundamental Theorem for Line integrals
+
+### 4) Green's Theorem
+
+### 5) Curl and Divergence
+
+### 6) Parametric Surfaces and Their Areas
+
+### 7) Surface Integrals
+
+### 8) Stokes' Theorem
+
+### 9) The Divergence Theorem
+
+### 10) Summary
