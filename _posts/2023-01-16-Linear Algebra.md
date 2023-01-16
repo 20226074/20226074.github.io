@@ -150,9 +150,9 @@ $\begin{bmatrix}
 0 & 0 & 0 & 0 & 0 & 0 & 0
 \end{bmatrix}$
 , 
-$\therefore x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \\ x_6 \end{bmatrix}
-= \begin{bmatrix} x_3 - 40 \\ x_3 + 10 \\ x_3 \\ x_6 + 50 \\ x_6 + 60 \\ x_6 \end{bmatrix}
-= \begin{bmatrix} -40 \\ 10 \\ 0 \\ 50 \\ 60 \\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 1 \\ 1 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix} + x_6 \begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \\ 1 \\ 1 \end{bmatrix}$, where $x_3 \geq 40$
+$\therefore x = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \\\ x_4 \\\ x_5 \\\ x_6 \end{bmatrix}
+= \begin{bmatrix} x_3 - 40 \\\ x_3 + 10 \\\ x_3 \\\ x_6 + 50 \\\ x_6 + 60 \\\ x_6 \end{bmatrix}
+= \begin{bmatrix} -40 \\\ 10 \\\ 0 \\\ 50 \\\ 60 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 1 \\\ 1 \\\ 1 \\\ 0 \\\ 0 \\\ 0 \end{bmatrix} + x_6 \begin{bmatrix} 0 \\\ 0 \\\ 0 \\\ 1 \\\ 1 \\\ 1 \end{bmatrix}$, where $x_3 \geq 40$
 
 ### 7) Linear Independence
 
@@ -218,10 +218,10 @@ and about 5% of the suburban population moves into the city. <br>
 In 2020, there were 800,000 residents in the city and 500,000 in the suburbs. <br>
 Set up a difference equation that describes this situation, where $x_0$ is the initial population in 2020. <br>
 Then estimate the populations in the city and in the suburbs two years later, in 2022
-- $x_0 = \begin{bmatrix} city \\ suburbs \end{bmatrix} = \begin{bmatrix} 800,000 \\ 500,000 \end{bmatrix}$
+- $x_0 = \begin{bmatrix} city \\\ suburbs \end{bmatrix} = \begin{bmatrix} 800,000 \\\ 500,000 \end{bmatrix}$
 - difference equation (recurrence relation) : $x_{k+1} = Mx_k$ for $k = 0, 1, 2, ...$ 
-  - migration matrix $M = \begin{bmatrix} city \rightarrow city & suburbs \rightarrow city \\ city \rightarrow suburbs & suburbs \rightarrow subrubs \end{bmatrix} = \begin{bmatrix} 0.93 & 0.05 \\ 0.07 & 0.95 \end{bmatrix}$
-- $\therefore \ x_2 = {\begin{bmatrix} 0.93 & 0.05 \\ 0.07 & 0.95 \end{bmatrix}}^2 x_0 = \begin{bmatrix} 741,720 \\ 558,280 \end{bmatrix}$
+  - migration matrix $M = \begin{bmatrix} city \rightarrow city & suburbs \rightarrow city \\\ city \rightarrow suburbs & suburbs \rightarrow subrubs \end{bmatrix} = \begin{bmatrix} 0.93 & 0.05 \\\ 0.07 & 0.95 \end{bmatrix}$
+- $\therefore \ x_2 = {\begin{bmatrix} 0.93 & 0.05 \\\ 0.07 & 0.95 \end{bmatrix}}^2 x_0 = \begin{bmatrix} 741,720 \\\ 558,280 \end{bmatrix}$
 
 *****
 
