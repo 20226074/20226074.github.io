@@ -44,8 +44,8 @@ reduced (row) echelon form [ 1 ~ 3 : (row) echelon form ]
 4. The leading entry in each nonzero row is $1$.
 5. Each leading $1$ is the only nonzero entry in its column
 
-Theorem 1 (Uniqueness of the Reduced Echelon Form) <br>
-: Each matrix is row equivalent to one and only one reduced echelon matrix
+Theorem 1 (Uniqueness of the Reduced Echelon Form)
+- Each matrix is row equivalent to one and only one reduced echelon matrix
 
 pivot position in $A$ : a location in $A$ that corresponds to a leading 1 in the reduced echelon form of A <br>
 A nonzero entry, or pivot, must be placed in pivot position <br>
