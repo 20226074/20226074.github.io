@@ -134,22 +134,7 @@ $D : 40 + x_4 = 90 + x_6 \Longrightarrow x_4 - x_6 = 50$ <br>
 $E : 60 + x_1 = 20 + x_3 \Longrightarrow x_1 - x_3 = -40$ <br>
 <br>
 row reduce the augmented matrix of the linear system: <br>
-$\begin{bmatrix}
--1 & 1 & 0 & 0 & 0 & 0 & 50 \\\
-0 & -1 & 1 & -1 & 1 & 0 & 0 \\\
-0 & 0 & 0 & 0 & -1 & 1 & -60 \\\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
-1 & 0 & -1 & 0 & 0 & 0 & -40
-\end{bmatrix}$
-~
-$\begin{bmatrix}
-1 & 0 & -1 & 0 & 0 & 0 & -40 \\\
-0 & 1 & -1 & 0 & 0 & 0 & 10 \\\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
-0 & 0 & 0 & 0 & 1 & -1 & 60 \\\
-0 & 0 & 0 & 0 & 0 & 0 & 0
-\end{bmatrix}$
-, 
+$\begin{bmatrix} -1 & 1 & 0 & 0 & 0 & 0 & 50 \\\ 0 & -1 & 1 & -1 & 1 & 0 & 0 \\\ 0 & 0 & 0 & 0 & -1 & 1 & -60 \\\ 0 & 0 & 0 & 1 & 0 & -1 & 50 \\\ 1 & 0 & -1 & 0 & 0 & 0 & -40 \end{bmatrix}$ ~ $\begin{bmatrix} 1 & 0 & -1 & 0 & 0 & 0 & -40 \\\ 0 & 1 & -1 & 0 & 0 & 0 & 10 \\\ 0 & 0 & 0 & 1 & 0 & -1 & 50 \\\ 0 & 0 & 0 & 0 & 1 & -1 & 60 \\\ 0 & 0 & 0 & 0 & 0 & 0 & 0 \end{bmatrix}$, 
 $\therefore x = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \\\ x_4 \\\ x_5 \\\ x_6 \end{bmatrix}
 = \begin{bmatrix} x_3 - 40 \\\ x_3 + 10 \\\ x_3 \\\ x_6 + 50 \\\ x_6 + 60 \\\ x_6 \end{bmatrix}
 = \begin{bmatrix} -40 \\\ 10 \\\ 0 \\\ 50 \\\ 60 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 1 \\\ 1 \\\ 1 \\\ 0 \\\ 0 \\\ 0 \end{bmatrix} + x_6 \begin{bmatrix} 0 \\\ 0 \\\ 0 \\\ 1 \\\ 1 \\\ 1 \end{bmatrix}$, where $x_3 \geq 40$
