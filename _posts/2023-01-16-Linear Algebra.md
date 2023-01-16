@@ -22,9 +22,9 @@ The essential information of a linear system can be recorded compactly in a rect
   $0x_1 + 2x_2 - 8x_3 = \ \ 8$ <br>
   $5x_1 + 0x_2 - 5x_3 = 10$ 
 - coefficient matrix ( matrix of coefficients ) <br>
-  $\begin{bmatrix} 1 & -2 & 1 \\ 0 & 2 & -8 \\ 5 & 0 & -5 \end{bmatrix}$
+  $\begin{bmatrix} 1 & -2 & 1 \\\ 0 & 2 & -8 \\\ 5 & 0 & -5 \end{bmatrix}$
 - augment matrix <br>
-  $\begin{bmatrix} 1 & -2 & 1 & 0 \\ 0 & 2 & -8 & 8 \\ 5 & 0 & -5 & 10 \end{bmatrix}$
+  $\begin{bmatrix} 1 & -2 & 1 & 0 \\\ 0 & 2 & -8 & 8 \\\ 5 & 0 & -5 & 10 \end{bmatrix}$
   
 elementary row operations
 - (Replacement) replace one row by the sum of itself and a multiple of another row
@@ -111,11 +111,11 @@ A system of linear euqations is homogeneous : it can be written in the form $Ax 
 - nontrivial solution : nonzero vector $x$ that satisfies $Ax = 0$
   - $Ax = 0$ has a nontrivial solution if and only if the equation has at least one free variable
 
-Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\ -3 & -2 & 4 \\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\ -1 \\ -4 \end{bmatrix}$
-- $\begin{bmatrix} A & b \end{bmatrix} = \begin{bmatrix} 3 & 5 & -4 & 7 \\ -3 & -2 & 4 & -1 \\ 6 & 1 & -8 & -4 \end{bmatrix} ~ \begin{bmatrix} 1 & 0 & -4/3 & -1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 0 & 0 \end{bmatrix}$
-- therefore, $x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 + (4/3)x_3 \\ 2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + \begin{bmatrix} (4/3)x_3 \\ 0 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$
+Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\\ -3 & -2 & 4 \\\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\\ -1 \\\ -4 \end{bmatrix}$
+- $\begin{bmatrix} A & b \end{bmatrix} = \begin{bmatrix} 3 & 5 & -4 & 7 \\\ -3 & -2 & 4 & -1 \\\ 6 & 1 & -8 & -4 \end{bmatrix} ~ \begin{bmatrix} 1 & 0 & -4/3 & -1 \\\ 0 & 1 & 0 & 2 \\\ 0 & 0 & 0 & 0 \end{bmatrix}$
+- therefore, $x = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \end{bmatrix} = \begin{bmatrix} -1 + (4/3)x_3 \\\ 2 \\\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix} + \begin{bmatrix} (4/3)x_3 \\ 0 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 4/3 \\\ 0 \\\ 1 \end{bmatrix}$
 - therefore, the solution set of $Ax = b$ in parametric vector form is $x = p + tv$ <br>
-  where $p = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix}$, $v = \begin{bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$, and $t$ is in $R$, because $x_3$ is free variable
+  where $p = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix}$, $v = \begin{bmatrix} 4/3 \\\ 0 \\\ 1 \end{bmatrix}$, and $t$ is in $R$, because $x_3$ is free variable
 - and, the solution set of $Ax = 0$ in parametric vector form is $x = tv$ <br>
   because $p$ is the solution of $Ax = b$, and $v$ is the solution of $Ax = 0$
 - Theorem 6
@@ -135,18 +135,18 @@ $E : 60 + x_1 = 20 + x_3 \Longrightarrow x_1 - x_3 = -40$ <br>
 <br>
 row reduce the augmented matrix of the linear system: <br>
 $\begin{bmatrix}
--1 & 1 & 0 & 0 & 0 & 0 & 50 \\
-0 & -1 & 1 & -1 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & -1 & 1 & -60 \\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\
+-1 & 1 & 0 & 0 & 0 & 0 & 50 \\\
+0 & -1 & 1 & -1 & 1 & 0 & 0 \\\
+0 & 0 & 0 & 0 & -1 & 1 & -60 \\\
+0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
 1 & 0 & -1 & 0 & 0 & 0 & -40
 \end{bmatrix}$
 ~
 $\begin{bmatrix}
-1 & 0 & -1 & 0 & 0 & 0 & -40 \\
-0 & 1 & -1 & 0 & 0 & 0 & 10 \\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\
-0 & 0 & 0 & 0 & 1 & -1 & 60 \\
+1 & 0 & -1 & 0 & 0 & 0 & -40 \\\
+0 & 1 & -1 & 0 & 0 & 0 & 10 \\\
+0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
+0 & 0 & 0 & 0 & 1 & -1 & 60 \\\
 0 & 0 & 0 & 0 & 0 & 0 & 0
 \end{bmatrix}$
 , 
