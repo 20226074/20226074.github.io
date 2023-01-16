@@ -22,9 +22,9 @@ The essential information of a linear system can be recorded compactly in a rect
   $0x_1 + 2x_2 - 8x_3 = \ \ 8$ <br>
   $5x_1 + 0x_2 - 5x_3 = 10$ 
 - coefficient matrix ( matrix of coefficients ) <br>
-  $\begin{bmatrix} 1 & -2 & 1 \\\ 0 & 2 & -8 \\\ 5 & 0 & -5 \end{bmatrix}$
+  $ \begin{bmatrix} 1 & -2 & 1 \\\ 0 & 2 & -8 \\\ 5 & 0 & -5 \end{bmatrix} $
 - augment matrix <br>
-  $\begin{bmatrix} 1 & -2 & 1 & 0 \\\ 0 & 2 & -8 & 8 \\\ 5 & 0 & -5 & 10 \end{bmatrix}$
+  $ \begin{bmatrix} 1 & -2 & 1 & 0 \\\ 0 & 2 & -8 & 8 \\\ 5 & 0 & -5 & 10 \end{bmatrix} $
   
 elementary row operations
 - (Replacement) replace one row by the sum of itself and a multiple of another row
