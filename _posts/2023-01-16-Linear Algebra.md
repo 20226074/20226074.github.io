@@ -1,5 +1,3 @@
-# Linear Algebra
-
 - Linear Algebra and Its Applications, 6th Edition 의 내용을 정리하였다
 
 *****
