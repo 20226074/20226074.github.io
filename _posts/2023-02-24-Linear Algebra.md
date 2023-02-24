@@ -111,7 +111,7 @@ A system of linear euqations is homogeneous : it can be written in the form $Ax 
 - nontrivial solution : nonzero vector $x$ that satisfies $Ax = 0$
   - $Ax = 0$ has a nontrivial solution if and only if the equation has at least one free variable
 
-Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\ -3 & -2 & 4 \\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\ -1 \\ -4 \end{bmatrix}$
+Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\\ -3 & -2 & 4 \\\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\\ -1 \\\ -4 \end{bmatrix}$
 - $\begin{bmatrix} A & b \end{bmatrix} = \begin{bmatrix} 3 & 5 & -4 & 7 \\ -3 & -2 & 4 & -1 \\ 6 & 1 & -8 & -4 \end{bmatrix} ~ \begin{bmatrix} 1 & 0 & -4/3 & -1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 0 & 0 \end{bmatrix}$
 - therefore, $x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 + (4/3)x_3 \\ 2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + \begin{bmatrix} (4/3)x_3 \\ 0 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$
 - therefore, the solution set of $Ax = b$ in parametric vector form is $x = p + tv$ <br>
