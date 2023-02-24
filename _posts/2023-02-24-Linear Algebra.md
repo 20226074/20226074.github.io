@@ -22,9 +22,9 @@ The essential information of a linear system can be recorded compactly in a rect
   $0x_1 + 2x_2 - 8x_3 = \ \ 8$ <br>
   $5x_1 + 0x_2 - 5x_3 = 10$ 
 - coefficient matrix ( matrix of coefficients ) <br>
-  $\begin{bmatrix} 1 & -2 & 1 \\ 0 & 2 & -8 \\ 5 & 0 & -5 \end{bmatrix}$
+  $\begin{bmatrix} 1 & -2 & 1 \\\ 0 & 2 & -8 \\\ 5 & 0 & -5 \end{bmatrix}$
 - augment matrix <br>
-  $\begin{bmatrix} 1 & -2 & 1 & 0 \\ 0 & 2 & -8 & 8 \\ 5 & 0 & -5 & 10 \end{bmatrix}$
+  $\begin{bmatrix} 1 & -2 & 1 & 0 \\\ 0 & 2 & -8 & 8 \\\ 5 & 0 & -5 & 10 \end{bmatrix}$
   
 elementary row operations
 - (Replacement) replace one row by the sum of itself and a multiple of another row
@@ -111,11 +111,11 @@ A system of linear euqations is homogeneous : it can be written in the form $Ax 
 - nontrivial solution : nonzero vector $x$ that satisfies $Ax = 0$
   - $Ax = 0$ has a nontrivial solution if and only if the equation has at least one free variable
 
-Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\ -3 & -2 & 4 \\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\ -1 \\ -4 \end{bmatrix}$
-- $\begin{bmatrix} A & b \end{bmatrix} = \begin{bmatrix} 3 & 5 & -4 & 7 \\ -3 & -2 & 4 & -1 \\ 6 & 1 & -8 & -4 \end{bmatrix} ~ \begin{bmatrix} 1 & 0 & -4/3 & -1 \\ 0 & 1 & 0 & 2 \\ 0 & 0 & 0 & 0 \end{bmatrix}$
-- therefore, $x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 + (4/3)x_3 \\ 2 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + \begin{bmatrix} (4/3)x_3 \\ 0 \\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$
+Let's describe all solutions of $Ax = b$, where $A = \begin{bmatrix} 3 & 5 & -4 \\\ -3 & -2 & 4 \\\ 6 & 1 & -8 \end{bmatrix}$ and $b = \begin{bmatrix} 7 \\\ -1 \\\ -4 \end{bmatrix}$
+- $\begin{bmatrix} A & b \end{bmatrix} = \begin{bmatrix} 3 & 5 & -4 & 7 \\\ -3 & -2 & 4 & -1 \\\ 6 & 1 & -8 & -4 \end{bmatrix} ~ \begin{bmatrix} 1 & 0 & -4/3 & -1 \\\ 0 & 1 & 0 & 2 \\\ 0 & 0 & 0 & 0 \end{bmatrix}$
+- therefore, $x = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \end{bmatrix} = \begin{bmatrix} -1 + (4/3)x_3 \\\ 2 \\\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix} + \begin{bmatrix} (4/3)x_3 \\\ 0 \\\ x_3 \end{bmatrix} = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 4/3 \\\ 0 \\\ 1 \end{bmatrix}$
 - therefore, the solution set of $Ax = b$ in parametric vector form is $x = p + tv$ <br>
-  where $p = \begin{bmatrix} -1 \\ 2 \\ 0 \end{bmatrix}$, $v = \begin{bmatrix} 4/3 \\ 0 \\ 1 \end{bmatrix}$, and $t$ is in $R$, because $x_3$ is free variable
+  where $p = \begin{bmatrix} -1 \\\ 2 \\\ 0 \end{bmatrix}$, $v = \begin{bmatrix} 4/3 \\\ 0 \\\ 1 \end{bmatrix}$, and $t$ is in $R$, because $x_3$ is free variable
 - and, the solution set of $Ax = 0$ in parametric vector form is $x = tv$ <br>
   because $p$ is the solution of $Ax = b$, and $v$ is the solution of $Ax = 0$
 - Theorem 6
@@ -135,24 +135,24 @@ $E : 60 + x_1 = 20 + x_3 \Longrightarrow x_1 - x_3 = -40$ <br>
 <br>
 row reduce the augmented matrix of the linear system: <br>
 $\begin{bmatrix}
--1 & 1 & 0 & 0 & 0 & 0 & 50 \\
-0 & -1 & 1 & -1 & 1 & 0 & 0 \\
-0 & 0 & 0 & 0 & -1 & 1 & -60 \\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\
+-1 & 1 & 0 & 0 & 0 & 0 & 50 \\\
+0 & -1 & 1 & -1 & 1 & 0 & 0 \\\
+0 & 0 & 0 & 0 & -1 & 1 & -60 \\\
+0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
 1 & 0 & -1 & 0 & 0 & 0 & -40
 \end{bmatrix}$
 ~
 $\begin{bmatrix}
-1 & 0 & -1 & 0 & 0 & 0 & -40 \\
-0 & 1 & -1 & 0 & 0 & 0 & 10 \\
-0 & 0 & 0 & 1 & 0 & -1 & 50 \\
-0 & 0 & 0 & 0 & 1 & -1 & 60 \\
+1 & 0 & -1 & 0 & 0 & 0 & -40 \\\
+0 & 1 & -1 & 0 & 0 & 0 & 10 \\\
+0 & 0 & 0 & 1 & 0 & -1 & 50 \\\
+0 & 0 & 0 & 0 & 1 & -1 & 60 \\\
 0 & 0 & 0 & 0 & 0 & 0 & 0
 \end{bmatrix}$
 , <br>
-$\therefore x = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ x_5 \\ x_6 \end{bmatrix}
-= \begin{bmatrix} x_3 - 40 \\ x_3 + 10 \\ x_3 \\ x_6 + 50 \\ x_6 + 60 \\ x_6 \end{bmatrix}
-= \begin{bmatrix} -40 \\ 10 \\ 0 \\ 50 \\ 60 \\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 1 \\ 1 \\ 1 \\ 0 \\ 0 \\ 0 \end{bmatrix} + x_6 \begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \\ 1 \\ 1 \end{bmatrix}$, where $x_3 \geq 40$
+$\therefore x = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \\\ x_4 \\\ x_5 \\\ x_6 \end{bmatrix}
+= \begin{bmatrix} x_3 - 40 \\\ x_3 + 10 \\\ x_3 \\\ x_6 + 50 \\\ x_6 + 60 \\\ x_6 \end{bmatrix}
+= \begin{bmatrix} -40 \\\ 10 \\\ 0 \\\ 50 \\\ 60 \\\ 0 \end{bmatrix} + x_3 \begin{bmatrix} 1 \\\ 1 \\\ 1 \\\ 0 \\\ 0 \\\ 0 \end{bmatrix} + x_6 \begin{bmatrix} 0 \\\ 0 \\\ 0 \\\ 1 \\\ 1 \\\ 1 \end{bmatrix}$, where $x_3 \geq 40$
 
 ### 7) Linear Independence
 
@@ -218,10 +218,10 @@ and about 5% of the suburban population moves into the city. <br>
 In 2020, there were 800,000 residents in the city and 500,000 in the suburbs. <br>
 Set up a difference equation that describes this situation, where $x_0$ is the initial population in 2020. <br>
 Then estimate the populations in the city and in the suburbs two years later, in 2022
-- $x_0 = \begin{bmatrix} city \\ suburbs \end{bmatrix} = \begin{bmatrix} 800,000 \\ 500,000 \end{bmatrix}$
+- $x_0 = \begin{bmatrix} city \\\ suburbs \end{bmatrix} = \begin{bmatrix} 800,000 \\\ 500,000 \end{bmatrix}$
 - difference equation (recurrence relation) : $x_{k+1} = Mx_k$ for $k = 0, 1, 2, ...$ 
-  - migration matrix $M = \begin{bmatrix} city \rightarrow city & suburbs \rightarrow city \\ city \rightarrow suburbs & suburbs \rightarrow subrubs \end{bmatrix} = \begin{bmatrix} 0.93 & 0.05 \\ 0.07 & 0.95 \end{bmatrix}$
-- $\therefore \ x_2 = {\begin{bmatrix} 0.93 & 0.05 \\ 0.07 & 0.95 \end{bmatrix}}^2 x_0 = \begin{bmatrix} 741,720 \\ 558,280 \end{bmatrix}$
+  - migration matrix $M = \begin{bmatrix} city \rightarrow city & suburbs \rightarrow city \\\ city \rightarrow suburbs & suburbs \rightarrow subrubs \end{bmatrix} = \begin{bmatrix} 0.93 & 0.05 \\\ 0.07 & 0.95 \end{bmatrix}$
+- $\therefore \ x_2 = {\begin{bmatrix} 0.93 & 0.05 \\\ 0.07 & 0.95 \end{bmatrix}}^2 x_0 = \begin{bmatrix} 741,720 \\\ 558,280 \end{bmatrix}$
 
 *****
 
@@ -254,25 +254,25 @@ Theorem 3 : Let $A$ and $B$ denote matrices whose sizes are appropriate for the 
 - $(A+B)^T = A^T + B^T$
 - $(rA)^T = r A^T$ for any scalar $r$
 - $(AB)^T = B^TA^T$
-  - Let $A = \begin{bmatrix} a_1 \\ a_2 \\ \vdots \\ a_m \end{bmatrix}$ where $a_i$ is row vector in $R^n$, and $B = \begin{bmatrix} b_1 & b_2 & \cdots & b_p \end{bmatrix}$ where $b_j$ is column vector in $R^n$ 
-  - $(AB)^T = {\begin{bmatrix} a_1b_1 & a_1b_2 & \cdots & a_1b_p \\
-                               a_2b_1 & a_2b_2 & \cdots & a_2b_p \\
-                               \vdots & \vdots & \ddots & \vdots \\
+  - Let $A = \begin{bmatrix} a_1 \\\ a_2 \\\ \vdots \\\ a_m \end{bmatrix}$ where $a_i$ is row vector in $R^n$, and $B = \begin{bmatrix} b_1 & b_2 & \cdots & b_p \end{bmatrix}$ where $b_j$ is column vector in $R^n$ 
+  - $(AB)^T = {\begin{bmatrix} a_1b_1 & a_1b_2 & \cdots & a_1b_p \\\
+                               a_2b_1 & a_2b_2 & \cdots & a_2b_p \\\
+                               \vdots & \vdots & \ddots & \vdots \\\
                                a_mb_1 & a_mb_2 & \cdots & a_mb_p \end{bmatrix}}^T
-             = \begin{bmatrix} a_1b_1 & a_2b_1 & \cdots & a_mb_1 \\
-                               a_1b_2 & a_2b_2 & \cdots & a_mb_2 \\
-                               \vdots & \vdots & \ddots & \vdots \\
+             = \begin{bmatrix} a_1b_1 & a_2b_1 & \cdots & a_mb_1 \\\
+                               a_1b_2 & a_2b_2 & \cdots & a_mb_2 \\\
+                               \vdots & \vdots & \ddots & \vdots \\\
                                a_1b_p & a_2b_p & \cdots & a_mb_p \end{bmatrix}$
-  - $B^TA^T = \begin{bmatrix} b_1 \\ b_2 \\ \vdots \\ b_p \end{bmatrix} \begin{bmatrix} a_1 & a_2 & \cdots & a_m \end{bmatrix}
-             = \begin{bmatrix} a_1b_1 & a_2b_1 & \cdots & a_mb_1 \\
-                               a_1b_2 & a_2b_2 & \cdots & a_mb_2 \\
-                               \vdots & \vdots & \ddots & \vdots \\
+  - $B^TA^T = \begin{bmatrix} b_1 \\\ b_2 \\\ \vdots \\\ b_p \end{bmatrix} \begin{bmatrix} a_1 & a_2 & \cdots & a_m \end{bmatrix}
+             = \begin{bmatrix} a_1b_1 & a_2b_1 & \cdots & a_mb_1 \\\
+                               a_1b_2 & a_2b_2 & \cdots & a_mb_2 \\\
+                               \vdots & \vdots & \ddots & \vdots \\\
                                a_1b_p & a_2b_p & \cdots & a_mb_p \end{bmatrix}$
 
 ### 2) The Inverse of a Matrix
 
-Theorem 4 : Let $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$
-- If $ad - bc \neq 0$, then $A$ is invertible and $A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
+Theorem 4 : Let $A = \begin{bmatrix} a & b \\\ c & d \end{bmatrix}$
+- If $ad - bc \neq 0$, then $A$ is invertible and $A^{-1} = \frac{1}{ad-bc} \begin{bmatrix} d & -b \\\ -c & a \end{bmatrix}$
 - If $ad - bc = 0$, then $A$ is not invertible
 
 Theorem 5 : If $A$ is invertible $n \times n$ matrix, then the equation $Ax = b$ has the unique solution $x = A^{-1}b$ for each $b$ in $R^n$
@@ -327,29 +327,29 @@ Theorem 9 : Let $T : R^n \rightarrow R^n$ be a linear transformation and let $A$
 
 Theorem 10 : Column-Row Expansion of $AB$
 - If $A$ is $m \times n$ and $B$ is $n \times p$, then <br>
-  $AB = \begin{bmatrix} col_{1}(A) & col_{2}(A) & \cdots & col_{n}(A) \end{bmatrix} \begin{bmatrix} row_{1}(B) \\ row_{2}(B) \\ \vdots \\ row_{n}(B) \end{bmatrix}$ <br>
+  $AB = \begin{bmatrix} col_{1}(A) & col_{2}(A) & \cdots & col_{n}(A) \end{bmatrix} \begin{bmatrix} row_{1}(B) \\\ row_{2}(B) \\\ \vdots \\\ row_{n}(B) \end{bmatrix}$ <br>
   $= col_{1}(A) \ row_{1}(B) + \cdots + col_{n}(A) \ row_{n}(B)$
 
-Let's find a formula for $A^{-1}$ where $A$ is block upper triangular matrix $\begin{bmatrix} A_{11} & A_{12} \\ 0 & A_{22} \end{bmatrix}$ and $A_{11}$ is $p \times p$, $A_{22}$ is $q \times q$
-- Denote $A^{-1}$ by $B$ and partition $B$ so that $\begin{bmatrix} A_{11} & A_{12} \\ 0 & A_{22} \end{bmatrix} \begin{bmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix} = \begin{bmatrix} I_{p} & 0 \\ 0 & I_q \end{bmatrix}$
+Let's find a formula for $A^{-1}$ where $A$ is block upper triangular matrix $\begin{bmatrix} A_{11} & A_{12} \\\ 0 & A_{22} \end{bmatrix}$ and $A_{11}$ is $p \times p$, $A_{22}$ is $q \times q$
+- Denote $A^{-1}$ by $B$ and partition $B$ so that $\begin{bmatrix} A_{11} & A_{12} \\\ 0 & A_{22} \end{bmatrix} \begin{bmatrix} B_{11} & B_{12} \\\ B_{21} & B_{22} \end{bmatrix} = \begin{bmatrix} I_{p} & 0 \\\ 0 & I_q \end{bmatrix}$
 - then, $A_{11}B_{11} + A_{12}B_{21} = I_p$ | $A_{11}B_{12} + A_{12}B_{22} = 0$ | $A_{22}B_{21} = 0$ | $A_{22}B_{22} = I_q$
 - since $A_{22}$ and $A_{11}$ is sqaure, by the Invertible Matrix Theorem, <br>
-  $A^{-1} = \begin{bmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix} = \begin{bmatrix} {A_{11}^{-1}} & -{A_{11}^{-1}}A_{12}{A_{22}^{-1}} \\ 0 & {A_{22}^{-1}} \end{bmatrix}$
+  $A^{-1} = \begin{bmatrix} B_{11} & B_{12} \\\ B_{21} & B_{22} \end{bmatrix} = \begin{bmatrix} {A_{11}^{-1}} & -{A_{11}^{-1}}A_{12}{A_{22}^{-1}} \\\ 0 & {A_{22}^{-1}} \end{bmatrix}$
   
-Schur complement : Let $M = \begin{bmatrix} A & B \\ C & D \end{bmatrix}$ where $A$ is $p \times p$, $B$ is $p \times q$, $C$ is $q \times p$, and $D$ is $q \times q$
+Schur complement : Let $M = \begin{bmatrix} A & B \\\ C & D \end{bmatrix}$ where $A$ is $p \times p$, $B$ is $p \times q$, $C$ is $q \times p$, and $D$ is $q \times q$
 - If $D$ is invertible, then the Schur complement of the block $D$ of $M$ is $M/D = A - BD^{-1}C$, <br>
-  which is derived by $\begin{bmatrix} A & B \\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\ -D^{-1} C & I_q \end{bmatrix} = \begin{bmatrix} A - BD^{-1}C & B \\ 0 & D \end{bmatrix}$
+  which is derived by $\begin{bmatrix} A & B \\\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ -D^{-1} C & I_q \end{bmatrix} = \begin{bmatrix} A - BD^{-1}C & B \\\ 0 & D \end{bmatrix}$
 - If $A$ is invertible, then the Schur complement of the block $A$ of $M$ is $M/A = D - CA^{-1}B$, <br>
-  which is derived by $\begin{bmatrix} A & B \\ C & D \end{bmatrix} \begin{bmatrix} I_p & -A^{-1}B \\ 0 & I_q \end{bmatrix} = \begin{bmatrix} A & 0 \\ C & D - CA^{-1}B \end{bmatrix}$
+  which is derived by $\begin{bmatrix} A & B \\\ C & D \end{bmatrix} \begin{bmatrix} I_p & -A^{-1}B \\\ 0 & I_q \end{bmatrix} = \begin{bmatrix} A & 0 \\\ C & D - CA^{-1}B \end{bmatrix}$
 - LDU decomposition : $A = LDU$ where $L$ is lower, $D$ is diagonal, and $U$ is upper
-  - If $D$ is invertible, then $M = \begin{bmatrix} A & B \\ C & D \end{bmatrix} = \begin{bmatrix} I_p & BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & 0 \\ 0 & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\ D^{-1}C & I_q \end{bmatrix}$
-  - if $A$ is invertible, then $M = \begin{bmatrix} A & B \\ C & D \end{bmatrix} = \begin{bmatrix} I_p & 0 \\ CA^{-1} & I_q \end{bmatrix} \begin{bmatrix} A & 0 \\ 0 & D - CA^{-1}B \end{bmatrix} \begin{bmatrix} I_p & A^{-1}B \\ 0 & I_q \end{bmatrix}$
-  - we can check $\begin{bmatrix} I_p & -BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} A & B \\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\ -D^{-1} C & I_q \end{bmatrix}$ <br>
-    $= \begin{bmatrix} I_p & -BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & B \\ 0 & D \end{bmatrix} = \begin{bmatrix} A - BD^{-1}C & 0 \\ 0 & D \end{bmatrix}$ <br>
-    and the inverse of $\begin{bmatrix} I_p & -BD^{-1} \\ 0 & I_q \end{bmatrix}$ is $\begin{bmatrix} I_p & BD^{-1} \\ 0 & I_q \end{bmatrix}$ <br>
-    and the inverse of $\begin{bmatrix} I_p & 0 \\ -D^{-1} C & I_q \end{bmatrix}$ is $\begin{bmatrix} I_p & 0 \\ D^{-1} C & I_q \end{bmatrix}$
-  - Therefore, $\begin{bmatrix} A & B \\ C & D \end{bmatrix} = \begin{bmatrix} I_p & BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} I_p & -BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} A & B \\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\ -D^{-1} C & I_q \end{bmatrix} \begin{bmatrix} I_p & 0 \\ D^{-1}C & I_q \end{bmatrix}$ <br>
-    $= \begin{bmatrix} I_p & BD^{-1} \\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & 0 \\ 0 & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\ D^{-1}C & I_q \end{bmatrix}$, and similarly we can prove when $A$ is invertible
+  - If $D$ is invertible, then $M = \begin{bmatrix} A & B \\\ C & D \end{bmatrix} = \begin{bmatrix} I_p & BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & 0 \\\ 0 & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ D^{-1}C & I_q \end{bmatrix}$
+  - if $A$ is invertible, then $M = \begin{bmatrix} A & B \\\ C & D \end{bmatrix} = \begin{bmatrix} I_p & 0 \\\ CA^{-1} & I_q \end{bmatrix} \begin{bmatrix} A & 0 \\\ 0 & D - CA^{-1}B \end{bmatrix} \begin{bmatrix} I_p & A^{-1}B \\\ 0 & I_q \end{bmatrix}$
+  - we can check $\begin{bmatrix} I_p & -BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} A & B \\\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ -D^{-1} C & I_q \end{bmatrix}$ <br>
+    $= \begin{bmatrix} I_p & -BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & B \\\ 0 & D \end{bmatrix} = \begin{bmatrix} A - BD^{-1}C & 0 \\\ 0 & D \end{bmatrix}$ <br>
+    and the inverse of $\begin{bmatrix} I_p & -BD^{-1} \\\ 0 & I_q \end{bmatrix}$ is $\begin{bmatrix} I_p & BD^{-1} \\\ 0 & I_q \end{bmatrix}$ <br>
+    and the inverse of $\begin{bmatrix} I_p & 0 \\\ -D^{-1} C & I_q \end{bmatrix}$ is $\begin{bmatrix} I_p & 0 \\\ D^{-1} C & I_q \end{bmatrix}$
+  - Therefore, $\begin{bmatrix} A & B \\\ C & D \end{bmatrix} = \begin{bmatrix} I_p & BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} I_p & -BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} A & B \\\ C & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ -D^{-1} C & I_q \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ D^{-1}C & I_q \end{bmatrix}$ <br>
+    $= \begin{bmatrix} I_p & BD^{-1} \\\ 0 & I_q \end{bmatrix} \begin{bmatrix} A - BD^{-1}C & 0 \\\ 0 & D \end{bmatrix} \begin{bmatrix} I_p & 0 \\\ D^{-1}C & I_q \end{bmatrix}$, and similarly we can prove when $A$ is invertible
 
 ### 5) Matrix Factorizations
 
@@ -373,12 +373,12 @@ Theorem 11 (for the Leontief Input-Output Model)
 
 homogeneous coordinates for $(x_1,...,x_n)$ is $(X_1,...,X_n,H)$ where $x_1 = \frac{X_1}{H}, ..., x_n = \frac{X_n}{H}$
 - if $H = 0$, then homogeneous coordinates become vector
-- scaling by c : $\begin{bmatrix} c & 0 & 0 & 0 \\ 0 & c & 0 & 0 \\ 0 & 0 & c & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \\ 1\end{bmatrix}$
-- rotation about the y-axis through an angle of $\varphi$ : $\begin{bmatrix} \sin \varphi & 0 & sin (\varphi+\pi/2) & 0 \\ 0 & 1 & 0 & 0 \\ \cos \varphi & 0 & cos (\varphi+\pi/2) & 0 \\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \\ 1\end{bmatrix}$
-- translate that adds $(a, b, c)$ to each point of figure : $\begin{bmatrix} 1 & 0 & 0 & a \\ 0 & 1 & 0 & b \\ 0 & 0 & 1 & c \\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \\ 1\end{bmatrix}$
+- scaling by c : $\begin{bmatrix} c & 0 & 0 & 0 \\\ 0 & c & 0 & 0 \\\ 0 & 0 & c & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\\ y \\\ z \\\ 1\end{bmatrix}$
+- rotation about the y-axis through an angle of $\varphi$ : $\begin{bmatrix} \sin \varphi & 0 & sin (\varphi+\pi/2) & 0 \\\ 0 & 1 & 0 & 0 \\\ \cos \varphi & 0 & cos (\varphi+\pi/2) & 0 \\\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\\ y \\\ z \\\ 1\end{bmatrix}$
+- translate that adds $(a, b, c)$ to each point of figure : $\begin{bmatrix} 1 & 0 & 0 & a \\\ 0 & 1 & 0 & b \\\ 0 & 0 & 1 & c \\\ 0 & 0 & 0 & 1 \end{bmatrix} \begin{bmatrix} x \\\ y \\\ z \\\ 1\end{bmatrix}$
 - perspective projection : maps each point $(x, y, z)$ onto an image point $(x^*, y^*, 0)$ when the eye of a viewer is $(0, 0, d)$ <br>
   $= (x, y, z, 1)$ to map to $(\frac{x}{1 - z/d}, \frac{y}{1 - z/d}, 0, 1)$ <br>
-  $= (x, y, z, 1)$ to map to $(x, y, 0, 1-z/d)$ : $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & -1/d & 1 \end{bmatrix} \begin{bmatrix} x \\ y \\ z \\ 1\end{bmatrix}$
+  $= (x, y, z, 1)$ to map to $(x, y, 0, 1-z/d)$ : $\begin{bmatrix} 1 & 0 & 0 & 0 \\\ 0 & 1 & 0 & 0 \\\ 0 & 0 & 0 & 0 \\\ 0 & 0 & -1/d & 1 \end{bmatrix} \begin{bmatrix} x \\\ y \\\ z \\\ 1\end{bmatrix}$
 
 ### 8) Subspaces of $R^n$
 
@@ -397,7 +397,7 @@ Theroem 12 : The null space of an $m \times n$ matrix $A$ is a subspace of $R^n$
 - Suppose $u$ is in $A$ and $c$ is scalar. Then $A(cu) = c(Au) = c(0) = 0$. Thus $cu$ is in Nul $A$
 
 basis for a subspace $H$ of $R^n$ : a linearly independent set in $H$ that spans $H$
-- for $e_1 = \begin{bmatrix} 1 \\ 0 \\ \vdots \\ 0 \end{bmatrix}$, $e_2 = \begin{bmatrix} 0 \\ 1 \\ \vdots \\ 0 \end{bmatrix}$, ..., $e_n = \begin{bmatrix} 0 \\ \vdots \\ 0 \\ 1 \end{bmatrix}$, the set $\{e_1,...,e_n\}$ is called the standard basis for $R^n$
+- for $e_1 = \begin{bmatrix} 1 \\\ 0 \\\ \vdots \\\ 0 \end{bmatrix}$, $e_2 = \begin{bmatrix} 0 \\\ 1 \\\ \vdots \\\ 0 \end{bmatrix}$, ..., $e_n = \begin{bmatrix} 0 \\\ \vdots \\\ 0 \\\ 1 \end{bmatrix}$, the set $\{e_1,...,e_n\}$ is called the standard basis for $R^n$
 - the solution set of $Ax = 0$ in parametric vector form actually identifies a basis for Nul $A$
 
 Theorem 13 : The pivot columns of a matrix $A$ form a basis for the column space of $A$
@@ -411,7 +411,7 @@ Theorem 13 : The pivot columns of a matrix $A$ form a basis for the column space
 ### 9) Dimension and Rank
 Suppose the set $B = \{b_1, ..., b_p\}$ is a basis for a subspace $H$
 - For each $x$ in $H$, the coordinates of $x$ relative to the basis $B$ are the weights $c_1,...,c_p$ such that $x = c_1b_1 + ... + c_pb_p$
-- the vector $[x]_\mathcal{B} = \begin{bmatrix} c_1 \\ \vdots \\ c_p \end{bmatrix}$ is called the coordinate vector of $x$ (relative to $\mathcal{B}$) or the $\mathcal{B}$-coordinate vector of $x$
+- the vector $[x]_\mathcal{B} = \begin{bmatrix} c_1 \\\ \vdots \\\ c_p \end{bmatrix}$ is called the coordinate vector of $x$ (relative to $\mathcal{B}$) or the $\mathcal{B}$-coordinate vector of $x$
 
 The dimension of a nonzero subspace $H$ : the number of vectors in any basis for $H$, denoted by dim $H$
 - The dimension of the zero subspace $\{0\}$ is defined to be zero
@@ -462,7 +462,7 @@ Theorem 1 : $\det A$ can be computed by a cofactor expansion across any row or d
 
 Theorem 2 : If $A$ is a triangular matrix, then det $A$ is the product of the entries on the main diagonal of $A$ <br>
 <br>
-Let $M$ be a partitioned matrix of the form $M = \begin{bmatrix} A & B \\ C & D \end{bmatrix}$ where $A$ and $D$ are square matrices
+Let $M$ be a partitioned matrix of the form $M = \begin{bmatrix} A & B \\\ C & D \end{bmatrix}$ where $A$ and $D$ are square matrices
 - If $A$ is invertible, then $\det (M) = \det (A) \det (D - C A^{-1} B)$, and <br>
 - If $D$ is invertible, then $\det (M) = \det (A - B D^{-1} C) \det (D) \ \ $ <br>
 - proof : (link)
@@ -478,10 +478,10 @@ Theorem 3 proof
 - Theorem 3 can be reformulated as follow: <br>
   If $A$ is an $n \times n$ matrix and $E$ is an $n \times n$ elementary matrix, <br>
   then $\det EA = (\det E)(\det A)$ where $\det E = 1$ (replace), $-1$ (interchange), $r$ (scale)
-- If $A$ is $2 \times 2$ matrix $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$, we can verify Theorem 3 is true
-  - $\begin{bmatrix} a & b \\ c + a & d + b \end{bmatrix} = a(d+b) - b(c+a) = ad - bc = \det A$
-  - $\begin{bmatrix} c & d \\ a & b \end{bmatrix} = bc - ad = -(ad - bc) - \det A$
-  - $\begin{bmatrix} na & nb \\ c & d \end{bmatrix} = nad - nbc = n(ad - bc) = n \det A$
+- If $A$ is $2 \times 2$ matrix $\begin{bmatrix} a & b \\\ c & d \end{bmatrix}$, we can verify Theorem 3 is true
+  - $\begin{bmatrix} a & b \\\ c + a & d + b \end{bmatrix} = a(d+b) - b(c+a) = ad - bc = \det A$
+  - $\begin{bmatrix} c & d \\\ a & b \end{bmatrix} = bc - ad = -(ad - bc) - \det A$
+  - $\begin{bmatrix} na & nb \\\ c & d \end{bmatrix} = nad - nbc = n(ad - bc) = n \det A$
 - Suppose the theorem is true when $A$ is $k \times k$ matrix with $k \geq 2$
 - Let $n = k + 1$, and Let $A$ be $n \times n$ and $B = EA$ where $E$ is elementary matrix
 - The action of $E$ on $A$ involves either two rows or only one row. <br>
@@ -516,14 +516,14 @@ Theorem 7 : Cramer's Rule
   - If $Ax = b$, then $A(I_i(x)) = A \begin{bmatrix} e_1 & \cdots & x & \cdots & e_n \end{bmatrix}$ <br>
     $= \begin{bmatrix} A e_1 & \cdots & A x & \cdots & A e_n \end{bmatrix} = \begin{bmatrix} a_1 & \cdots & b & \cdots & a_n \end{bmatrix} = A_i(b)$
   - so $\det A(I_i(x)) = (\det A)(\det I_i(x)) = \det A_i(b)$
-  - and $\det I_i(x) = \begin{vmatrix} 1 & 0 & \cdots & 0 & x_1 & 0 & \cdots & 0 & 0 \\
-                                       0 & 1 & \cdots & 0 & x_2 & 0 & \cdots & 0 & 0 \\
-                                       \vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-                                       0 & 0 & \cdots & 1 & x_{i-1} & 0 & \cdots & 0 & 0 \\
-                                       0 & 0 & \cdots & 0 & x_i & 0 & \cdots & 0 & 0 \\
-                                       0 & 0 & \cdots & 0 & x_{i+1} & 1 & \cdots & 0 & 0 \\
-                                       \vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-                                       0 & 0 & \cdots & 0 & x_{n-1} & 0 & \cdots & 1 & 0 \\
+  - and $\det I_i(x) = \begin{vmatrix} 1 & 0 & \cdots & 0 & x_1 & 0 & \cdots & 0 & 0 \\\
+                                       0 & 1 & \cdots & 0 & x_2 & 0 & \cdots & 0 & 0 \\\
+                                       \vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\\
+                                       0 & 0 & \cdots & 1 & x_{i-1} & 0 & \cdots & 0 & 0 \\\
+                                       0 & 0 & \cdots & 0 & x_i & 0 & \cdots & 0 & 0 \\\
+                                       0 & 0 & \cdots & 0 & x_{i+1} & 1 & \cdots & 0 & 0 \\\
+                                       \vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\\
+                                       0 & 0 & \cdots & 0 & x_{n-1} & 0 & \cdots & 1 & 0 \\\
                                        0 & 0 & \cdots & 0 & x_n & 0 & \cdots & 0 & 1 \end{vmatrix} = x_i$
   - therefore, $(\det A) x_i = \det A_i(b) \Rightarrow x_i = \frac{\det A_i(b)}{\det A}$
 
@@ -532,9 +532,9 @@ Theorem 8 : An Inverse Formula
 - The $j$th column of $A^{-1}$ is a vector $x$ that satisfies $Ax = e_j$ <br>
   and by Cramer's rule, $x_i = \frac{\det A_i(e_j)}{\det A}$, which is $(i, j)$-entry of $A^{-1}$
 - and cofactor expansion down column $i$ of $A_i(e_j)$ shows that $\det A_i(e_j) = (-1)^{i+j} \det A_{ji} = C_{ji}$
-- therefore, $A^{-1} = \frac{1}{\det A} \begin{bmatrix} C_{11} & C_{21} & \cdots & C_{n1} \\
-                                                        C_{12} & C_{22} & \cdots & C_{n2} \\
-                                                        \vdots & \vdots & \ddots & \vdots \\
+- therefore, $A^{-1} = \frac{1}{\det A} \begin{bmatrix} C_{11} & C_{21} & \cdots & C_{n1} \\\
+                                                        C_{12} & C_{22} & \cdots & C_{n2} \\\
+                                                        \vdots & \vdots & \ddots & \vdots \\\
                                                         C_{1n} & C_{2n} & \cdots & C_{nn} \end{bmatrix}$, <br>
   where the matrix of cofactors is called the adjugate (or classical adjoint) of $A$, denoted by adj $A$
   
@@ -651,7 +651,7 @@ Theorem 8 (The Unique Representation Theorem)
 
 Suppose $\mathcal{B} = \{b_1,...,b_n\}$ is a basis for a vector space $V$ and $x$ is in $V$. <br>
 The coordinates of $x$ relative to the basis $\mathcal{B}$ (or the $\mathcal{B}$-coordinates of $x$) are the weights $c_1,...,c_n$ such that $x = c_1b_1 + \cdots + c_nb_n$
-- $[ x ]_\mathcal{B} = \begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix}$ is the coordinate vector of $x$ (relative to $\mathcal{B}$), or the $\mathcal{B}$-coordinate vector of $x$
+- $[ x ]_\mathcal{B} = \begin{bmatrix} c_1 \\\ \vdots \\\ c_n \end{bmatrix}$ is the coordinate vector of $x$ (relative to $\mathcal{B}$), or the $\mathcal{B}$-coordinate vector of $x$
 - The mapping $x \mapsto [x]_\mathcal{B}$ is the coordinate mapping (determined by $\mathcal{B}$)
 - we call $P_\mathcal{B} = \begin{bmatrix} b_1 & b_2 & \cdots & b_n \end{bmatrix}$ the change-of-coordinates matrix
 
@@ -659,7 +659,7 @@ The coordinates of $x$ relative to the basis $\mathcal{B}$ (or the $\mathcal{B}$
 Theorem 9 : Let $\mathcal{B} = \{b_1,...,b_n\}$ be a basis for a vector space $V$
 - Let $u = c_1b_1 + \cdots + c_nb_n$ and $w = d_1b_1 + \cdots + d_nb_n$
 - $x \mapsto [x]_\mathcal{B}$ is linear transformation
-  - $[u+w]_\mathcal{B} = \begin{bmatrix} c_1 + d_1 \\ \vdots \\ c_n + d_n \end{bmatrix} = \begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix} + \begin{bmatrix} d_1 \\ \vdots \\ d_n \end{bmatrix} = [u]_\mathcal{B} + [w]_\mathcal{B}$, and $[ru]_\mathcal{B} = \begin{bmatrix} rc_1 \\ \vdots \\ rc_n \end{bmatrix} = r \begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix} = r [u]_\mathcal{B}$
+  - $[u+w]_\mathcal{B} = \begin{bmatrix} c_1 + d_1 \\\ \vdots \\\ c_n + d_n \end{bmatrix} = \begin{bmatrix} c_1 \\\ \vdots \\\ c_n \end{bmatrix} + \begin{bmatrix} d_1 \\\ \vdots \\\ d_n \end{bmatrix} = [u]_\mathcal{B} + [w]_\mathcal{B}$, and $[ru]_\mathcal{B} = \begin{bmatrix} rc_1 \\\ \vdots \\\ rc_n \end{bmatrix} = r \begin{bmatrix} c_1 \\\ \vdots \\\ c_n \end{bmatrix} = r [u]_\mathcal{B}$
 - $x \mapsto [x]_\mathcal{B}$ is one-to-one
   - By the unique representation theorem, if $[u]_\mathcal{B} = [w]_\mathcal{B}$, then $u = w$
 - $x \mapsto [x]_\mathcal{B}$ is from $V$ onto $R^n$
@@ -674,8 +674,8 @@ Theorem 10 : If a vector space $V$ has a basis $\mathcal{B} = \{b_1,...,b_n\}$, 
 - Let $\{u_1,...,u_p\}$ be a set in $V$ with more than $n$ vectors.
 - The coordinate vectors $[u_1]_\mathcal{B},...,[u_p]_\mathcal{B}$ form a linearly dependent set in $R^n$ <br>
   because there are more vectors $(p)$ than entries $(n)$ in each vector
-- So there exist scalars $c_1,...,c_p$, not all zero, such that $c_1[u_1]_\mathcal{B} + \cdots + c_p[u_p]_\mathcal{B} = \begin{bmatrix} 0 \\ \vdots \\ 0 \end{bmatrix}$
-- By Theorem 9, since the coordinate mapping is a linear transformation, $[c_1u_1 + \cdots + c_pu_p]_\mathcal{B} = \begin{bmatrix} 0 \\ \vdots \\ 0 \end{bmatrix}$ <br>
+- So there exist scalars $c_1,...,c_p$, not all zero, such that $c_1[u_1]_\mathcal{B} + \cdots + c_p[u_p]_\mathcal{B} = \begin{bmatrix} 0 \\\ \vdots \\\ 0 \end{bmatrix}$
+- By Theorem 9, since the coordinate mapping is a linear transformation, $[c_1u_1 + \cdots + c_pu_p]_\mathcal{B} = \begin{bmatrix} 0 \\\ \vdots \\\ 0 \end{bmatrix}$ <br>
   $\Rightarrow c_1u_1 + \cdots + c_pu_p = 0b_1 + \cdots + 0b_n = 0$. Therefore $\{u_1,...,u_p\}$ is linearly dependent
 
 Theorem 11 : If a vector space $V$ has a basis of $n$ vectors, then every basis of $V$ must consists of exactly $n$ vectors
@@ -718,10 +718,10 @@ Theorem 14 (The Rank Theorem) : rank $A$ + nullity $A$ = number of columns in $A
 
 Theorem 15 : Let $\mathcal{B} = \{b_1,...,b_n\}$ and $\mathcal{C} = \{c_1,...,c_n\}$ be bases of a vector space $V$
 - there is a unique $n \times n$ matrix $P_{\mathcal{C} \leftarrow \mathcal{B}}$ such that $[x]_\mathcal{C} = P_{C \leftarrow B} [x]_\mathcal{B}$
-  - Suppose $[x]_\mathcal{B} = \begin{bmatrix} k_1 \\ \vdots \\ k_n \end{bmatrix}$ such that $x = k_1b_1 + \cdots + k_nb_n$
+  - Suppose $[x]_\mathcal{B} = \begin{bmatrix} k_1 \\\ \vdots \\\ k_n \end{bmatrix}$ such that $x = k_1b_1 + \cdots + k_nb_n$
   - Apply the coordinate mapping determined by $\mathcal{C}$: <br>
     $[x]_\mathcal{C} = [k_1b_1 + \cdots + k_nb_n]_\mathcal{C} = k_1[b_1]_\mathcal{C} + \cdots + k_n[b_n]_\mathcal{C} \ \ $ ( since the coordinate mapping is a linear transformation ) <br>
-    $= \begin{bmatrix} [b_1]_\mathcal{C} & \cdots & [b_n]_\mathcal{C} \end{bmatrix} \begin{bmatrix} k_1 \\ \vdots \\ k_n \end{bmatrix} = \begin{bmatrix} [b_1]_\mathcal{C} & \cdots & [b_n]_\mathcal{C} \end{bmatrix} [x]_\mathcal{B}$ 
+    $= \begin{bmatrix} [b_1]_\mathcal{C} & \cdots & [b_n]_\mathcal{C} \end{bmatrix} \begin{bmatrix} k_1 \\\ \vdots \\\ k_n \end{bmatrix} = \begin{bmatrix} [b_1]_\mathcal{C} & \cdots & [b_n]_\mathcal{C} \end{bmatrix} [x]_\mathcal{B}$ 
   - Therefore $P_{\mathcal{C} \leftarrow \mathcal{B}} = \begin{bmatrix} [b_1]_\mathcal{C} & \cdots & [b_n]_\mathcal{C} \end{bmatrix}$
 
 The columns of $P_{\mathcal{C} \leftarrow \mathcal{B}}$ are linearly independent
@@ -815,11 +815,11 @@ Theorem 19, 20 : If $a_n \neq 0$, $\{z_k\}$ is given, and $y_0,...,y_{n-1}$ are 
   
 The equation $y_{k+n} + a_1y_{k+n-1} + \cdots + a_{n-1}y_{k+1} + a_ny_k = z_k$ for all $k$, <br>
 can be rewritten as the first-order difference equation <br>
-$x_{k+1} = Ax_k$ for all $k$, where $x_k = \begin{bmatrix} y_k \\ y_{k+1} \\ \vdots \\ y_{k+n-1} \end{bmatrix}$, and
-$A = \begin{bmatrix} 0 & 1 & 0 & \cdots & 0 \\
-                     0 & 0 & 1 & \cdots & 0 \\
-                     \vdots & \vdots & \vdots & \ddots & \vdots \\
-                     0 & 0 & 0 & \cdots & 0 \\
+$x_{k+1} = Ax_k$ for all $k$, where $x_k = \begin{bmatrix} y_k \\\ y_{k+1} \\\ \vdots \\\ y_{k+n-1} \end{bmatrix}$, and
+$A = \begin{bmatrix} 0 & 1 & 0 & \cdots & 0 \\\
+                     0 & 0 & 1 & \cdots & 0 \\\
+                     \vdots & \vdots & \vdots & \ddots & \vdots \\\
+                     0 & 0 & 0 & \cdots & 0 \\\
                      -a_n & -a_{n-1} & -a_{n-2} & \cdots & -a_1 \end{bmatrix}$
 
 *****
@@ -838,7 +838,7 @@ and such an $x$ is called an eigenvector corresponding to $\lambda$
 
 Theorem 1 : The eigenvalues of a triangular matrix are the entries on its main diagonal
 - For simplicity, consider the $3 \times 3$ case. If $A$ is upper triangular, then  <br>
-  $A - \lambda I = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\ 0 & a_{22} & a_{23} \\ 0 & 0 & a_{33} \end{bmatrix} - \begin{bmatrix} \lambda & 0 & 0 \\ 0 & \lambda & 0 \\ 0 & 0 & \lambda \end{bmatrix} = \begin{bmatrix} a_{11} - \lambda & a_{12} & a_{13} \\ 0 & a_{22} - \lambda & a_{23} \\ 0 & 0 & a_{33} - \lambda \end{bmatrix}$
+  $A - \lambda I = \begin{bmatrix} a_{11} & a_{12} & a_{13} \\\ 0 & a_{22} & a_{23} \\\ 0 & 0 & a_{33} \end{bmatrix} - \begin{bmatrix} \lambda & 0 & 0 \\\ 0 & \lambda & 0 \\\ 0 & 0 & \lambda \end{bmatrix} = \begin{bmatrix} a_{11} - \lambda & a_{12} & a_{13} \\\ 0 & a_{22} - \lambda & a_{23} \\\ 0 & 0 & a_{33} - \lambda \end{bmatrix}$
 - Thus $(A - \lambda I)x = 0$ has a free variable if and only if at least one of the entries on the diagonal of $(A - \lambda I) x = 0$  is zero<br>
 - Therefore $\lambda$ equals one of the entries $a_{11}, a_{22}, a_{33}$. And similarly the case in which $A$ is lower triangular can show
 
@@ -886,18 +886,18 @@ Theroem 4
   - By Theorem 3, $\det(B - \lambda I) = \det [P^{-1} (A - \lambda I) P] = \det(P^{-1}) \cdot \det(A - \lambda I) \cdot \det(P)$
   - Therefore $\det(B - \lambda I) = \det(A - \lambda I)$ because $\det(P^{-1}) \cdot \det(P) = \det (P^{-1}P) = \det I = 1$
   
-Let $A = \begin{bmatrix} 0.95 & 0.03 \\ 0.05 & 0.97 \end{bmatrix}$. Analyze the long-term behavior (as $k$ increases) of the dynamical system <br>
-defined by $x_{k+1} = Ax_k \ \ ( k = 0, 1, 2, ... )$, with $x_0 = \begin{bmatrix} 0.6 \\ 0.4 \end{bmatrix}$
-- The characteristic equation for $A$ is $\det \begin{bmatrix} 0.95 - \lambda & 0.03 \\ 0.05 & 0.97 - \lambda \end{bmatrix} = \lambda^2 - 1.92 \lambda + 0.92 = 0$
+Let $A = \begin{bmatrix} 0.95 & 0.03 \\\ 0.05 & 0.97 \end{bmatrix}$. Analyze the long-term behavior (as $k$ increases) of the dynamical system <br>
+defined by $x_{k+1} = Ax_k \ \ ( k = 0, 1, 2, ... )$, with $x_0 = \begin{bmatrix} 0.6 \\\ 0.4 \end{bmatrix}$
+- The characteristic equation for $A$ is $\det \begin{bmatrix} 0.95 - \lambda & 0.03 \\\ 0.05 & 0.97 - \lambda \end{bmatrix} = \lambda^2 - 1.92 \lambda + 0.92 = 0$
 - By the quadratic formula, the eigenvalues of $A$ are $\lambda_1 = 1$ and $\lambda_2 = 0.92$
 - Let $v_1, v_2$ be a eigenvectors corresponding to $\lambda_1, \lambda_2$, <br>
-  then $Av_1 = \lambda_1v_1 = v_1 \Rightarrow (A - I)v_1 = 0 \Rightarrow$ a basis of eigenspace is $\{\begin{bmatrix} 3 \\ 5 \end{bmatrix}\}$ so let $v_1 = \begin{bmatrix} 3 \\ 5 \end{bmatrix}$, <br>
-  and $Av_2 = \lambda_2v_2 = 0.92 v_2 \Rightarrow (A - 0.92 I)v_2 = 0 \Rightarrow$ a basis of eigenspace is $\{\begin{bmatrix} 1 \\ -1 \end{bmatrix}\}$ so let $v_2 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$
-- Since $\{v_1, v_2\}$ is a basis for $R^2$, we can write $x_0 = c_1v_1 + c_2v_2 = \begin{bmatrix} v_1 & v_2 \end{bmatrix} \begin{bmatrix} c_1 \\ c_2 \end{bmatrix}$ <br>
-  In fact, $\begin{bmatrix} c_1 \\ c_2 \end{bmatrix} = \begin{bmatrix} v_1 & v_2 \end{bmatrix}^{-1} x_0 = \begin{bmatrix} 3 & 1 \\ 5 & -1 \end{bmatrix}^{-1} \begin{bmatrix} 0.6 \\ 0.4 \end{bmatrix} = \frac{1}{-8} \begin{bmatrix} -1 & -1 \\ -5 & 3 \end{bmatrix} \begin{bmatrix} 0.6 \\ 0.4 \end{bmatrix} = \begin{bmatrix} 0.125 \\ 0.225 \end{bmatrix}$
+  then $Av_1 = \lambda_1v_1 = v_1 \Rightarrow (A - I)v_1 = 0 \Rightarrow$ a basis of eigenspace is $\{\begin{bmatrix} 3 \\\ 5 \end{bmatrix}\}$ so let $v_1 = \begin{bmatrix} 3 \\\ 5 \end{bmatrix}$, <br>
+  and $Av_2 = \lambda_2v_2 = 0.92 v_2 \Rightarrow (A - 0.92 I)v_2 = 0 \Rightarrow$ a basis of eigenspace is $\{\begin{bmatrix} 1 \\\ -1 \end{bmatrix}\}$ so let $v_2 = \begin{bmatrix} 1 \\\ -1 \end{bmatrix}$
+- Since $\{v_1, v_2\}$ is a basis for $R^2$, we can write $x_0 = c_1v_1 + c_2v_2 = \begin{bmatrix} v_1 & v_2 \end{bmatrix} \begin{bmatrix} c_1 \\\ c_2 \end{bmatrix}$ <br>
+  In fact, $\begin{bmatrix} c_1 \\\ c_2 \end{bmatrix} = \begin{bmatrix} v_1 & v_2 \end{bmatrix}^{-1} x_0 = \begin{bmatrix} 3 & 1 \\\ 5 & -1 \end{bmatrix}^{-1} \begin{bmatrix} 0.6 \\\ 0.4 \end{bmatrix} = \frac{1}{-8} \begin{bmatrix} -1 & -1 \\\ -5 & 3 \end{bmatrix} \begin{bmatrix} 0.6 \\\ 0.4 \end{bmatrix} = \begin{bmatrix} 0.125 \\\ 0.225 \end{bmatrix}$
 - So, $x_k = A^k x_0 = A^{k-1} ( A x_0 ) = A^{k-1} ( c_1Av_1 + c_2Av_2 ) = A^{k-1} ( c_1v_1 + c_2(0.92)v_2 )$ <br>
   $= A^{k-2} ( c_1Av_1 + c_2(0.92)Av_2 ) = A^{k-2} ( c_1v_1 + c_2(0.92)^2v_2 ) = \cdots = c_1v_1 + c_2(0.92)^kv_2$  <br>
-  $= 0.125 \begin{bmatrix} 3 \\ 5 \end{bmatrix} + 0.225 (0.92)^k \begin{bmatrix} 1 \\ -1 \end{bmatrix} \ \ (k = 0,1,2,...)$
+  $= 0.125 \begin{bmatrix} 3 \\\ 5 \end{bmatrix} + 0.225 (0.92)^k \begin{bmatrix} 1 \\\ -1 \end{bmatrix} \ \ (k = 0,1,2,...)$
 
 ### 3) Diagonalization
 
@@ -913,7 +913,7 @@ Theorem 5 : The Diagonalization Theorem
     such that $A = PDP^{-1}$. Let $P$ be matrix with columns $v_1,...,v_n$ and $D$ be matrix with diagonal entries $\lambda_1,...,\lambda_n$
   - Right-multiplying $A = PDP^{-1}$ by $P$, we have $AP = PD$. And <br>
     $AP = A \begin{bmatrix} v_1 & v_2 & \cdots & v_n \end{bmatrix} = \begin{bmatrix} Av_1 & Av_2 & \cdots & Av_n \end{bmatrix}$ <br>
-    $PD = P \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & \lambda_n \end{bmatrix} = \begin{bmatrix} \lambda_1v_1 & \lambda_2v_2 & \cdots & \lambda_nv_n \end{bmatrix}$ <br>
+    $PD = P \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\\ 0 & \lambda_2 & \cdots & 0 \\\ \vdots & \vdots & \ddots & \vdots \\\ 0 & 0 & \cdots & \lambda_n \end{bmatrix} = \begin{bmatrix} \lambda_1v_1 & \lambda_2v_2 & \cdots & \lambda_nv_n \end{bmatrix}$ <br>
     Thus $AP = PD \Rightarrow \begin{bmatrix} Av_1 & Av_2 & \cdots & Av_n \end{bmatrix} = \begin{bmatrix} \lambda_1v_1 & \lambda_2v_2 & \cdots & \lambda_nv_n \end{bmatrix}$ <br>
     $\Rightarrow Av_1 = \lambda_1v_1$, $Av_2 = \lambda_2v_2$, ..., $Av_n = \lambda_nv_n \ \ \cdots \ $ (1)
   - Since $P$ is invertible, its columns $v_1,...,v_n$ are nonzero <br>
@@ -951,16 +951,16 @@ such an $x$ is called an eigenvector corresponding to $\lambda$ <br>
 The Matrix of a Linear Transformation
 - Let $V$ be an $n$-dimensional vector space and let $T$ be any lienar transformation from $V$ to $V$. <br>
 - Choose any basis $\mathcal{B}$ for $V$. Then given any $x$ in $V$, the coordinate vector $[x]_\mathcal{B}$ and its image $[T(x)]_\mathcal{B}$ are in $\mathbb{R}^n$ <br>
-- If $[x]_\mathcal{B} = \begin{bmatrix} r_1 \\ \vdots \\ r_n \end{bmatrix}$, then $T(x) = T(r_1b_1 + \cdots + r_nb_n) = r_1T(b_1) + \cdots + r_nT(b_n)$ because $T$ is linear
+- If $[x]_\mathcal{B} = \begin{bmatrix} r_1 \\\ \vdots \\\ r_n \end{bmatrix}$, then $T(x) = T(r_1b_1 + \cdots + r_nb_n) = r_1T(b_1) + \cdots + r_nT(b_n)$ because $T$ is linear
 - Thus, by Theorem 8 in Chapter 4, since the coordinate mapping from $V$ to $\mathbb{R}^n$ is linear, <br>
   $[T(x)]_\mathcal{B} = [r_1T(b_1) + \cdots + r_nT(b_n)]_\mathcal{B} = r_1[T(b_1)]_\mathcal{B} + \cdots + r_n[T(b_n)]_\mathcal{B}$
 - Since $\mathcal{B}$-coordinate vectors are in $\mathbb{R}^n$, we can write $[T(x)]_\mathcal{B} = M[x]_\mathcal{B}$ <br>
   where $M = \begin{bmatrix} [T(b_1)]_\mathcal{B} & [T(b_2)]_\mathcal{B} & \cdots & [T(b_n)]_\mathcal{B} \end{bmatrix}$, called the matrix for $T$ relative to the basis $\mathcal{B}$ and denoted by $[T]_\mathcal{B}$
 
 The mapping $T : \mathbb{P}_2 \to \mathbb{P}_2$ defined by $T(a_0 + a_1t + a_2t^2) = a_1 + 2a_2t$ is a linear transformation. Let $x = a_0 + a_1t + a_2t^2$
-1. $x \to [x]_\mathcal{B} \ $ ( $\mathbb{P}^2 \to \mathbb{R}^3$ ) : Let $\mathcal{B} = \{1, t, t^2\}$, then $[a_0 + a_1t + a_2t^2]_\mathcal{B} = \begin{bmatrix} a_0 \\ a_1 \\ a_2 \end{bmatrix}$
-2. $[x]_\mathcal{B} \to [T(x)]_\mathcal{B}$ : $[T(x)]_\mathcal{B} = [T]_\mathcal{B} [x]_\mathcal{B} \ $ where $[T]_\mathcal{B} = \begin{bmatrix} [T(1)]_\mathcal{B} & [T(t)]_\mathcal{B} & [T(t^2)]_\mathcal{B} \end{bmatrix} = \begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{bmatrix}$  <br>
-   so $[T(x)]_\mathcal{B} = \begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 2 \\ 0 & 0 & 0 \end{bmatrix} \begin{bmatrix} a_0 \\ a_1 \\ a_2 \end{bmatrix} = \begin{bmatrix} a_1 \\ 2a_2 \\ 0 \end{bmatrix}$
+1. $x \to [x]_\mathcal{B} \ $ ( $\mathbb{P}^2 \to \mathbb{R}^3$ ) : Let $\mathcal{B} = \{1, t, t^2\}$, then $[a_0 + a_1t + a_2t^2]_\mathcal{B} = \begin{bmatrix} a_0 \\\ a_1 \\\ a_2 \end{bmatrix}$
+2. $[x]_\mathcal{B} \to [T(x)]_\mathcal{B}$ : $[T(x)]_\mathcal{B} = [T]_\mathcal{B} [x]_\mathcal{B} \ $ where $[T]_\mathcal{B} = \begin{bmatrix} [T(1)]_\mathcal{B} & [T(t)]_\mathcal{B} & [T(t^2)]_\mathcal{B} \end{bmatrix} = \begin{bmatrix} 0 & 1 & 0 \\\ 0 & 0 & 2 \\\ 0 & 0 & 0 \end{bmatrix}$  <br>
+   so $[T(x)]_\mathcal{B} = \begin{bmatrix} 0 & 1 & 0 \\\ 0 & 0 & 2 \\\ 0 & 0 & 0 \end{bmatrix} \begin{bmatrix} a_0 \\\ a_1 \\\ a_2 \end{bmatrix} = \begin{bmatrix} a_1 \\\ 2a_2 \\\ 0 \end{bmatrix}$
 3. $[T(x)]_\mathcal{B} \to T(x) \ $ ( $\mathbb{R}^3 \to \mathbb{P}^2$ ) : $T(x) = \begin{bmatrix} 1 & t & t^2 \end{bmatrix} [T(x)]_\mathcal{B} = a_1 + 2a_2 t$
 
 Theorem 8 : Suppose $A = PCP^{-1}$ where $C$ is $n \times n$, and $\mathcal{B}$ is the basis for $\mathbb{R}^n$ formed from the columns of $P$
@@ -989,7 +989,7 @@ This shows that when $A$ is real, its complex eigenvalues occur in conjugate pai
 <br>
 Theorem 9
 - Let $A$ be real $2 \times 2$ matrix with a complex eigenvalue $\lambda = a - bi \ \ (b \neq 0)$ and an associated eigenvector $v$ in $\mathbb{C}^2$ <br>
-  Then $A = PCP^{-1}$, where $P = \begin{bmatrix} \mathrm{Re}\ v & \mathrm{Im}\ v \end{bmatrix}$ and $C = \begin{bmatrix} a & -b \\ b & a \end{bmatrix}$
+  Then $A = PCP^{-1}$, where $P = \begin{bmatrix} \mathrm{Re}\ v & \mathrm{Im}\ v \end{bmatrix}$ and $C = \begin{bmatrix} a & -b \\\ b & a \end{bmatrix}$
   - $Av = \mathrm{Re}\ Av + i \mathrm{Im}\ Av$, and, $Av = A ( \mathrm{Re}\ v + i \mathrm{Im}\ v ) = A\ \mathrm{Re}\ v + A\ i \mathrm{Im}\ v$ <br>
     So, (1) : $\mathrm{Re}\ Av = A ( \mathrm{Re}\ x )$, and (2) : $\mathrm{Im}\ Av = A ( \mathrm{Im}\ x )$
   - $Av = \mathrm{Re}\ Av + i \mathrm{Im}\ Av$, and, $Av = \lambda v = (a - ib)(\mathrm{Re}\ v + i \mathrm{Im}\ v) = (a\ \mathrm{Re}\ v + b\ \mathrm{Im}\ v) + i (- b\ \mathrm{Re}\ v + a\ \mathrm{Im}\ v)$ <br>
@@ -1003,11 +1003,11 @@ Theorem 9
     - Therefore, $\mathrm{Re}\ v$ and $\mathrm{Im}\ v$ are linearly independent, which means that $P$ is invertible
   - $AP = \begin{bmatrix} A\ \mathrm{Re}\ v & A\ \mathrm{Im}\ v \end{bmatrix}$, and by (1) and (2), $= \begin{bmatrix} \mathrm{Re}\ Av & \mathrm{Im}\ Av \end{bmatrix}$, <br>
     and by (3) and (4), $= \begin{bmatrix} a\ \mathrm{Re}\ v + b\ \mathrm{Im}\ v & - b\ \mathrm{Re}\ v + a\ \mathrm{Im}\ v \end{bmatrix}$
-  - $PC = \begin{bmatrix} \mathrm{Re}\ v & \mathrm{Im}\ v \end{bmatrix} \begin{bmatrix} a & -b \\ b & a \end{bmatrix} = \begin{bmatrix} a\ \mathrm{Re}\ v + b\ \mathrm{Im}\ v & - b\ \mathrm{Re}\ v + a\ \mathrm{Im}\ v \end{bmatrix}$
+  - $PC = \begin{bmatrix} \mathrm{Re}\ v & \mathrm{Im}\ v \end{bmatrix} \begin{bmatrix} a & -b \\\ b & a \end{bmatrix} = \begin{bmatrix} a\ \mathrm{Re}\ v + b\ \mathrm{Im}\ v & - b\ \mathrm{Re}\ v + a\ \mathrm{Im}\ v \end{bmatrix}$
   - Therefore, Since $AP = PC$ and $P$ is invertible, $A = PCP^{-1}$
 - $P$ is viewed as change-of-coordinates matrix (like Section 4 in Chapter 5) <br>
   and $x \mapsto Cx$ is viewed as the composition of a rotation and a scaling by $|\lambda|$
-  - $C = |\lambda| \begin{bmatrix} a/|\lambda| & -b/|\lambda| \\ b/|\lambda| & a/|\lambda| \end{bmatrix} = |\lambda| \begin{bmatrix} \cos \varphi  & - \sin \varphi \\ \sin \varphi & \cos \varphi \end{bmatrix}$
+  - $C = |\lambda| \begin{bmatrix} a/|\lambda| & -b/|\lambda| \\\ b/|\lambda| & a/|\lambda| \end{bmatrix} = |\lambda| \begin{bmatrix} \cos \varphi  & - \sin \varphi \\\ \sin \varphi & \cos \varphi \end{bmatrix}$
 
 
 ```python
@@ -1040,7 +1040,7 @@ plt.show()
 ( = Dynamical system in Section 2 in Chapter 4 ) <br>
 <br>
 At the dynamical system $x_{k+1} = A x_k \Rightarrow x_k = c_1(\lambda_1)^kv_1 + \cdots + c_n(\lambda_n)^kv_n$:
-- trajectory : The graph of $x_0 = \begin{bmatrix} c_1 \\ \vdots \\ c_n \end{bmatrix}, x_1, x_2, ...$
+- trajectory : The graph of $x_0 = \begin{bmatrix} c_1 \\\ \vdots \\\ c_n \end{bmatrix}, x_1, x_2, ...$
   - When both eigenvalues are less than 1 in magnitude so all trajectories tend toward $0$, the origin is called an attractor
   - When both eigenvalues are larger than 1 so all trajectories tend away from the origin, the origin is called a repeller
   - Otherwise, so the origin attracts from some directions and repel them in other directions, the origin is called saddle point
@@ -1052,7 +1052,7 @@ At the dynamical system $x_{k+1} = A x_k \Rightarrow x_k = c_1(\lambda_1)^kv_1 +
 ( Section 8 in Chapter 4 + Dynamical system ) <br>
 <br>
 System of differential equation : $x'(t) = A x(t)$ <br>
-where $x(t) = \begin{bmatrix} x_1(t) \\ \vdots \\ x_n(t) \end{bmatrix}$, $x'(t) = \begin{bmatrix} x_1'(t) \\ \vdots \\ x_n'(t) \end{bmatrix}$, and $A = \begin{bmatrix} a_{11} & \cdots & a_{1n} \\ \vdots & \ddots & \vdots \\ a_{n1} & \cdots & a_{nn} \end{bmatrix}$
+where $x(t) = \begin{bmatrix} x_1(t) \\\ \vdots \\\ x_n(t) \end{bmatrix}$, $x'(t) = \begin{bmatrix} x_1'(t) \\\ \vdots \\\ x_n'(t) \end{bmatrix}$, and $A = \begin{bmatrix} a_{11} & \cdots & a_{1n} \\\ \vdots & \ddots & \vdots \\\ a_{n1} & \cdots & a_{nn} \end{bmatrix}$
 - A solution of the equation is a vector-valued function that satisfies the equation for all $t$ in some interval of **real numbers**
 - Let $x(t) = ve^{\lambda t}$, then $x'(t) = \lambda v e^{\lambda t}$. On the other hand, $Ax(t) = Ave^{\lambda t}$, so $x'(t) = A x(t) \Rightarrow \lambda v e^{\lambda t} = A v e^{\lambda t}$ <br>
   So, if $v$ is eigenvector corresponding to eigenvalue $\lambda$, then $x(t) = ve^{\lambda t}$ is the solution of the equation, called eigenfunction
@@ -1074,17 +1074,17 @@ If $x$ in $\mathbb{R}^n$ is written as $x = c_1v_1 + \cdots + c_nv_n$, then $A^k
 Assume $c_1 \neq 0$, then $\frac{1}{(\lambda_1)^k} A^k x = c_1v_1 + c_2 (\frac{\lambda_2}{\lambda_1})^kv_2 + \cdots + c_n (\frac{\lambda_n}{\lambda_1})^kv_n$. then $\frac{\lambda_2}{\lambda_1}, ..., \frac{\lambda_n}{\lambda_1}$ are all less than 1 <br>
 So $(\lambda_1)^{-k} A^k x \rightarrow c_1v_1$ as $k \rightarrow \infty$, which implies that for large $k$, $A^k x$ determines almost the same direction as the eigenvector $v_1$ <br>
 <br>
-Apply the power method to $A = \begin{bmatrix} 6 & 5 \\ 1 & 2 \end{bmatrix}$
-1. Select an initial vector $x_0$ whose largest entry is $1$, I will select $x_0 = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$
+Apply the power method to $A = \begin{bmatrix} 6 & 5 \\\ 1 & 2 \end{bmatrix}$
+1. Select an initial vector $x_0$ whose largest entry is $1$, I will select $x_0 = \begin{bmatrix} 0 \\\ 1 \end{bmatrix}$
 2. For $k = 0, 1, ...$, compute $x_{k+1} = \frac{1}{\mu_k}Ax_k$ where $\mu_k$ is an entry in $Ax_k$ whose absolute value is as large as possible
-  - Since $Ax_0 = \begin{bmatrix} 6 & 5 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \begin{bmatrix} 5 \\ 2 \end{bmatrix}$, $\mu_0 = 5$, so $x_1 = \frac{1}{5} \begin{bmatrix} 5 \\ 2 \end{bmatrix} = \begin{bmatrix} 1 \\ 0.4 \end{bmatrix}$
-  - Since $Ax_1 = \begin{bmatrix} 6 & 5 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 1 \\ 0.4 \end{bmatrix} = \begin{bmatrix} 8 \\ 1.8 \end{bmatrix}$, $\mu_1 = 8$, so $x_2 = \frac{1}{8} \begin{bmatrix} 8 \\ 1.8 \end{bmatrix} = \begin{bmatrix} 1 \\ 0.225 \end{bmatrix}$
-  - If we repeat this, we can get $x_3 = \begin{bmatrix} 1 \\ 0.2035 \end{bmatrix}$, $x_4 = \begin{bmatrix} 1 \\ 0.2005 \end{bmatrix}$, $x_5 = \begin{bmatrix} 1 \\ 0.20007 \end{bmatrix}$, ... <br>
+  - Since $Ax_0 = \begin{bmatrix} 6 & 5 \\\ 1 & 2 \end{bmatrix} \begin{bmatrix} 0 \\\ 1 \end{bmatrix} = \begin{bmatrix} 5 \\\ 2 \end{bmatrix}$, $\mu_0 = 5$, so $x_1 = \frac{1}{5} \begin{bmatrix} 5 \\\ 2 \end{bmatrix} = \begin{bmatrix} 1 \\\ 0.4 \end{bmatrix}$
+  - Since $Ax_1 = \begin{bmatrix} 6 & 5 \\\ 1 & 2 \end{bmatrix} \begin{bmatrix} 1 \\\ 0.4 \end{bmatrix} = \begin{bmatrix} 8 \\\ 1.8 \end{bmatrix}$, $\mu_1 = 8$, so $x_2 = \frac{1}{8} \begin{bmatrix} 8 \\\ 1.8 \end{bmatrix} = \begin{bmatrix} 1 \\\ 0.225 \end{bmatrix}$
+  - If we repeat this, we can get $x_3 = \begin{bmatrix} 1 \\\ 0.2035 \end{bmatrix}$, $x_4 = \begin{bmatrix} 1 \\\ 0.2005 \end{bmatrix}$, $x_5 = \begin{bmatrix} 1 \\\ 0.20007 \end{bmatrix}$, ... <br>
     with $\mu_3 = 7.125$, $\mu_4 = 7.0175$, $\mu_5 = 7.0025$, ...
 3. For almost all choices of $x_0$, $\{\mu_k\}$ approaches the dominant eigenvalue, and $\{x_k\}$ approaches a corresponding eigenvector <br>
    We can suggest that $\{x_k\}$ approaches $(1, 0.2)$ and $\{y_k\}$ approaches $7$. <br>
    If so, then $(1, 0.2)$ is an eigenvector and $7$ is the dominant eigenvalue. <br>
-   we can check $A \begin{bmatrix} 1 \\ 0.2 \end{bmatrix} = \begin{bmatrix} 6 & 5 \\ 1 & 2 \end{bmatrix} \begin{bmatrix} 1 \\ 0.2 \end{bmatrix} = \begin{bmatrix} 7 \\ 1.4 \end{bmatrix} = 7 \begin{bmatrix} 1 \\ 0.2 \end{bmatrix}$
+   we can check $A \begin{bmatrix} 1 \\\ 0.2 \end{bmatrix} = \begin{bmatrix} 6 & 5 \\\ 1 & 2 \end{bmatrix} \begin{bmatrix} 1 \\\ 0.2 \end{bmatrix} = \begin{bmatrix} 7 \\\ 1.4 \end{bmatrix} = 7 \begin{bmatrix} 1 \\\ 0.2 \end{bmatrix}$
 - We can change $\mu_k$ to $|Ax_k|$. than $|x_k| = 1 \ \ $ (inner product)
 
 If $Av = \lambda v$ and $\alpha$ is not eigenvalue of $A$, than $(A - \alpha I)^{-1} v = \frac{1}{\lambda - \alpha} v$ because $(A - \alpha I) v = (\lambda - a) v$ <br>
@@ -1093,15 +1093,15 @@ and corresponding eigenvalues are $\frac{1}{\lambda_1 - \alpha}, \cdots, \frac{1
 If we apply the power method to $(A - \alpha I)^{-1}$, than we will find the strictly dominant eigenvalue, formed by $\frac{1}{\lambda - \alpha}$, <br>
 which means that we will find $\lambda$ the eigenvalue of $A$ which is nearest to $\alpha$
 
-Apply the inverse power method to $A = \begin{bmatrix} 10 & -8 & -4 \\ -8 & 13 & 4 \\ -4 & 5 & 4 \end{bmatrix}$
+Apply the inverse power method to $A = \begin{bmatrix} 10 & -8 & -4 \\\ -8 & 13 & 4 \\\ -4 & 5 & 4 \end{bmatrix}$
 1. Select an initial estimate $\alpha$ sufficiently close to $\lambda$. I will select $\alpha = 1.9$
-2. Select an inttial vector $x_0$ whose largest entry is $1$. I will select $x_0 = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$
+2. Select an inttial vector $x_0$ whose largest entry is $1$. I will select $x_0 = \begin{bmatrix} 1 \\\ 1 \\\ 1 \end{bmatrix}$
 3. For $k = 0, 1, ...$, solve $(A - \alpha I)y_k = x_k$ for $y_k$ because it is better than computing $y_k = (A - \alpha I)^{-1} x_k$, <br>
    and compute $v_k = \alpha + (1/\mu)$ to find the eigenvalue of $A$, and compute $x_{k+1} = (1/\mu_k)y_k$
-   - If we repeat this, we can get $x_1 = \begin{bmatrix} 0.5736 \\ 0.0646 \\ 1 \end{bmatrix}$, ..., $x_4 = \begin{bmatrix} 0.50003 \\ 0.00002 \\ 1 \end{bmatrix}$, ... <br>
+   - If we repeat this, we can get $x_1 = \begin{bmatrix} 0.5736 \\\ 0.0646 \\\ 1 \end{bmatrix}$, ..., $x_4 = \begin{bmatrix} 0.50003 \\\ 0.00002 \\\ 1 \end{bmatrix}$, ... <br>
      with $v_1 = 2.03$, ..., $v_4 = 2.0000002$, ...
 4. For almost all choices of $x_0$, $\{v_k\}$ approaches the eigenvalue of $A$, and $\{x_k\}$ approaches a corresponding eigenvector <br>
-   So we can find the eigenvalue of $A$ is $2$, and corresponding eigenvector is $\begin{bmatrix} 0.5 \\ 0 \\ 1 \end{bmatrix}$
+   So we can find the eigenvalue of $A$ is $2$, and corresponding eigenvector is $\begin{bmatrix} 0.5 \\\ 0 \\\ 1 \end{bmatrix}$
 
 ### 9) Applications to Markov Chains
 
@@ -1202,7 +1202,7 @@ A set $\{u_1,...,u_p\}$ is an orthonormal set if it is an orthogonal set of unit
 If $W$ is the subspace sapnned by such a set, then $\{u_1,...,u_p\}$ is an orthonormal basis for $W$ <br>
 <br>
 Theorem 6 : An $m \times n$ matrix $U$ has orthonormal columns if and only if $U^TU = I$
-- Let $U = \begin{bmatrix} u_1 & \cdots & u_n \end{bmatrix}$, then $U^TU = \begin{bmatrix} u_1^T \\ \vdots \\ u_n^T \end{bmatrix} \begin{bmatrix} u_1 & \cdots & u_3 \end{bmatrix} = \begin{bmatrix} u_1^Tu_1 & \cdots & u_1^Tu_n \\ \vdots & \ddots & \vdots \\ u_n^Tu_1 & \cdots & u_n^Tu_n \end{bmatrix}$
+- Let $U = \begin{bmatrix} u_1 & \cdots & u_n \end{bmatrix}$, then $U^TU = \begin{bmatrix} u_1^T \\\ \vdots \\\ u_n^T \end{bmatrix} \begin{bmatrix} u_1 & \cdots & u_3 \end{bmatrix} = \begin{bmatrix} u_1^Tu_1 & \cdots & u_1^Tu_n \\\ \vdots & \ddots & \vdots \\\ u_n^Tu_1 & \cdots & u_n^Tu_n \end{bmatrix}$
 - Since $u_i \cdot u_j = 0$ whenever $i \neq j$, and $u_i \cdot u_i = 1$ for all $i$, The theorem follows
 
 Theorem 7 : Let $U$ be an $m \times n$ matrix with orthonormal columns, and let $x$ and $y$ be in $\mathbb{R}^n$
@@ -1269,7 +1269,7 @@ Theorem 12 : The QR Factorization
     So there are constants $r_{1k},...,r_{kk}$, such that $x_k = r_{1k}u_1 + \cdots + r_{kk}u_k + 0 u_{k+1} + \cdots + 0 u_n$ <br>
     ( We may assume that $r_{kk} \geq 0$. If $r_{kk} < 0$, multiply both $r_{kk}$ and $u_k$ by $-1$ )
   - Let $Q = \begin{bmatrix} u_1 & u_2 & \cdots & u_n \end{bmatrix}$, then $x_k$ is a linear combination of the columns of $Q$ <br>
-    using as weights the entries in the vector $r_k = \begin{bmatrix} r_{1k} \\ \vdots \\ r_{kk} \\ 0 \\ \vdots \\ 0 \end{bmatrix}$. That is, $x_k = Qr_k$ for $k = 1, ..., n$
+    using as weights the entries in the vector $r_k = \begin{bmatrix} r_{1k} \\\ \vdots \\\ r_{kk} \\\ 0 \\\ \vdots \\\ 0 \end{bmatrix}$. That is, $x_k = Qr_k$ for $k = 1, ..., n$
   - Let $R = \begin{bmatrix} r_1 & \cdots & r_n \end{bmatrix}$. Then $A = \begin{bmatrix} x_! & \cdots & x_n \end{bmatrix} = \begin{bmatrix} Qr_1 & \cdots & Qr_n \end{bmatrix} = QR$ <br>
     and since $Rx = 0 \Rightarrow QRx = 0 \Rightarrow Ax = 0$ and the columns of $A$ is linearly independent, $R$ is invertible
 - In the Gram-Schemidt Process, we can get $r_k$ by $x_k = v_k + \frac{x_k \cdot v_1}{v_1 \cdot v_1}v_1 + \cdots + \frac{x_k \cdot v_{k-1}}{v_{k-1} \cdot v_{k-1}}v_{k-1}$
@@ -1322,7 +1322,7 @@ Theorem 15
 $X\beta = y$ : $X$ is the design matrix, $\beta$ is the parameter vector, and $y$ is the observation vector
 - Note that this is a least-squares problem. Generally, the equation may have no solution <br>
   Predicted value $X\beta$ is denoted by $\hat{y}$. Note that $\hat{y} = X\beta$ is simple true equation
-- In polynomial regression, If data points are $(x_1, y_1),...,(x_n, y_n)$, then $X = \begin{bmatrix} 1 & x_1 & \cdots & x_1^p \\ 1 & x_2 & \cdots & x_2^p \\ \vdots & \vdots & \ddots & \vdots \\ 1 & x_n & \cdots & x_n^p \end{bmatrix}$, $\beta = \begin{bmatrix} \beta_0 \\ \beta_1 \\ \vdots \\ \beta_p \end{bmatrix}$, $y = \begin{bmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{bmatrix}$
+- In polynomial regression, If data points are $(x_1, y_1),...,(x_n, y_n)$, then $X = \begin{bmatrix} 1 & x_1 & \cdots & x_1^p \\\ 1 & x_2 & \cdots & x_2^p \\\ \vdots & \vdots & \ddots & \vdots \\\ 1 & x_n & \cdots & x_n^p \end{bmatrix}$, $\beta = \begin{bmatrix} \beta_0 \\\ \beta_1 \\\ \vdots \\\ \beta_p \end{bmatrix}$, $y = \begin{bmatrix} y_1 \\\ y_2 \\\ \vdots \\\ y_n \end{bmatrix}$
 - The least-squares line : $y = \beta_0 + \beta_1x + \cdots + \beta_px^p$ that minimizes the sum of the squares of the residuals <br>
   which is also called a line of regression of $y$ on $x$, and coefficients $\beta_0, \beta_1, ...\beta_p$ are called regression coefficients
   - Let $\epsilon$ be the residual vector between observed $y$-value and predicted $y$-value, denoted by $y = X\beta + \epsilon$ <br>
@@ -1330,7 +1330,7 @@ $X\beta = y$ : $X$ is the design matrix, $\beta$ is the parameter vector, and $y
   - And $||y - X\beta|| = \sqrt{e_1^2 + \cdots + e_n^2}$. which is square root of the sum of the squares of the residuals
   - Therefore, the least-sqaures solution of $X\beta = y$ is equivalent to finding the least-squares line <br>
     And the least-sqaures solution $\hat{\beta}$ is a solution of the normal equations $X^TX \beta = X^T y$
-- We can fit of other curves by letting $X = \begin{bmatrix} f_0(x_1) & \cdots & f_p(x_1) \\ \vdots & \ddots & \vdots \\ f_0(x_n) & \cdots & f_p(x_n) \end{bmatrix}$
+- We can fit of other curves by letting $X = \begin{bmatrix} f_0(x_1) & \cdots & f_p(x_1) \\\ \vdots & \ddots & \vdots \\\ f_0(x_n) & \cdots & f_p(x_n) \end{bmatrix}$
 - We can fit on an experiment involving multiple independent variables. Suppose the data points are $(u_1, v_1, y_1),...,(u_n, v_n, y_n)$ <br>
   where $u, v$ is independent variables and $y$ is dependent variable. then linear model defines as $y = \beta_0f_0(u, v) + \cdots + \beta_pf_p(u, v)$ <br>
   In this two variables case, the solution is called the least-squares plane 
@@ -1385,7 +1385,7 @@ which is simply $||y - \hat{y}||^2$, using the standard length in $\mathbb{R}^n$
 <br>
 Weighted $\mathrm{SS(E)} = w_1^2(y_1 - \hat{y}_1)^2 + \cdots + w_n^2(y_n - \hat{y}_n)^2$ <br>
 which is the square of the length of $y - \hat{y}$, where the length is derived from $\langle x, y \rangle = w_1^2x_1y_1 + \cdots + w_n^2x_ny_n$ <br>
-but, $w_j^2(y_j - \hat{y_j})^2 = (w_jy_j - w_jy)^2$. and let $W = \begin{bmatrix} w_1 & 0 & \cdots & 0 \\ 0 & w_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & w_n \end{bmatrix}$, then $Wy = \begin{bmatrix} w_1y_1 \\ w_2y_2 \\ \vdots \\ w_ny_n \end{bmatrix}$ <br>
+but, $w_j^2(y_j - \hat{y_j})^2 = (w_jy_j - w_jy)^2$. and let $W = \begin{bmatrix} w_1 & 0 & \cdots & 0 \\\ 0 & w_2 & \cdots & 0 \\\ \vdots & \vdots & \ddots & \vdots \\\ 0 & 0 & \cdots & w_n \end{bmatrix}$, then $Wy = \begin{bmatrix} w_1y_1 \\\ w_2y_2 \\\ \vdots \\\ w_ny_n \end{bmatrix}$ <br>
 Therefore the weighted $\mathrm{SS(E)}$ is the square of the ordinary length in $\mathbb{R}^n$ of $Wy - W\hat{y}$, which we write as $\|Wy - W\hat{y}\|^2$ <br>
 <br>
 By least-squares problem $Ax = y$, let $\hat{x}$ be the least-squares solution. <br>
@@ -1395,8 +1395,8 @@ So the normal equation for the least-squares solution is $(WA)^TWAx = (WA)^TWy$ 
 <br>
 ( trend analysis : linear model + inner product ) <br>
 Fit a quadratic trend function to the data $(-2, 3)$, $(-1, 5)$, $(0, 5)$, $(1, 4)$, and $(2, 3)$
-- for $p(t)$ in $\mathbb{R}_4$, $p \mapsto \begin{bmatrix} p(-2) \\ p(-1) \\ p(0) \\ p(1) \\ p(2) \end{bmatrix}$ is an isomorphism, so we list orthogonal basis of $\mathbb{P}_2$ as a vector in $\mathbb{R}^5$: <br>
-  $p_0 = \begin{bmatrix} 1 \\ 1 \\ 1 \\ 1 \\ 1 \end{bmatrix}$, $p_1 = \begin{bmatrix} -2 \\ -1 \\ 0 \\ 1 \\ 2 \end{bmatrix}$, $p_2 = \begin{bmatrix} 2 \\ -1 \\ -2 \\ -1 \\ 2 \end{bmatrix}$, and let data $g = \begin{bmatrix} 3 \\ 5 \\ 5 \\ 4 \\ 3 \end{bmatrix}$. Note that $g$ means $g(-2) = 3, ..., g(2) = 3$
+- for $p(t)$ in $\mathbb{R}_4$, $p \mapsto \begin{bmatrix} p(-2) \\\ p(-1) \\\ p(0) \\\ p(1) \\\ p(2) \end{bmatrix}$ is an isomorphism, so we list orthogonal basis of $\mathbb{P}_2$ as a vector in $\mathbb{R}^5$: <br>
+  $p_0 = \begin{bmatrix} 1 \\\ 1 \\\ 1 \\\ 1 \\\ 1 \end{bmatrix}$, $p_1 = \begin{bmatrix} -2 \\\ -1 \\\ 0 \\\ 1 \\\ 2 \end{bmatrix}$, $p_2 = \begin{bmatrix} 2 \\\ -1 \\\ -2 \\\ -1 \\\ 2 \end{bmatrix}$, and let data $g = \begin{bmatrix} 3 \\\ 5 \\\ 5 \\\ 4 \\\ 3 \end{bmatrix}$. Note that $g$ means $g(-2) = 3, ..., g(2) = 3$
 - By the Best Approximation Theorem, the best approximation to the data by polynomials in $\mathbb{P}_2$ is <br>
   $\hat{p} = \mathrm{proj}_{\mathbb{P}_2}g = \frac{\langle g, p_0 \rangle}{\langle p_0, p_0 \rangle} p_0 + \frac{\langle g, p_1 \rangle}{\langle p_1, p_1 \rangle} g_1 + \frac{\langle p, p_2 \rangle}{\langle p_2, p_2 \rangle} g_2 = \frac{20}{3}p_0 - \frac{1}{10}p_1 - \frac{7}{14}p_2$ <br>
   Therefore $\hat{p}(t) = 4 - 0.1t - 0.5(t^2 - 2)$
@@ -1464,7 +1464,7 @@ Theorem 4 : The Principal Axes Theorem
     $y$ is the coordinate vector of $x$ relative to the basis of $\mathbb{R}^n$ determined by the columns of $P$, called the principal axes 
   - Then, $x^TAx = (Py)^TA(Py) = y^TP^TAPy = y^T(P^TAP)y$, thus the new matrix of the quadratic form is $P^TAP$
   - By the Spectral Theorem, there is an orthogonal matrix $P$ such that $P^TAP$ is a diagonal matrix $D$
-  - Then we can check $y^TDy = \begin{bmatrix} y_1 & \cdots & y_n \end{bmatrix} \begin{bmatrix} \lambda_1 & \cdots & 0 \\ \vdots & \ddots & \vdots \\ 0 & \cdots & \lambda_n \end{bmatrix} \begin{bmatrix} y_1 \\ \vdots \\ y_n \end{bmatrix} = \lambda_1y_1^2 + \cdots \lambda_ny_1^n$, has no cross-product term
+  - Then we can check $y^TDy = \begin{bmatrix} y_1 & \cdots & y_n \end{bmatrix} \begin{bmatrix} \lambda_1 & \cdots & 0 \\\ \vdots & \ddots & \vdots \\\ 0 & \cdots & \lambda_n \end{bmatrix} \begin{bmatrix} y_1 \\\ \vdots \\\ y_n \end{bmatrix} = \lambda_1y_1^2 + \cdots \lambda_ny_1^n$, has no cross-product term
 
 Quadratic form $Q$ is:
 - positive definite if $Q(x) > 0$ for all $x \neq 0$, or positive semidefinite if $Q(x) \geq 0$ for all $x$
@@ -1490,8 +1490,8 @@ Theorem 6 : Let $A$ be a symmetric $n \times n$ matrix
   - By the Spectral Theorem, $A$ can be orthogonally diagonalized as $PDP^{-1}$ <br>
     then $x^TAx = y^TDy$ when $x = Py$, and also $\|x\| = \|Py\| = \|y\|$ by Theorem 7 in Chapter 6
   - Suppose that $A$ has eigenvalues $\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_n$. <br>
-    Arrange the eigenvector columns of $P$ so that $P = \begin{bmatrix} u_1 & u_2 & \cdots & u_n \end{bmatrix}$ and $D = \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\ 0 & \lambda_2 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & \lambda_n \end{bmatrix}$
-  - Given any unit vector $y = \begin{bmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{bmatrix}$, observe that $\lambda_2y_2^2 \le \lambda_1y_2^2$, ..., $\lambda_ny_n^2 \le \lambda_ny_n^2$ <br>
+    Arrange the eigenvector columns of $P$ so that $P = \begin{bmatrix} u_1 & u_2 & \cdots & u_n \end{bmatrix}$ and $D = \begin{bmatrix} \lambda_1 & 0 & \cdots & 0 \\\ 0 & \lambda_2 & \cdots & 0 \\\ \vdots & \vdots & \ddots & \vdots \\\ 0 & 0 & \cdots & \lambda_n \end{bmatrix}$
+  - Given any unit vector $y = \begin{bmatrix} y_1 \\\ y_2 \\\ \vdots \\\ y_n \end{bmatrix}$, observe that $\lambda_2y_2^2 \le \lambda_1y_2^2$, ..., $\lambda_ny_n^2 \le \lambda_ny_n^2$ <br>
     and obtain $y^TDy = \lambda_1y_1^2 + \lambda_2y_2^2 + \cdots + \lambda_ny_n^2 \le \lambda_1y_1^2 + \lambda_1y_2^2 + \cdots + \lambda_1y_n^2 = \lambda_1(y_1^2 + y_2^2 + \cdots + y_n^2) = \lambda_1$
   - Thus $M \le \lambda_1$, but $y^TDy = \lambda_1$ when $y = e_1$, so in fact $M = \lambda_1$ <br>
     And if $y = e_1$, then $x = Py = u_1$. Therefore $y^TDy = x^TAx = M = \lambda_1$ when $x$ is $u_1$
@@ -1509,7 +1509,7 @@ Exmaple : Find the maximum value of $q(x, y) = xy$ subject to the constraint $4x
 - $4x^2 + 9y^2 = 36 \Rightarrow (\frac{x}{3})^2 + (\frac{y}{2})^2 = 1$, and define $x_1 = \frac{x}{3}$, $x_2 = \frac{y}{2}$ <br>
   Then the constraint equation becomes $x_1^2 + x_2^2 = 1$, and $q(x, y) = q(3x_1 2x_2) = 6x_1x_2$ <br>
   Thus the problem is to maximize $Q(x) = 6x_1x_2$ subject to $x^Tx = 1$
-- Let $A = \begin{bmatrix} 0 & 3 \\ 3 & 0 \end{bmatrix}$, then $Q(x) = x^TAx$. and we can find $\lambda_1 = 3$, $\lambda_2 = -3$ and $u_1 = \begin{bmatrix} 1/\sqrt{2} \\ 1/\sqrt{2} \end{bmatrix}$, $u_2 = \begin{bmatrix} -1/\sqrt{2} \\ 1/\sqrt{2} \end{bmatrix}$ <br>
+- Let $A = \begin{bmatrix} 0 & 3 \\\ 3 & 0 \end{bmatrix}$, then $Q(x) = x^TAx$. and we can find $\lambda_1 = 3$, $\lambda_2 = -3$ and $u_1 = \begin{bmatrix} 1/\sqrt{2} \\\ 1/\sqrt{2} \end{bmatrix}$, $u_2 = \begin{bmatrix} -1/\sqrt{2} \\\ 1/\sqrt{2} \end{bmatrix}$ <br>
   Therefore, by Theorem 6, the maximum value of $Q(x) = q(x_1, x_2)$ is $3$, attained when $x_1 = 1/\sqrt{2}$ and $x_2 = 1/\sqrt{2}$
 
 ### 4) The Singular Value Decomposition
@@ -1538,7 +1538,7 @@ Theroem 9
     Thus $y$ is in $\mathrm{Span}\{Av_1,...,Av_r\}$, which shows that $\{Av_1,...,Av_r\}$ is an orthogonal basis for $\mathrm{Col}\ A$
 
 Theorem 10 : The Singular Value Decomposition
-- Let $A$ be an $m \times n$ matrix with $\mathrm{rank}\ r$. Then there exists an $m \times n$ matrix $\Sigma = \begin{bmatrix} D & 0 \\ 0 & 0 \end{bmatrix}$ <br>
+- Let $A$ be an $m \times n$ matrix with $\mathrm{rank}\ r$. Then there exists an $m \times n$ matrix $\Sigma = \begin{bmatrix} D & 0 \\\ 0 & 0 \end{bmatrix}$ <br>
   for which the diagonal entries in $r \times r$ matrix $D$ are the first $r$ sigular values of $A$, $\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$, <br>
   and there exist an $m \times m$ orthogonal matrix $U$ and an $n \times n$ orthogonal matrix $V$ such that $A = U\Sigma V^T$
   - Let $\lambda_i$ and $v_i$ be as in Theorem 9, so that $\{Av_1,...,Av_r\}$ is an orthogonal basis for $\mathrm{Col}\ A$ 
@@ -1547,18 +1547,18 @@ Theorem 10 : The Singular Value Decomposition
     and let $U = \begin{bmatrix} u_1 & u_2 & \cdots & u_m \end{bmatrix}$ and $V = \begin{bmatrix} v_1 & v_2 & \cdots & v_n \end{bmatrix}$ <br>
     Note that $U$ and $V$ are orthogonal matrices
   - $AV = \begin{bmatrix} Av_1 & \cdots & Av_r & 0 & \cdots & 0 \end{bmatrix} = \begin{bmatrix} \sigma_1u_1 & \cdots & \sigma_ru_r & 0 & \cdots & 0 \end{bmatrix}$ 
-  - $U\Sigma = \begin{bmatrix} u_1 & \cdots & u_m \end{bmatrix} \begin{bmatrix} \sigma_1 & \cdots & 0 & 0 & \cdots & 0 \\
-                                                                                \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\
-                                                                                0 & \cdots & \sigma_r & 0 & \cdots & 0 \\
-                                                                                0 & \cdots & 0 & 0 & \cdots & 0 \\
-                                                                                \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\
+  - $U\Sigma = \begin{bmatrix} u_1 & \cdots & u_m \end{bmatrix} \begin{bmatrix} \sigma_1 & \cdots & 0 & 0 & \cdots & 0 \\\
+                                                                                \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\\
+                                                                                0 & \cdots & \sigma_r & 0 & \cdots & 0 \\\
+                                                                                0 & \cdots & 0 & 0 & \cdots & 0 \\\
+                                                                                \vdots & \ddots & \vdots & \vdots & \ddots & \vdots \\\
                                                                                 0 & \cdots & 0 & 0 & \cdots & 0 \end{bmatrix}
              = \begin{bmatrix} \sigma_1u_1 & \cdots & \sigma_ru_r & 0 & \cdots & 0 \end{bmatrix}$
   - Therefore $AV = U\Sigma$, and since $V$ is an orthogonal matrix, $A = U\Sigma V^{-1} = U\Sigma V^T$
-- $Ax = U\Sigma V^T x = U\Sigma \begin{bmatrix} v_1^Tx \\ \vdots \\ v_n^Tx \end{bmatrix} = U\begin{bmatrix} \sigma_1v_1^Tx \\ \vdots \\ 0 \end{bmatrix} = \sigma_1u_1v_1^Tx + \cdots + \sigma_ru_rv_r^Tx$, so $A = \sigma_1u_1v_1^T + \cdots + \sigma_ru_rv_r^T$
+- $Ax = U\Sigma V^T x = U\Sigma \begin{bmatrix} v_1^Tx \\\ \vdots \\\ v_n^Tx \end{bmatrix} = U\begin{bmatrix} \sigma_1v_1^Tx \\\ \vdots \\\ 0 \end{bmatrix} = \sigma_1u_1v_1^Tx + \cdots + \sigma_ru_rv_r^Tx$, so $A = \sigma_1u_1v_1^T + \cdots + \sigma_ru_rv_r^T$
 - SVD is not unique, that is, $V$, $U$ is not unique (not always consisted by eigenvectors) but $\Sigma$ is unique
 
-Example : Find the SVD of $A = \begin{bmatrix} 3 & 2 & 2 \\ 2 & 3 & -2 \end{bmatrix}$
+Example : Find the SVD of $A = \begin{bmatrix} 3 & 2 & 2 \\\ 2 & 3 & -2 \end{bmatrix}$
 - If $U\Sigma V^T$ is the SVD of $m \times n$ matrix $A$, then $V\Sigma^T U^T$ is the SVD of $A^T$
   - Let $v_1,...,v_n$ are eigenvectors of $A^TA$, then we have $A^TAv_i = \lambda_iv_i$ <br>
     If $\lambda_i = 0$, then $A^TAv_i = \lambda_iv_i \Rightarrow A^TAv_i = 0 \Rightarrow Av_i = 0$ because $\mathrm{Nul}\ A^T = (\mathrm{Col}\ A)^\bot$ <br>
@@ -1566,21 +1566,21 @@ Example : Find the SVD of $A = \begin{bmatrix} 3 & 2 & 2 \\ 2 & 3 & -2 \end{bmat
     we conclude $\lambda_i$ is also the eigenvalue of $AA^T$ corresponding to the eigenvector $Av_i$ when $\lambda_i \neq 0$ <br>
   - Conversely, by the same way, we can show the nonzero eigenvalue of $AA^T$ is also the eigenvalue of $A^TA$ <br>
   - Therefore, $AA^T$, $A^TA$ have same nonzero eigenvalues, which means that $A$ and $A^T$ has same nonzero singular values
-  - So, since $V$ is $n \times n$ orthogonal matrix and $U$ is $m \times m$ orthogonal matrix and $\Sigma^T = \begin{bmatrix} D & 0 \\ 0 & 0 \end{bmatrix}$ is $n \times m$ matrix, <br>
+  - So, since $V$ is $n \times n$ orthogonal matrix and $U$ is $m \times m$ orthogonal matrix and $\Sigma^T = \begin{bmatrix} D & 0 \\\ 0 & 0 \end{bmatrix}$ is $n \times m$ matrix, <br>
     by definition of SVD, we conclude $V\Sigma^T U^T$ is the SVD of $A^T$ 
   - ( As an aside, by proof, we have $Av_1, ..., Av_r$ is eigenvectors of $AA^T$, that is, $u_1, ..., u_r$ is eigenvectors of $AA^T$ )
     - since $AA^T$, $AA^T$ is symmetric, by The Spectral Theroem, the eigenvectors of $AA^T$, $AA^T$ are orthogonal
     - So, if $U$, $V$ is consisted of unit eigenvectors of $AA^T$, $AA^T$, then $A = U\Sigma V^T$ is the SVD of $A$
 - because $A^TA$ is $3 \times 3$ and $AA^T$ is $2 \times 2$, I will find the SVD of $A^T$ and then find the SVD of $A$ by transpose
-- $A^T = \begin{bmatrix} 3 & 2 \\ 2 & 3 \\ 2 & -2 \end{bmatrix}$ and $(A^T)^TA^T = AA^T = \begin{bmatrix} 17 & 8 \\ 8 & 17 \end{bmatrix}$, and the eigenvalues of $AA^T$ are $\lambda_1 = 25$ and $\lambda_2 = 9$ <br>
-  Hence the singular values of $A^T$ is $\sigma_1 = 5$ and $\sigma_2 = 3$, so let $\Sigma = \begin{bmatrix} 5 & 0 \\ 0 & 3 \\ 0 & 0 \end{bmatrix}$
-- And unit eigenvectors associated $\lambda_1, \lambda_2$, are $v_1 = \begin{bmatrix} 1/\sqrt{2} \\ 1/\sqrt{2} \end{bmatrix}$, $v_2 = \begin{bmatrix} -1/\sqrt{2} \\ 1/\sqrt{2} \end{bmatrix}$, so let $V = \begin{bmatrix} 1/\sqrt{2} & -1/\sqrt{2} \\ 1/\sqrt{2} & 1/\sqrt{2} \end{bmatrix}$
-- Next, we compute $u_1 = \frac{A^Tv_1}{\sigma_1} = \begin{bmatrix} 1/\sqrt{2} \\ 1/\sqrt{2} \\ 0 \end{bmatrix}$ and $u_2 = \frac{A^Tv_2}{\sigma_2} = \begin{bmatrix} -1/\sqrt{18} \\ 1/\sqrt{18} \\ -4/\sqrt{18} \end{bmatrix}$, which are orthonormal by Theorem 9 <br>
-- $\{u_1, u_2\}$ is not a basis for $\mathbb{R}^3$. So let $u_3 = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix}$ be a unit vector such that $u_1^Tu_3 = 0$ and $u_2^Tu_3 = 0$ <br>
+- $A^T = \begin{bmatrix} 3 & 2 \\\ 2 & 3 \\\ 2 & -2 \end{bmatrix}$ and $(A^T)^TA^T = AA^T = \begin{bmatrix} 17 & 8 \\\ 8 & 17 \end{bmatrix}$, and the eigenvalues of $AA^T$ are $\lambda_1 = 25$ and $\lambda_2 = 9$ <br>
+  Hence the singular values of $A^T$ is $\sigma_1 = 5$ and $\sigma_2 = 3$, so let $\Sigma = \begin{bmatrix} 5 & 0 \\\ 0 & 3 \\\ 0 & 0 \end{bmatrix}$
+- And unit eigenvectors associated $\lambda_1, \lambda_2$, are $v_1 = \begin{bmatrix} 1/\sqrt{2} \\\ 1/\sqrt{2} \end{bmatrix}$, $v_2 = \begin{bmatrix} -1/\sqrt{2} \\\ 1/\sqrt{2} \end{bmatrix}$, so let $V = \begin{bmatrix} 1/\sqrt{2} & -1/\sqrt{2} \\\ 1/\sqrt{2} & 1/\sqrt{2} \end{bmatrix}$
+- Next, we compute $u_1 = \frac{A^Tv_1}{\sigma_1} = \begin{bmatrix} 1/\sqrt{2} \\\ 1/\sqrt{2} \\\ 0 \end{bmatrix}$ and $u_2 = \frac{A^Tv_2}{\sigma_2} = \begin{bmatrix} -1/\sqrt{18} \\\ 1/\sqrt{18} \\\ -4/\sqrt{18} \end{bmatrix}$, which are orthonormal by Theorem 9 <br>
+- $\{u_1, u_2\}$ is not a basis for $\mathbb{R}^3$. So let $u_3 = \begin{bmatrix} x_1 \\\ x_2 \\\ x_3 \end{bmatrix}$ be a unit vector such that $u_1^Tu_3 = 0$ and $u_2^Tu_3 = 0$ <br>
   then $\{u_1, u_2, u_3\}$ is orthonormal set of nonzero vectors, thus $\{u_1, u_2, u_3\}$ is a basis for $\mathbb{R}^3$ by Theorem 4 in Chapter 6
 - $u_1^Tu_3 = 0 \Rightarrow x_1 + x_2 + 0 = 0$, and $u_2^Tu_3 = 0 \Rightarrow -x_1 + x_2 - 4x_3 = 0$ <br>
-  Therefore $x_1 = -x_2$ and $x_2 = 2x_3$ so $x_1 = -2x_3$, thus $u_3 = \begin{bmatrix} -2 \\ 2 \\ 1 \end{bmatrix} x_3 = \begin{bmatrix} -2/3 \\ 2/3 \\ 1/3 \end{bmatrix}$ since $u_3$ is unit vector
-- Therefore, we have $U = \begin{bmatrix} 1/\sqrt{2} & -1/\sqrt{18} & -2/\sqrt{3} \\ 1/\sqrt{2} & 1/\sqrt{18} & 2/3 \\ 0 & -4/\sqrt{18} & 1/3 \end{bmatrix}$ and $A^T = U\Sigma V^T$, thus $A = V\Sigma^T U^T$
+  Therefore $x_1 = -x_2$ and $x_2 = 2x_3$ so $x_1 = -2x_3$, thus $u_3 = \begin{bmatrix} -2 \\\ 2 \\\ 1 \end{bmatrix} x_3 = \begin{bmatrix} -2/3 \\\ 2/3 \\\ 1/3 \end{bmatrix}$ since $u_3$ is unit vector
+- Therefore, we have $U = \begin{bmatrix} 1/\sqrt{2} & -1/\sqrt{18} & -2/\sqrt{3} \\\ 1/\sqrt{2} & 1/\sqrt{18} & 2/3 \\\ 0 & -4/\sqrt{18} & 1/3 \end{bmatrix}$ and $A^T = U\Sigma V^T$, thus $A = V\Sigma^T U^T$
 
 Suppose SVD for an $m \times n$ matrix $A$ is constructed by proof of Theorem 10 <br>
 Note that by Theroem 4 in Chapter 6, $(\mathrm{Col}\ A)^\bot = \mathrm{Nul}\ A^T$ and $(\mathrm{Nul}\ A)^\bot = \mathrm{Row}\ A$, and $\mathrm{Col}\ A = (\mathrm{Nul}\ A^T)^\bot = \mathrm{Row}\ A^T$ <br>
@@ -1598,7 +1598,7 @@ The Invertible Matrix Theorem (concluded) : Let $A$ be an $n \times n$ matrix
 
 When $\Sigma$ contains rows or columns of zeros, more compact decomposition of $A$ is possible. Let $U\Sigma V^T$ be a SVD of $A$ <br>
 And let $U = \begin{bmatrix} U_r & U_{m-r} \end{bmatrix}$, $V = \begin{bmatrix} V_r & V_{n-r} \end{bmatrix}$, where $U_r = \begin{bmatrix} u_1 & \cdots & u_r \end{bmatrix}$, $V_r = \begin{bmatrix} v_1 & \cdots & v_r \end{bmatrix}$ <br>
-Then since $U_r$ is $m \times r$ and $V_r^T$ is $r \times n$, we have $A = \begin{bmatrix} U_r & U_{m-r} \end{bmatrix} \begin{bmatrix} D & 0 \\ 0 & 0 \end{bmatrix} \begin{bmatrix} V_r^T \\ V_{n-r}^T \end{bmatrix} = U_rDV_r^T$, called a reduced SVD <br>
+Then since $U_r$ is $m \times r$ and $V_r^T$ is $r \times n$, we have $A = \begin{bmatrix} U_r & U_{m-r} \end{bmatrix} \begin{bmatrix} D & 0 \\\ 0 & 0 \end{bmatrix} \begin{bmatrix} V_r^T \\\ V_{n-r}^T \end{bmatrix} = U_rDV_r^T$, called a reduced SVD <br>
 <br>
 Pesudoinverse : $A^+ = V_rD^{-1}U_r^T$ when a reduced SVD of $A$ is $U_rDV_r^T$
 - $AA^+ y = U_rDV_r^TV_rD^{-1}U_r^T y = U_rDD^{-1}U_r^T y = U_rU_r^T y$ <br>
@@ -1625,7 +1625,7 @@ The sample mean : $M = \frac{1}{N}(X_1 + \cdots + X_N)$. And for $k = 1, ..., N$
 $B$ is in the mean-deviation form : $B = \begin{bmatrix} \hat{X}_1 & \cdots & \hat{X}_N \end{bmatrix}$. whose sample mean is zero <br>
 The (sample) covariance matrix : $S = \frac{1}{N-1}BB^T$, which is $p \times p$ matrix <br>
 <br>
-For $k = 1, ..., p$, let $x_k$ be a scalar that varies over the set of $k$-th coordinates of $X_1,...,X_n$, and let $X = \begin{bmatrix} x_1 \\ \vdots \\ x_p \end{bmatrix}$ <br>
+For $k = 1, ..., p$, let $x_k$ be a scalar that varies over the set of $k$-th coordinates of $X_1,...,X_n$, and let $X = \begin{bmatrix} x_1 \\\ \vdots \\\ x_p \end{bmatrix}$ <br>
 Denote the covariance matrix $S = [s_{ij}]$, then the diagonal entry $s_{jj}$ in $S$ is called the **variance** of $x_j$ <br>
 so **the total variance** is the trace of $S$, written $\mathrm{tr}(S)$, which means that the sum of the diagonal entries <br>
 and the entry $s_{ij}$ in $S$ for $i \neq j$ is called the **covariance** of $x_i$ and $x_j$ <br>
@@ -1635,12 +1635,12 @@ Statistician say that if $s_{ij} = 0$, then $x_i$ and $x_j$ are uncorrelated ( W
 Principal Component Analysis (PCA) : find the variables which are uncorrelated
 - Assume that $B = \begin{bmatrix} X_1 & \cdots & X_N \end{bmatrix}$ is already in mean-deviation form <br>
   The goal of PCA is to find an orthogonal $p \times p$ matrix $P = \begin{bmatrix} u_1 & \cdots & u_p \end{bmatrix}$ that determines a change of variable, $X = PY$ <br>
-  where $X = \begin{bmatrix} x_1 \\ \vdots \\ x_p \end{bmatrix}$, $Y = \begin{bmatrix} y_1 \\ \vdots \\ y_p \end{bmatrix}$, and $y_1,...,y_p$ are uncorrelated variables arranged in order of decreasing variance
+  where $X = \begin{bmatrix} x_1 \\\ \vdots \\\ x_p \end{bmatrix}$, $Y = \begin{bmatrix} y_1 \\\ \vdots \\\ y_p \end{bmatrix}$, and $y_1,...,y_p$ are uncorrelated variables arranged in order of decreasing variance
 - $X = PY$ means that each observation vector $X_k$ receives a $Y_k$ such that $X_k = PY_k$ <br>
   because each $x_i$ varies over the set of $i$-th coordinates of $X_1,...,X_N$, and $y_i$ also does
 - Let $S$ be the covariance matrix of $X_1,...,X_N$, then the covariance matrix of $Y_1,...,Y_N$ is $P^TSP$ 
   - Since $B$ is in mean-deviation form, $X_1 + \cdots + X_N = 0$, and<br>
-    $\Rightarrow B\begin{bmatrix} 1 \\ \vdots \\ 1 \end{bmatrix} = 0 \Rightarrow P^{-1}B\begin{bmatrix} 1 \\ \vdots \\ 1 \end{bmatrix} = 0 \Rightarrow P^{-1}X_1 + \cdots + P^{-1}X_N = 0 \Rightarrow Y_1 + \cdots + Y_N = 0$. <br>
+    $\Rightarrow B\begin{bmatrix} 1 \\\ \vdots \\\ 1 \end{bmatrix} = 0 \Rightarrow P^{-1}B\begin{bmatrix} 1 \\\ \vdots \\\ 1 \end{bmatrix} = 0 \Rightarrow P^{-1}X_1 + \cdots + P^{-1}X_N = 0 \Rightarrow Y_1 + \cdots + Y_N = 0$. <br>
     Therefore $P^{-1}B = P^TB = \begin{bmatrix} Y_1 & ... & Y_N \end{bmatrix}$ is in mean-deviation form
   - Since $S = \frac{1}{N-1}BB^T$, the covariance matrix of $Y_1,...,Y_N$ is $\frac{1}{N-1}(P^TB)(P^TB)^T = P^T(\frac{1}{N-1}BB^T)P = P^TSP$
 - Since $S = \frac{1}{N-1}BB^T$, which is symmetric matrix, $S$ is orthogonally diagonalizable <br>
